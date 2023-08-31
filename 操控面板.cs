@@ -661,10 +661,10 @@ namespace papacy1
             }
 
             // 檢查列印數量是否為0
-            if (copies == 0)
-            {
-                errorMessage += "列印數量尚未選擇\n"; // 如果是，添加相應的錯誤消息
-            }
+            //if (copies == 0)
+            //{
+            //    errorMessage += "列印數量尚未選擇\n"; // 如果是，添加相應的錯誤消息
+            //}
 
             // 如果存在錯誤消息
             if (!string.IsNullOrEmpty(errorMessage))
