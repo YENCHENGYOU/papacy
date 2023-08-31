@@ -13,6 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -104,6 +104,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="程式必要檔案\template\template1.btw" />
+    <None Include="程式必要檔案\template\template2.btw" />
+    <None Include="程式必要檔案\template\template3.btw" />
+    <None Include="程式必要檔案\template\template4.btw" />
+    <None Include="程式必要檔案\template\template5.btw" />
+    <None Include="程式必要檔案\template\template6.btw" />
+    <None Include="程式必要檔案\template\template7.btw" />
+    <None Include="程式必要檔案\使用手冊_V2.docx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -121,6 +129,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="程式必要檔案\printsize.png" />
+    <Content Include="程式必要檔案\template1.png" />
+    <Content Include="程式必要檔案\template2.png" />
+    <Content Include="程式必要檔案\template3.png" />
+    <Content Include="程式必要檔案\template4.png" />
+    <Content Include="程式必要檔案\template5.png" />
+    <Content Include="程式必要檔案\template6.png" />
+    <Content Include="程式必要檔案\template7.png" />
     <None Include="bin\Debug\printsize.png" />
     <Content Include="favicon.ico" />
   </ItemGroup>
