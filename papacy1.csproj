@@ -73,11 +73,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="操控面板.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,7 +87,6 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -104,14 +98,30 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="程式必要檔案\template\template1.btw" />
-    <None Include="程式必要檔案\template\template2.btw" />
-    <None Include="程式必要檔案\template\template3.btw" />
-    <None Include="程式必要檔案\template\template4.btw" />
-    <None Include="程式必要檔案\template\template5.btw" />
-    <None Include="程式必要檔案\template\template6.btw" />
-    <None Include="程式必要檔案\template\template7.btw" />
-    <None Include="程式必要檔案\使用手冊_V2.docx" />
+    <None Include="template\template1.btw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\template2.btw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\template3.btw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\template4.btw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\template5.btw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\template6.btw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="template\template7.btw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="使用手冊_V2.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -129,15 +139,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="程式必要檔案\printsize.png" />
-    <Content Include="程式必要檔案\template1.png" />
-    <Content Include="程式必要檔案\template2.png" />
-    <Content Include="程式必要檔案\template3.png" />
-    <Content Include="程式必要檔案\template4.png" />
-    <Content Include="程式必要檔案\template5.png" />
-    <Content Include="程式必要檔案\template6.png" />
-    <Content Include="程式必要檔案\template7.png" />
-    <None Include="bin\Debug\printsize.png" />
+    <Content Include="printsize.png" />
+    <Content Include="template1.png" />
+    <Content Include="template2.png" />
+    <Content Include="template3.png" />
+    <Content Include="template4.png" />
+    <Content Include="template5.png" />
+    <Content Include="template6.png" />
+    <Content Include="template7.png" />
     <Content Include="favicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
