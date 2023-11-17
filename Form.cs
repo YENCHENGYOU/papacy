@@ -72,6 +72,13 @@ namespace papacy1
 
             // 將tabControl的當前選定標籤頁設定為tabPage8
             tabControl.SelectedTab = tabPage8;
+            MD1_CBX_CNO.Text = "3";
+            MD2_CBX_CNO.Text = "4";
+            MD3_CBX_CNO.Text = "3";
+            MD4_CBX_CNO.Text = "3";
+            MD5_CBX_CNO.Text = "3";
+            MD6_CBX_CNO.Text = "3";
+            MD7_CBX_CNO.Text = "3";
         }
         private void LoadPrinters()
         {
@@ -718,7 +725,7 @@ namespace papacy1
             }
         }
 
-        private void PrintStart(int page)
+        private void PrintStart(int page, int padLeft)
         {
             currentPrintCount = 0; // 初始化當前列印計數為0
             double startQuantity = 0; // 初始化起始數量為0
@@ -752,7 +759,7 @@ namespace papacy1
             {
                 for (double j = 0; j < SameCNOcopies; j++) // 同一CNO的副本數
                 {
-                    currentValue = (startQuantity + currentPrintCount).ToString(); // 計算當前列印數值
+                    currentValue = (startQuantity + currentPrintCount).ToString().PadLeft(padLeft,'0'); // 計算當前列印數值
                     btFormat.SubStrings["Current"].Value = currentValue; // 設置列印數值
 
                     // 執行列印操作
@@ -922,8 +929,9 @@ namespace papacy1
             btFormat.SubStrings["CNO"].Value = CNOtextBox1.Text;
             btFormat.SubStrings["Location"].Value = LocationtextBox1.Text;
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox1.Text;
-
-            PrintStart(1);
+            int padLeft = Convert.ToInt16(MD1_CBX_CNO.Text);
+            
+            PrintStart(1, padLeft);
 
             engine.Stop();
 
@@ -1100,8 +1108,8 @@ namespace papacy1
             btFormat.SubStrings["GW"].Value = GWtextBox2.Text;
             btFormat.SubStrings["GWunit"].Value = GWunitcomboBox2.SelectedItem.ToString();
             btFormat.SubStrings["CNO"].Value = CNOtextBox2.Text;
-
-            PrintStart(2);
+            int padLeft = Convert.ToInt16(MD2_CBX_CNO.Text);
+            PrintStart(2, padLeft);
 
             engine.Stop();
 
@@ -1247,14 +1255,14 @@ namespace papacy1
             btFormat.SubStrings["Textbox"].Value = GraphictextBox3.Text;
             btFormat.SubStrings["MATERIAL"].Value = MaterialtextBox3.Text;
             btFormat.SubStrings["CNO"].Value = CNOtextBox3.Text;
-            btFormat.SubStrings["SPEC"].Value = SPECtextBox3.Text;
+            //btFormat.SubStrings["SPEC"].Value = SPECtextBox3.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox3.Text;
             btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox3.SelectedItem.ToString();
             btFormat.SubStrings["GW"].Value = GWtextBox3.Text;
             btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox3.SelectedItem.ToString();
             btFormat.SubStrings["Origin"].Value = OrigintextBox3.Text;
-
-            PrintStart(3);
+            int padLeft = Convert.ToInt16(MD3_CBX_CNO.Text);
+            PrintStart(3, padLeft);
 
             engine.Stop();
 
@@ -1415,8 +1423,8 @@ namespace papacy1
             btFormat.SubStrings["GW"].Value = GWtextBox4.Text;
             btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox4.SelectedItem.ToString();
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox4.Text;
-
-            PrintStart(4);
+            int padLeft = Convert.ToInt16(MD4_CBX_CNO.Text);
+            PrintStart(4, padLeft);
 
             engine.Stop();
 
@@ -1590,8 +1598,8 @@ namespace papacy1
             btFormat.SubStrings["GW"].Value = GWtextBox5.Text;
             btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox5.SelectedItem.ToString();
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox5.Text;
-
-            PrintStart(5);
+            int padLeft = Convert.ToInt16(MD5_CBX_CNO.Text);
+            PrintStart(5, padLeft);
 
             engine.Stop();
 
@@ -1794,8 +1802,8 @@ namespace papacy1
             btFormat.SubStrings["NWunit"].Value = "  " + NWunitcomboBox6.SelectedItem.ToString();
             btFormat.SubStrings["GW"].Value = GWtextBox6.Text;
             btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox6.SelectedItem.ToString();
-
-            PrintStart(6);
+            int padLeft = Convert.ToInt16(MD6_CBX_CNO.Text);
+            PrintStart(6, padLeft);
 
             engine.Stop();
 
@@ -1939,8 +1947,8 @@ namespace papacy1
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox7.Text;
             btFormat.SubStrings["CNO"].Value = CartontextBox7.Text;
             btFormat.SubStrings["ORIGIN"].Value = OrigintextBox7.Text;
-
-            PrintStart(7);
+            int padLeft = Convert.ToInt16(MD7_CBX_CNO.Text);
+            PrintStart(7, padLeft);
 
             engine.Stop();
 
