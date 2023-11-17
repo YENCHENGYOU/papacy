@@ -1475,7 +1475,7 @@ namespace papacy1
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(140, 29);
             this.label93.TabIndex = 375;
-            this.label93.Text = "C/NO位數：";
+            this.label93.Text = "流水號碼數：";
             this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PrintQuantitynumericUpDown3
@@ -1955,7 +1955,7 @@ namespace papacy1
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(140, 29);
             this.label94.TabIndex = 377;
-            this.label94.Text = "C/NO位數：";
+            this.label94.Text = "流水號碼數：";
             this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PrintQuantitynumericUpDown4
@@ -2416,7 +2416,7 @@ namespace papacy1
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(140, 29);
             this.label95.TabIndex = 379;
-            this.label95.Text = "C/NO位數：";
+            this.label95.Text = "流水號碼數：";
             this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // AddtextBox5
@@ -2933,7 +2933,7 @@ namespace papacy1
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(140, 29);
             this.label96.TabIndex = 381;
-            this.label96.Text = "C/NO位數：";
+            this.label96.Text = "流水號碼數：";
             this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PrintQuantitynumericUpDown6
@@ -3533,7 +3533,7 @@ namespace papacy1
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(140, 29);
             this.label97.TabIndex = 381;
-            this.label97.Text = "C/NO位數：";
+            this.label97.Text = "流水號碼數：";
             this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // AddtextBox7

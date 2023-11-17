@@ -125,9 +125,6 @@
     <None Include="template\template7.btw">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="使用手冊_V2.docx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
