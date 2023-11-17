@@ -1156,7 +1156,7 @@ namespace papacy1
             btFormat.SubStrings["Textbox"].Value = GraphictextBox3.Text;
             btFormat.SubStrings["MATERIAL"].Value = MaterialtextBox3.Text;
             btFormat.SubStrings["CNO"].Value = CNOtextBox3.Text;
-            btFormat.SubStrings["SPEC"].Value = SPECtextBox3.Text;
+            //btFormat.SubStrings["SPEC"].Value = SPECtextBox3.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox3.Text;
             if (NWunitcomboBox3.SelectedItem == null)
             {
@@ -1276,7 +1276,7 @@ namespace papacy1
             MaterialtextBox3.Clear();
             StarttextBox3.Clear();
             EndtextBox3.Clear();
-            SPECtextBox3.Clear();
+            //SPECtextBox3.Clear();
             OrigintextBox3.Clear();
             NWtextBox3.Clear();
             GWtextBox3.Clear();

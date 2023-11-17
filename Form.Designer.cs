@@ -72,6 +72,7 @@ namespace papacy1
             this.panel14 = new System.Windows.Forms.Panel();
             this.Examplelabel1 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.MD2_CBX_CNO = new System.Windows.Forms.ComboBox();
             this.label92 = new System.Windows.Forms.Label();
@@ -110,6 +111,7 @@ namespace papacy1
             this.panel12 = new System.Windows.Forms.Panel();
             this.Examplelabel2 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.MD3_CBX_CNO = new System.Windows.Forms.ComboBox();
             this.label93 = new System.Windows.Forms.Label();
@@ -136,8 +138,6 @@ namespace papacy1
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
-            this.SPECtextBox3 = new System.Windows.Forms.TextBox();
-            this.label49 = new System.Windows.Forms.Label();
             this.MaterialtextBox3 = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.GraphictextBox3 = new System.Windows.Forms.TextBox();
@@ -148,14 +148,15 @@ namespace papacy1
             this.panel10 = new System.Windows.Forms.Panel();
             this.Examplelabel3 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label12 = new System.Windows.Forms.Label();
             this.MD4_CBX_CNO = new System.Windows.Forms.ComboBox();
             this.label94 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.label87 = new System.Windows.Forms.Label();
             this.AddtextBox4 = new System.Windows.Forms.TextBox();
             this.label83 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.EndtextBox4 = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
             this.StarttextBox4 = new System.Windows.Forms.TextBox();
@@ -184,6 +185,7 @@ namespace papacy1
             this.panel8 = new System.Windows.Forms.Panel();
             this.Examplelabel4 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.MD5_CBX_CNO = new System.Windows.Forms.ComboBox();
             this.label95 = new System.Windows.Forms.Label();
@@ -224,6 +226,7 @@ namespace papacy1
             this.panel6 = new System.Windows.Forms.Panel();
             this.Examplelabel5 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.MD6_CBX_CNO = new System.Windows.Forms.ComboBox();
             this.label96 = new System.Windows.Forms.Label();
@@ -272,6 +275,7 @@ namespace papacy1
             this.panel4 = new System.Windows.Forms.Panel();
             this.Examplelabel6 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.MD7_CBX_CNO = new System.Windows.Forms.ComboBox();
             this.label97 = new System.Windows.Forms.Label();
@@ -308,9 +312,7 @@ namespace papacy1
             this.EndtextBox7 = new System.Windows.Forms.TextBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.richTextBox = new System.Windows.Forms.RichTextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.Printerbutton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.PrintMachinelabel = new System.Windows.Forms.Label();
@@ -318,39 +320,49 @@ namespace papacy1
             this.label6 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LinearDensitynumericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown7)).BeginInit();
             this.panel1.SuspendLayout();
@@ -359,6 +371,10 @@ namespace papacy1
             this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -422,6 +438,7 @@ namespace papacy1
             this.tabPage1.Controls.Add(this.panel13);
             this.tabPage1.Controls.Add(this.panel14);
             this.tabPage1.Controls.Add(this.label76);
+            this.tabPage1.Controls.Add(this.pictureBox9);
             this.tabPage1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(0);
@@ -434,23 +451,23 @@ namespace papacy1
             // PrintQuantitynumericUpDown1
             // 
             this.PrintQuantitynumericUpDown1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown1.Location = new System.Drawing.Point(674, 473);
+            this.PrintQuantitynumericUpDown1.Location = new System.Drawing.Point(744, 525);
             this.PrintQuantitynumericUpDown1.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
             this.PrintQuantitynumericUpDown1.Name = "PrintQuantitynumericUpDown1";
-            this.PrintQuantitynumericUpDown1.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown1.Size = new System.Drawing.Size(75, 32);
             this.PrintQuantitynumericUpDown1.TabIndex = 117;
             this.PrintQuantitynumericUpDown1.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown1_ValueChanged);
             // 
             // label90
             // 
             this.label90.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label90.Location = new System.Drawing.Point(518, 475);
+            this.label90.Location = new System.Drawing.Point(601, 527);
             this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(150, 29);
+            this.label90.Size = new System.Drawing.Size(140, 29);
             this.label90.TabIndex = 203;
             this.label90.Text = "列印數量 :";
             this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -459,7 +476,7 @@ namespace papacy1
             // 
             this.AddtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.AddtextBox1.Location = new System.Drawing.Point(923, 429);
+            this.AddtextBox1.Location = new System.Drawing.Point(907, 481);
             this.AddtextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.AddtextBox1.Name = "AddtextBox1";
             this.AddtextBox1.Size = new System.Drawing.Size(65, 32);
@@ -472,7 +489,7 @@ namespace papacy1
             // 
             this.label86.AutoSize = true;
             this.label86.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label86.Location = new System.Drawing.Point(846, 431);
+            this.label86.Location = new System.Drawing.Point(826, 489);
             this.label86.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(77, 24);
@@ -482,8 +499,9 @@ namespace papacy1
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label15.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label15.Location = new System.Drawing.Point(3, 643);
+            this.label15.Location = new System.Drawing.Point(8, 648);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(241, 20);
             this.label15.TabIndex = 196;
@@ -493,15 +511,14 @@ namespace papacy1
             // Resetbutton1
             // 
             this.Resetbutton1.AutoSize = true;
-            this.Resetbutton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Resetbutton1.BackColor = System.Drawing.Color.Firebrick;
-            this.Resetbutton1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Resetbutton1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Resetbutton1.ForeColor = System.Drawing.Color.White;
-            this.Resetbutton1.Location = new System.Drawing.Point(930, 526);
+            this.Resetbutton1.Location = new System.Drawing.Point(910, 573);
             this.Resetbutton1.Margin = new System.Windows.Forms.Padding(1);
             this.Resetbutton1.Name = "Resetbutton1";
             this.Resetbutton1.Padding = new System.Windows.Forms.Padding(2);
-            this.Resetbutton1.Size = new System.Drawing.Size(56, 35);
+            this.Resetbutton1.Size = new System.Drawing.Size(62, 38);
             this.Resetbutton1.TabIndex = 140;
             this.Resetbutton1.Text = "清除";
             this.Resetbutton1.UseVisualStyleBackColor = false;
@@ -510,34 +527,32 @@ namespace papacy1
             // Submitbutton1
             // 
             this.Submitbutton1.AutoSize = true;
-            this.Submitbutton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Submitbutton1.BackColor = System.Drawing.Color.YellowGreen;
-            this.Submitbutton1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Submitbutton1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Submitbutton1.ForeColor = System.Drawing.Color.White;
-            this.Submitbutton1.Location = new System.Drawing.Point(766, 526);
+            this.Submitbutton1.Location = new System.Drawing.Point(744, 573);
             this.Submitbutton1.Margin = new System.Windows.Forms.Padding(1);
             this.Submitbutton1.Name = "Submitbutton1";
             this.Submitbutton1.Padding = new System.Windows.Forms.Padding(2);
-            this.Submitbutton1.Size = new System.Drawing.Size(56, 35);
+            this.Submitbutton1.Size = new System.Drawing.Size(164, 38);
             this.Submitbutton1.TabIndex = 120;
-            this.Submitbutton1.Text = "提交";
+            this.Submitbutton1.Text = "列印";
             this.Submitbutton1.UseVisualStyleBackColor = false;
             this.Submitbutton1.Click += new System.EventHandler(this.Submitbutton1_Click);
             // 
             // Priviewbutton1
             // 
             this.Priviewbutton1.AutoSize = true;
-            this.Priviewbutton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Priviewbutton1.BackColor = System.Drawing.Color.Orange;
-            this.Priviewbutton1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Priviewbutton1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Priviewbutton1.ForeColor = System.Drawing.Color.White;
-            this.Priviewbutton1.Location = new System.Drawing.Point(562, 526);
+            this.Priviewbutton1.Location = new System.Drawing.Point(642, 573);
             this.Priviewbutton1.Margin = new System.Windows.Forms.Padding(1);
             this.Priviewbutton1.Name = "Priviewbutton1";
             this.Priviewbutton1.Padding = new System.Windows.Forms.Padding(2);
-            this.Priviewbutton1.Size = new System.Drawing.Size(88, 35);
+            this.Priviewbutton1.Size = new System.Drawing.Size(100, 38);
             this.Priviewbutton1.TabIndex = 130;
-            this.Priviewbutton1.Text = "列印預覽";
+            this.Priviewbutton1.Text = "預覽";
             this.Priviewbutton1.UseVisualStyleBackColor = false;
             this.Priviewbutton1.Click += new System.EventHandler(this.Priviewbutton1_Click);
             // 
@@ -547,7 +562,7 @@ namespace papacy1
             this.EndtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EndtextBox1.Enabled = false;
             this.EndtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.EndtextBox1.Location = new System.Drawing.Point(881, 473);
+            this.EndtextBox1.Location = new System.Drawing.Point(907, 524);
             this.EndtextBox1.Name = "EndtextBox1";
             this.EndtextBox1.Size = new System.Drawing.Size(65, 32);
             this.EndtextBox1.TabIndex = 145;
@@ -558,7 +573,7 @@ namespace papacy1
             // 
             this.label75.AutoSize = true;
             this.label75.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label75.Location = new System.Drawing.Point(797, 475);
+            this.label75.Location = new System.Drawing.Point(826, 527);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(77, 24);
             this.label75.TabIndex = 148;
@@ -568,9 +583,9 @@ namespace papacy1
             // 
             this.StarttextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarttextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.StarttextBox1.Location = new System.Drawing.Point(774, 429);
+            this.StarttextBox1.Location = new System.Drawing.Point(742, 483);
             this.StarttextBox1.Name = "StarttextBox1";
-            this.StarttextBox1.Size = new System.Drawing.Size(65, 32);
+            this.StarttextBox1.Size = new System.Drawing.Size(77, 32);
             this.StarttextBox1.TabIndex = 110;
             this.StarttextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.StarttextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.StarttextBox1_KeyPress);
@@ -579,9 +594,9 @@ namespace papacy1
             // 
             this.CNOtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CNOtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNOtextBox1.Location = new System.Drawing.Point(610, 429);
+            this.CNOtextBox1.Location = new System.Drawing.Point(742, 442);
             this.CNOtextBox1.Name = "CNOtextBox1";
-            this.CNOtextBox1.Size = new System.Drawing.Size(73, 32);
+            this.CNOtextBox1.Size = new System.Drawing.Size(230, 32);
             this.CNOtextBox1.TabIndex = 100;
             this.CNOtextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -589,7 +604,7 @@ namespace papacy1
             // 
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label77.Location = new System.Drawing.Point(689, 431);
+            this.label77.Location = new System.Drawing.Point(659, 483);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(77, 24);
             this.label77.TabIndex = 146;
@@ -599,7 +614,7 @@ namespace papacy1
             // 
             this.LOTtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LOTtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LOTtextBox1.Location = new System.Drawing.Point(674, 385);
+            this.LOTtextBox1.Location = new System.Drawing.Point(742, 399);
             this.LOTtextBox1.Name = "LOTtextBox1";
             this.LOTtextBox1.Size = new System.Drawing.Size(230, 32);
             this.LOTtextBox1.TabIndex = 90;
@@ -609,7 +624,7 @@ namespace papacy1
             // 
             this.label74.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label74.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label74.Location = new System.Drawing.Point(528, 387);
+            this.label74.Location = new System.Drawing.Point(596, 401);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(140, 29);
             this.label74.TabIndex = 142;
@@ -625,7 +640,7 @@ namespace papacy1
             "T.",
             "KGS.",
             "g."});
-            this.GWunitcomboBox1.Location = new System.Drawing.Point(834, 339);
+            this.GWunitcomboBox1.Location = new System.Drawing.Point(902, 353);
             this.GWunitcomboBox1.Name = "GWunitcomboBox1";
             this.GWunitcomboBox1.Size = new System.Drawing.Size(70, 31);
             this.GWunitcomboBox1.TabIndex = 80;
@@ -640,7 +655,7 @@ namespace papacy1
             "2",
             "3",
             "4"});
-            this.MD1_CBX_CNO.Location = new System.Drawing.Point(176, 514);
+            this.MD1_CBX_CNO.Location = new System.Drawing.Point(176, 545);
             this.MD1_CBX_CNO.Name = "MD1_CBX_CNO";
             this.MD1_CBX_CNO.Size = new System.Drawing.Size(70, 31);
             this.MD1_CBX_CNO.TabIndex = 70;
@@ -655,7 +670,7 @@ namespace papacy1
             "T.",
             "KGS.",
             "g."});
-            this.NWunitcomboBox1.Location = new System.Drawing.Point(834, 296);
+            this.NWunitcomboBox1.Location = new System.Drawing.Point(902, 310);
             this.NWunitcomboBox1.Name = "NWunitcomboBox1";
             this.NWunitcomboBox1.Size = new System.Drawing.Size(70, 31);
             this.NWunitcomboBox1.TabIndex = 70;
@@ -665,7 +680,7 @@ namespace papacy1
             // 
             this.label70.AutoSize = true;
             this.label70.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label70.Location = new System.Drawing.Point(777, 342);
+            this.label70.Location = new System.Drawing.Point(845, 356);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(58, 24);
             this.label70.TabIndex = 137;
@@ -675,7 +690,7 @@ namespace papacy1
             // 
             this.label71.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label71.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label71.Location = new System.Drawing.Point(528, 343);
+            this.label71.Location = new System.Drawing.Point(596, 357);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(140, 29);
             this.label71.TabIndex = 136;
@@ -686,7 +701,7 @@ namespace papacy1
             // 
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label72.Location = new System.Drawing.Point(777, 299);
+            this.label72.Location = new System.Drawing.Point(845, 313);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(58, 24);
             this.label72.TabIndex = 135;
@@ -697,7 +712,7 @@ namespace papacy1
             // 
             this.label73.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label73.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label73.Location = new System.Drawing.Point(528, 299);
+            this.label73.Location = new System.Drawing.Point(596, 313);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(140, 29);
             this.label73.TabIndex = 134;
@@ -708,7 +723,7 @@ namespace papacy1
             // 
             this.GWtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GWtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWtextBox1.Location = new System.Drawing.Point(674, 341);
+            this.GWtextBox1.Location = new System.Drawing.Point(742, 355);
             this.GWtextBox1.Name = "GWtextBox1";
             this.GWtextBox1.Size = new System.Drawing.Size(97, 32);
             this.GWtextBox1.TabIndex = 60;
@@ -719,7 +734,7 @@ namespace papacy1
             // 
             this.NWtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NWtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWtextBox1.Location = new System.Drawing.Point(674, 297);
+            this.NWtextBox1.Location = new System.Drawing.Point(742, 311);
             this.NWtextBox1.Name = "NWtextBox1";
             this.NWtextBox1.Size = new System.Drawing.Size(97, 32);
             this.NWtextBox1.TabIndex = 50;
@@ -730,7 +745,7 @@ namespace papacy1
             // 
             this.OrigintextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OrigintextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.OrigintextBox1.Location = new System.Drawing.Point(674, 209);
+            this.OrigintextBox1.Location = new System.Drawing.Point(742, 223);
             this.OrigintextBox1.Name = "OrigintextBox1";
             this.OrigintextBox1.Size = new System.Drawing.Size(230, 32);
             this.OrigintextBox1.TabIndex = 30;
@@ -742,7 +757,7 @@ namespace papacy1
             // 
             this.SPECtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SPECtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.SPECtextBox1.Location = new System.Drawing.Point(674, 253);
+            this.SPECtextBox1.Location = new System.Drawing.Point(742, 267);
             this.SPECtextBox1.Name = "SPECtextBox1";
             this.SPECtextBox1.Size = new System.Drawing.Size(230, 32);
             this.SPECtextBox1.TabIndex = 40;
@@ -751,7 +766,7 @@ namespace papacy1
             // label68
             // 
             this.label68.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label68.Location = new System.Drawing.Point(528, 255);
+            this.label68.Location = new System.Drawing.Point(596, 269);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(140, 29);
             this.label68.TabIndex = 131;
@@ -761,7 +776,7 @@ namespace papacy1
             // label69
             // 
             this.label69.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label69.Location = new System.Drawing.Point(528, 211);
+            this.label69.Location = new System.Drawing.Point(596, 225);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(140, 29);
             this.label69.TabIndex = 130;
@@ -772,7 +787,7 @@ namespace papacy1
             // 
             this.LocationtextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LocationtextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LocationtextBox1.Location = new System.Drawing.Point(674, 165);
+            this.LocationtextBox1.Location = new System.Drawing.Point(742, 179);
             this.LocationtextBox1.Name = "LocationtextBox1";
             this.LocationtextBox1.Size = new System.Drawing.Size(230, 32);
             this.LocationtextBox1.TabIndex = 20;
@@ -780,18 +795,19 @@ namespace papacy1
             // 
             // label91
             // 
+            this.label91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label91.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label91.Location = new System.Drawing.Point(24, 514);
+            this.label91.Location = new System.Drawing.Point(24, 545);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(140, 29);
             this.label91.TabIndex = 128;
-            this.label91.Text = "C/NO位數：";
+            this.label91.Text = "流水號碼數：";
             this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Locationlabel
             // 
             this.Locationlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Locationlabel.Location = new System.Drawing.Point(528, 167);
+            this.Locationlabel.Location = new System.Drawing.Point(596, 181);
             this.Locationlabel.Name = "Locationlabel";
             this.Locationlabel.Size = new System.Drawing.Size(140, 29);
             this.Locationlabel.TabIndex = 128;
@@ -802,7 +818,7 @@ namespace papacy1
             // 
             this.GraphictextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GraphictextBox1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GraphictextBox1.Location = new System.Drawing.Point(674, 121);
+            this.GraphictextBox1.Location = new System.Drawing.Point(742, 135);
             this.GraphictextBox1.Name = "GraphictextBox1";
             this.GraphictextBox1.Size = new System.Drawing.Size(230, 32);
             this.GraphictextBox1.TabIndex = 10;
@@ -812,7 +828,7 @@ namespace papacy1
             // 
             this.label67.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label67.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label67.Location = new System.Drawing.Point(528, 123);
+            this.label67.Location = new System.Drawing.Point(596, 137);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(140, 29);
             this.label67.TabIndex = 126;
@@ -824,11 +840,11 @@ namespace papacy1
             this.pictureBox1.BackColor = System.Drawing.Color.Silver;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 150);
+            this.pictureBox1.Location = new System.Drawing.Point(28, 110);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(464, 349);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(545, 405);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 125;
             this.pictureBox1.TabStop = false;
             // 
@@ -837,22 +853,21 @@ namespace papacy1
             this.panel13.AutoSize = true;
             this.panel13.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel13.Controls.Add(this.Topiclabel1);
-            this.panel13.Location = new System.Drawing.Point(492, 0);
+            this.panel13.Location = new System.Drawing.Point(595, 0);
             this.panel13.Margin = new System.Windows.Forms.Padding(0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(518, 100);
+            this.panel13.Size = new System.Drawing.Size(426, 100);
             this.panel13.TabIndex = 124;
             // 
             // Topiclabel1
             // 
-            this.Topiclabel1.AutoSize = true;
             this.Topiclabel1.BackColor = System.Drawing.Color.Transparent;
             this.Topiclabel1.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Topiclabel1.ForeColor = System.Drawing.Color.White;
-            this.Topiclabel1.Location = new System.Drawing.Point(201, 23);
+            this.Topiclabel1.Location = new System.Drawing.Point(19, 23);
             this.Topiclabel1.Margin = new System.Windows.Forms.Padding(0);
             this.Topiclabel1.Name = "Topiclabel1";
-            this.Topiclabel1.Size = new System.Drawing.Size(160, 45);
+            this.Topiclabel1.Size = new System.Drawing.Size(407, 45);
             this.Topiclabel1.TabIndex = 116;
             this.Topiclabel1.Text = "辨識標籤";
             this.Topiclabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -864,19 +879,18 @@ namespace papacy1
             this.panel14.Location = new System.Drawing.Point(0, 0);
             this.panel14.Margin = new System.Windows.Forms.Padding(0);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(492, 100);
+            this.panel14.Size = new System.Drawing.Size(595, 100);
             this.panel14.TabIndex = 123;
             // 
             // Examplelabel1
             // 
-            this.Examplelabel1.AutoSize = true;
             this.Examplelabel1.BackColor = System.Drawing.Color.Transparent;
             this.Examplelabel1.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Examplelabel1.ForeColor = System.Drawing.Color.White;
-            this.Examplelabel1.Location = new System.Drawing.Point(168, 23);
+            this.Examplelabel1.Location = new System.Drawing.Point(0, 23);
             this.Examplelabel1.Margin = new System.Windows.Forms.Padding(0);
             this.Examplelabel1.Name = "Examplelabel1";
-            this.Examplelabel1.Size = new System.Drawing.Size(160, 45);
+            this.Examplelabel1.Size = new System.Drawing.Size(595, 45);
             this.Examplelabel1.TabIndex = 117;
             this.Examplelabel1.Text = "列印樣本";
             this.Examplelabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -884,12 +898,21 @@ namespace papacy1
             // label76
             // 
             this.label76.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label76.Location = new System.Drawing.Point(464, 431);
+            this.label76.Location = new System.Drawing.Point(596, 441);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(140, 29);
             this.label76.TabIndex = 144;
             this.label76.Text = "C/NO :";
             this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox9.Location = new System.Drawing.Point(0, 94);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(595, 583);
+            this.pictureBox9.TabIndex = 204;
+            this.pictureBox9.TabStop = false;
             // 
             // tabPage2
             // 
@@ -928,6 +951,7 @@ namespace papacy1
             this.tabPage2.Controls.Add(this.panel11);
             this.tabPage2.Controls.Add(this.panel12);
             this.tabPage2.Controls.Add(this.label64);
+            this.tabPage2.Controls.Add(this.pictureBox10);
             this.tabPage2.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
             this.tabPage2.Name = "tabPage2";
@@ -945,41 +969,42 @@ namespace papacy1
             "2",
             "3",
             "4"});
-            this.MD2_CBX_CNO.Location = new System.Drawing.Point(164, 501);
+            this.MD2_CBX_CNO.Location = new System.Drawing.Point(162, 511);
             this.MD2_CBX_CNO.Name = "MD2_CBX_CNO";
             this.MD2_CBX_CNO.Size = new System.Drawing.Size(70, 31);
             this.MD2_CBX_CNO.TabIndex = 204;
             // 
             // label92
             // 
+            this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label92.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label92.Location = new System.Drawing.Point(12, 501);
+            this.label92.Location = new System.Drawing.Point(10, 511);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(140, 29);
             this.label92.TabIndex = 205;
-            this.label92.Text = "C/NO位數：";
+            this.label92.Text = "流水號碼數：";
             this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PrintQuantitynumericUpDown2
             // 
             this.PrintQuantitynumericUpDown2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown2.Location = new System.Drawing.Point(674, 429);
+            this.PrintQuantitynumericUpDown2.Location = new System.Drawing.Point(746, 508);
             this.PrintQuantitynumericUpDown2.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
             this.PrintQuantitynumericUpDown2.Name = "PrintQuantitynumericUpDown2";
-            this.PrintQuantitynumericUpDown2.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown2.Size = new System.Drawing.Size(65, 32);
             this.PrintQuantitynumericUpDown2.TabIndex = 107;
             this.PrintQuantitynumericUpDown2.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown2_ValueChanged);
             // 
             // label89
             // 
             this.label89.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label89.Location = new System.Drawing.Point(518, 431);
+            this.label89.Location = new System.Drawing.Point(623, 511);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(150, 29);
+            this.label89.Size = new System.Drawing.Size(115, 29);
             this.label89.TabIndex = 203;
             this.label89.Text = "列印數量 :";
             this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -988,7 +1013,7 @@ namespace papacy1
             // 
             this.AddtextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddtextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.AddtextBox2.Location = new System.Drawing.Point(923, 385);
+            this.AddtextBox2.Location = new System.Drawing.Point(896, 458);
             this.AddtextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.AddtextBox2.Name = "AddtextBox2";
             this.AddtextBox2.Size = new System.Drawing.Size(65, 32);
@@ -1001,7 +1026,7 @@ namespace papacy1
             // 
             this.label85.AutoSize = true;
             this.label85.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label85.Location = new System.Drawing.Point(846, 387);
+            this.label85.Location = new System.Drawing.Point(818, 460);
             this.label85.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(77, 24);
@@ -1011,6 +1036,7 @@ namespace papacy1
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label14.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label14.Location = new System.Drawing.Point(3, 643);
             this.label14.Name = "label14";
@@ -1022,15 +1048,14 @@ namespace papacy1
             // Resetbutton2
             // 
             this.Resetbutton2.AutoSize = true;
-            this.Resetbutton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Resetbutton2.BackColor = System.Drawing.Color.Firebrick;
-            this.Resetbutton2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Resetbutton2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Resetbutton2.ForeColor = System.Drawing.Color.White;
-            this.Resetbutton2.Location = new System.Drawing.Point(930, 495);
+            this.Resetbutton2.Location = new System.Drawing.Point(899, 575);
             this.Resetbutton2.Margin = new System.Windows.Forms.Padding(1);
             this.Resetbutton2.Name = "Resetbutton2";
             this.Resetbutton2.Padding = new System.Windows.Forms.Padding(2);
-            this.Resetbutton2.Size = new System.Drawing.Size(56, 35);
+            this.Resetbutton2.Size = new System.Drawing.Size(62, 38);
             this.Resetbutton2.TabIndex = 130;
             this.Resetbutton2.Text = "清除";
             this.Resetbutton2.UseVisualStyleBackColor = false;
@@ -1039,34 +1064,32 @@ namespace papacy1
             // Submitbutton2
             // 
             this.Submitbutton2.AutoSize = true;
-            this.Submitbutton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Submitbutton2.BackColor = System.Drawing.Color.YellowGreen;
-            this.Submitbutton2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Submitbutton2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Submitbutton2.ForeColor = System.Drawing.Color.White;
-            this.Submitbutton2.Location = new System.Drawing.Point(766, 495);
+            this.Submitbutton2.Location = new System.Drawing.Point(746, 575);
             this.Submitbutton2.Margin = new System.Windows.Forms.Padding(1);
             this.Submitbutton2.Name = "Submitbutton2";
             this.Submitbutton2.Padding = new System.Windows.Forms.Padding(2);
-            this.Submitbutton2.Size = new System.Drawing.Size(56, 35);
+            this.Submitbutton2.Size = new System.Drawing.Size(149, 38);
             this.Submitbutton2.TabIndex = 110;
-            this.Submitbutton2.Text = "提交";
+            this.Submitbutton2.Text = "列印";
             this.Submitbutton2.UseVisualStyleBackColor = false;
             this.Submitbutton2.Click += new System.EventHandler(this.Submitbutton2_Click);
             // 
             // Priviewbutton2
             // 
             this.Priviewbutton2.AutoSize = true;
-            this.Priviewbutton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Priviewbutton2.BackColor = System.Drawing.Color.Orange;
-            this.Priviewbutton2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Priviewbutton2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Priviewbutton2.ForeColor = System.Drawing.Color.White;
-            this.Priviewbutton2.Location = new System.Drawing.Point(562, 495);
+            this.Priviewbutton2.Location = new System.Drawing.Point(640, 575);
             this.Priviewbutton2.Margin = new System.Windows.Forms.Padding(1);
             this.Priviewbutton2.Name = "Priviewbutton2";
             this.Priviewbutton2.Padding = new System.Windows.Forms.Padding(2);
-            this.Priviewbutton2.Size = new System.Drawing.Size(88, 35);
+            this.Priviewbutton2.Size = new System.Drawing.Size(100, 38);
             this.Priviewbutton2.TabIndex = 120;
-            this.Priviewbutton2.Text = "列印預覽";
+            this.Priviewbutton2.Text = "預覽";
             this.Priviewbutton2.UseVisualStyleBackColor = false;
             this.Priviewbutton2.Click += new System.EventHandler(this.Priviewbutton2_Click);
             // 
@@ -1076,7 +1099,7 @@ namespace papacy1
             this.EndtextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EndtextBox2.Enabled = false;
             this.EndtextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.EndtextBox2.Location = new System.Drawing.Point(881, 429);
+            this.EndtextBox2.Location = new System.Drawing.Point(896, 503);
             this.EndtextBox2.Name = "EndtextBox2";
             this.EndtextBox2.ReadOnly = true;
             this.EndtextBox2.Size = new System.Drawing.Size(65, 32);
@@ -1088,7 +1111,7 @@ namespace papacy1
             // 
             this.StarttextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarttextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.StarttextBox2.Location = new System.Drawing.Point(774, 385);
+            this.StarttextBox2.Location = new System.Drawing.Point(746, 458);
             this.StarttextBox2.Name = "StarttextBox2";
             this.StarttextBox2.Size = new System.Drawing.Size(65, 32);
             this.StarttextBox2.TabIndex = 100;
@@ -1099,9 +1122,9 @@ namespace papacy1
             // 
             this.CNOtextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CNOtextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNOtextBox2.Location = new System.Drawing.Point(610, 385);
+            this.CNOtextBox2.Location = new System.Drawing.Point(746, 413);
             this.CNOtextBox2.Name = "CNOtextBox2";
-            this.CNOtextBox2.Size = new System.Drawing.Size(73, 32);
+            this.CNOtextBox2.Size = new System.Drawing.Size(214, 32);
             this.CNOtextBox2.TabIndex = 90;
             this.CNOtextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1109,7 +1132,7 @@ namespace papacy1
             // 
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label65.Location = new System.Drawing.Point(797, 431);
+            this.label65.Location = new System.Drawing.Point(818, 511);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(77, 24);
             this.label65.TabIndex = 146;
@@ -1120,7 +1143,7 @@ namespace papacy1
             // 
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label66.Location = new System.Drawing.Point(689, 387);
+            this.label66.Location = new System.Drawing.Point(661, 460);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(77, 24);
             this.label66.TabIndex = 144;
@@ -1136,7 +1159,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.NWunitcomboBox2.Location = new System.Drawing.Point(838, 296);
+            this.NWunitcomboBox2.Location = new System.Drawing.Point(910, 325);
             this.NWunitcomboBox2.Name = "NWunitcomboBox2";
             this.NWunitcomboBox2.Size = new System.Drawing.Size(51, 31);
             this.NWunitcomboBox2.TabIndex = 70;
@@ -1146,7 +1169,7 @@ namespace papacy1
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label60.Location = new System.Drawing.Point(777, 343);
+            this.label60.Location = new System.Drawing.Point(849, 372);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(58, 24);
             this.label60.TabIndex = 138;
@@ -1156,7 +1179,7 @@ namespace papacy1
             // 
             this.label61.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label61.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label61.Location = new System.Drawing.Point(547, 299);
+            this.label61.Location = new System.Drawing.Point(619, 328);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(121, 29);
             this.label61.TabIndex = 137;
@@ -1172,7 +1195,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.GWunitcomboBox2.Location = new System.Drawing.Point(838, 340);
+            this.GWunitcomboBox2.Location = new System.Drawing.Point(910, 369);
             this.GWunitcomboBox2.Name = "GWunitcomboBox2";
             this.GWunitcomboBox2.Size = new System.Drawing.Size(51, 31);
             this.GWunitcomboBox2.TabIndex = 80;
@@ -1182,7 +1205,7 @@ namespace papacy1
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label62.Location = new System.Drawing.Point(777, 299);
+            this.label62.Location = new System.Drawing.Point(849, 328);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(58, 24);
             this.label62.TabIndex = 135;
@@ -1192,7 +1215,7 @@ namespace papacy1
             // 
             this.label63.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label63.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label63.Location = new System.Drawing.Point(547, 343);
+            this.label63.Location = new System.Drawing.Point(619, 372);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(121, 29);
             this.label63.TabIndex = 134;
@@ -1203,7 +1226,7 @@ namespace papacy1
             // 
             this.GWtextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GWtextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWtextBox2.Location = new System.Drawing.Point(674, 341);
+            this.GWtextBox2.Location = new System.Drawing.Point(746, 370);
             this.GWtextBox2.Name = "GWtextBox2";
             this.GWtextBox2.Size = new System.Drawing.Size(97, 32);
             this.GWtextBox2.TabIndex = 60;
@@ -1214,7 +1237,7 @@ namespace papacy1
             // 
             this.NWtextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NWtextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWtextBox2.Location = new System.Drawing.Point(674, 297);
+            this.NWtextBox2.Location = new System.Drawing.Point(746, 326);
             this.NWtextBox2.Name = "NWtextBox2";
             this.NWtextBox2.Size = new System.Drawing.Size(97, 32);
             this.NWtextBox2.TabIndex = 50;
@@ -1225,7 +1248,7 @@ namespace papacy1
             // 
             this.QuantitytextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.QuantitytextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.QuantitytextBox2.Location = new System.Drawing.Point(674, 253);
+            this.QuantitytextBox2.Location = new System.Drawing.Point(746, 282);
             this.QuantitytextBox2.Name = "QuantitytextBox2";
             this.QuantitytextBox2.Size = new System.Drawing.Size(97, 32);
             this.QuantitytextBox2.TabIndex = 40;
@@ -1236,7 +1259,7 @@ namespace papacy1
             // 
             this.Quantitylabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Quantitylabel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Quantitylabel.Location = new System.Drawing.Point(547, 255);
+            this.Quantitylabel.Location = new System.Drawing.Point(619, 284);
             this.Quantitylabel.Name = "Quantitylabel";
             this.Quantitylabel.Size = new System.Drawing.Size(121, 29);
             this.Quantitylabel.TabIndex = 132;
@@ -1247,7 +1270,7 @@ namespace papacy1
             // 
             this.SPECtextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SPECtextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.SPECtextBox2.Location = new System.Drawing.Point(674, 209);
+            this.SPECtextBox2.Location = new System.Drawing.Point(746, 238);
             this.SPECtextBox2.Name = "SPECtextBox2";
             this.SPECtextBox2.Size = new System.Drawing.Size(215, 32);
             this.SPECtextBox2.TabIndex = 30;
@@ -1257,7 +1280,7 @@ namespace papacy1
             // 
             this.label59.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label59.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label59.Location = new System.Drawing.Point(547, 211);
+            this.label59.Location = new System.Drawing.Point(619, 240);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(121, 29);
             this.label59.TabIndex = 130;
@@ -1268,7 +1291,7 @@ namespace papacy1
             // 
             this.GradetextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GradetextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GradetextBox2.Location = new System.Drawing.Point(674, 165);
+            this.GradetextBox2.Location = new System.Drawing.Point(746, 194);
             this.GradetextBox2.Name = "GradetextBox2";
             this.GradetextBox2.Size = new System.Drawing.Size(215, 32);
             this.GradetextBox2.TabIndex = 20;
@@ -1278,7 +1301,7 @@ namespace papacy1
             // 
             this.Gradelabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Gradelabel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Gradelabel.Location = new System.Drawing.Point(547, 167);
+            this.Gradelabel.Location = new System.Drawing.Point(619, 196);
             this.Gradelabel.Name = "Gradelabel";
             this.Gradelabel.Size = new System.Drawing.Size(121, 29);
             this.Gradelabel.TabIndex = 128;
@@ -1289,7 +1312,7 @@ namespace papacy1
             // 
             this.LOTtextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LOTtextBox2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LOTtextBox2.Location = new System.Drawing.Point(674, 121);
+            this.LOTtextBox2.Location = new System.Drawing.Point(746, 150);
             this.LOTtextBox2.Name = "LOTtextBox2";
             this.LOTtextBox2.Size = new System.Drawing.Size(215, 32);
             this.LOTtextBox2.TabIndex = 10;
@@ -1299,7 +1322,7 @@ namespace papacy1
             // 
             this.label58.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label58.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label58.Location = new System.Drawing.Point(547, 123);
+            this.label58.Location = new System.Drawing.Point(619, 152);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(121, 29);
             this.label58.TabIndex = 126;
@@ -1311,11 +1334,11 @@ namespace papacy1
             this.pictureBox2.BackColor = System.Drawing.Color.Silver;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(16, 150);
+            this.pictureBox2.Location = new System.Drawing.Point(16, 123);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(476, 318);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.Size = new System.Drawing.Size(568, 367);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 125;
             this.pictureBox2.TabStop = false;
             // 
@@ -1324,22 +1347,21 @@ namespace papacy1
             this.panel11.AutoSize = true;
             this.panel11.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel11.Controls.Add(this.Topiclabel2);
-            this.panel11.Location = new System.Drawing.Point(492, 0);
+            this.panel11.Location = new System.Drawing.Point(596, 0);
             this.panel11.Margin = new System.Windows.Forms.Padding(0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(518, 100);
+            this.panel11.Size = new System.Drawing.Size(414, 100);
             this.panel11.TabIndex = 124;
             // 
             // Topiclabel2
             // 
-            this.Topiclabel2.AutoSize = true;
             this.Topiclabel2.BackColor = System.Drawing.Color.Transparent;
             this.Topiclabel2.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Topiclabel2.ForeColor = System.Drawing.Color.White;
-            this.Topiclabel2.Location = new System.Drawing.Point(201, 23);
+            this.Topiclabel2.Location = new System.Drawing.Point(8, 23);
             this.Topiclabel2.Margin = new System.Windows.Forms.Padding(0);
             this.Topiclabel2.Name = "Topiclabel2";
-            this.Topiclabel2.Size = new System.Drawing.Size(160, 45);
+            this.Topiclabel2.Size = new System.Drawing.Size(397, 45);
             this.Topiclabel2.TabIndex = 116;
             this.Topiclabel2.Text = "辨識標籤";
             this.Topiclabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1351,19 +1373,18 @@ namespace papacy1
             this.panel12.Location = new System.Drawing.Point(0, 0);
             this.panel12.Margin = new System.Windows.Forms.Padding(0);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(492, 100);
+            this.panel12.Size = new System.Drawing.Size(596, 100);
             this.panel12.TabIndex = 123;
             // 
             // Examplelabel2
             // 
-            this.Examplelabel2.AutoSize = true;
             this.Examplelabel2.BackColor = System.Drawing.Color.Transparent;
             this.Examplelabel2.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Examplelabel2.ForeColor = System.Drawing.Color.White;
-            this.Examplelabel2.Location = new System.Drawing.Point(168, 23);
+            this.Examplelabel2.Location = new System.Drawing.Point(0, 23);
             this.Examplelabel2.Margin = new System.Windows.Forms.Padding(0);
             this.Examplelabel2.Name = "Examplelabel2";
-            this.Examplelabel2.Size = new System.Drawing.Size(160, 45);
+            this.Examplelabel2.Size = new System.Drawing.Size(596, 45);
             this.Examplelabel2.TabIndex = 117;
             this.Examplelabel2.Text = "列印樣本";
             this.Examplelabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1372,12 +1393,21 @@ namespace papacy1
             // 
             this.label64.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label64.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label64.Location = new System.Drawing.Point(483, 387);
+            this.label64.Location = new System.Drawing.Point(619, 412);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(121, 29);
             this.label64.TabIndex = 142;
             this.label64.Text = "C/NO :";
             this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox10.Location = new System.Drawing.Point(-5, 94);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(601, 592);
+            this.pictureBox10.TabIndex = 206;
+            this.pictureBox10.TabStop = false;
             // 
             // tabPage3
             // 
@@ -1406,8 +1436,6 @@ namespace papacy1
             this.tabPage3.Controls.Add(this.label51);
             this.tabPage3.Controls.Add(this.label52);
             this.tabPage3.Controls.Add(this.label53);
-            this.tabPage3.Controls.Add(this.SPECtextBox3);
-            this.tabPage3.Controls.Add(this.label49);
             this.tabPage3.Controls.Add(this.MaterialtextBox3);
             this.tabPage3.Controls.Add(this.label48);
             this.tabPage3.Controls.Add(this.GraphictextBox3);
@@ -1416,6 +1444,7 @@ namespace papacy1
             this.tabPage3.Controls.Add(this.panel9);
             this.tabPage3.Controls.Add(this.panel10);
             this.tabPage3.Controls.Add(this.label55);
+            this.tabPage3.Controls.Add(this.pictureBox11);
             this.tabPage3.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
             this.tabPage3.Name = "tabPage3";
@@ -1433,15 +1462,16 @@ namespace papacy1
             "2",
             "3",
             "4"});
-            this.MD3_CBX_CNO.Location = new System.Drawing.Point(164, 521);
+            this.MD3_CBX_CNO.Location = new System.Drawing.Point(185, 549);
             this.MD3_CBX_CNO.Name = "MD3_CBX_CNO";
             this.MD3_CBX_CNO.Size = new System.Drawing.Size(70, 31);
             this.MD3_CBX_CNO.TabIndex = 374;
             // 
             // label93
             // 
+            this.label93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label93.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label93.Location = new System.Drawing.Point(12, 521);
+            this.label93.Location = new System.Drawing.Point(33, 549);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(140, 29);
             this.label93.TabIndex = 375;
@@ -1451,23 +1481,23 @@ namespace papacy1
             // PrintQuantitynumericUpDown3
             // 
             this.PrintQuantitynumericUpDown3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown3.Location = new System.Drawing.Point(674, 429);
+            this.PrintQuantitynumericUpDown3.Location = new System.Drawing.Point(758, 436);
             this.PrintQuantitynumericUpDown3.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
             this.PrintQuantitynumericUpDown3.Name = "PrintQuantitynumericUpDown3";
-            this.PrintQuantitynumericUpDown3.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown3.Size = new System.Drawing.Size(66, 32);
             this.PrintQuantitynumericUpDown3.TabIndex = 107;
             this.PrintQuantitynumericUpDown3.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown3_ValueChanged);
             // 
             // label88
             // 
             this.label88.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label88.Location = new System.Drawing.Point(518, 431);
+            this.label88.Location = new System.Drawing.Point(616, 438);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(150, 29);
+            this.label88.Size = new System.Drawing.Size(136, 29);
             this.label88.TabIndex = 373;
             this.label88.Text = "列印數量 :";
             this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1476,7 +1506,7 @@ namespace papacy1
             // 
             this.AddtextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddtextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.AddtextBox3.Location = new System.Drawing.Point(924, 385);
+            this.AddtextBox3.Location = new System.Drawing.Point(908, 394);
             this.AddtextBox3.Margin = new System.Windows.Forms.Padding(4);
             this.AddtextBox3.Name = "AddtextBox3";
             this.AddtextBox3.Size = new System.Drawing.Size(65, 32);
@@ -1489,7 +1519,7 @@ namespace papacy1
             // 
             this.label84.AutoSize = true;
             this.label84.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label84.Location = new System.Drawing.Point(847, 387);
+            this.label84.Location = new System.Drawing.Point(831, 396);
             this.label84.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(77, 24);
@@ -1499,8 +1529,9 @@ namespace papacy1
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label13.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label13.Location = new System.Drawing.Point(3, 643);
+            this.label13.Location = new System.Drawing.Point(4, 648);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(241, 20);
             this.label13.TabIndex = 196;
@@ -1510,15 +1541,14 @@ namespace papacy1
             // Resetbutton3
             // 
             this.Resetbutton3.AutoSize = true;
-            this.Resetbutton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Resetbutton3.BackColor = System.Drawing.Color.Firebrick;
-            this.Resetbutton3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Resetbutton3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Resetbutton3.ForeColor = System.Drawing.Color.White;
-            this.Resetbutton3.Location = new System.Drawing.Point(922, 521);
+            this.Resetbutton3.Location = new System.Drawing.Point(911, 485);
             this.Resetbutton3.Margin = new System.Windows.Forms.Padding(1);
             this.Resetbutton3.Name = "Resetbutton3";
             this.Resetbutton3.Padding = new System.Windows.Forms.Padding(2);
-            this.Resetbutton3.Size = new System.Drawing.Size(56, 35);
+            this.Resetbutton3.Size = new System.Drawing.Size(62, 38);
             this.Resetbutton3.TabIndex = 130;
             this.Resetbutton3.Text = "清除";
             this.Resetbutton3.UseVisualStyleBackColor = false;
@@ -1527,34 +1557,32 @@ namespace papacy1
             // Submitbutton3
             // 
             this.Submitbutton3.AutoSize = true;
-            this.Submitbutton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Submitbutton3.BackColor = System.Drawing.Color.YellowGreen;
-            this.Submitbutton3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Submitbutton3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Submitbutton3.ForeColor = System.Drawing.Color.White;
-            this.Submitbutton3.Location = new System.Drawing.Point(762, 521);
+            this.Submitbutton3.Location = new System.Drawing.Point(748, 485);
             this.Submitbutton3.Margin = new System.Windows.Forms.Padding(1);
             this.Submitbutton3.Name = "Submitbutton3";
             this.Submitbutton3.Padding = new System.Windows.Forms.Padding(2);
-            this.Submitbutton3.Size = new System.Drawing.Size(56, 35);
+            this.Submitbutton3.Size = new System.Drawing.Size(159, 38);
             this.Submitbutton3.TabIndex = 110;
-            this.Submitbutton3.Text = "提交";
+            this.Submitbutton3.Text = "列印";
             this.Submitbutton3.UseVisualStyleBackColor = false;
             this.Submitbutton3.Click += new System.EventHandler(this.Submitbutton3_Click);
             // 
             // Priviewbutton3
             // 
             this.Priviewbutton3.AutoSize = true;
-            this.Priviewbutton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Priviewbutton3.BackColor = System.Drawing.Color.Orange;
-            this.Priviewbutton3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Priviewbutton3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Priviewbutton3.ForeColor = System.Drawing.Color.White;
-            this.Priviewbutton3.Location = new System.Drawing.Point(562, 521);
+            this.Priviewbutton3.Location = new System.Drawing.Point(646, 485);
             this.Priviewbutton3.Margin = new System.Windows.Forms.Padding(1);
             this.Priviewbutton3.Name = "Priviewbutton3";
             this.Priviewbutton3.Padding = new System.Windows.Forms.Padding(2);
-            this.Priviewbutton3.Size = new System.Drawing.Size(88, 35);
+            this.Priviewbutton3.Size = new System.Drawing.Size(100, 38);
             this.Priviewbutton3.TabIndex = 120;
-            this.Priviewbutton3.Text = "列印預覽";
+            this.Priviewbutton3.Text = "預覽";
             this.Priviewbutton3.UseVisualStyleBackColor = false;
             this.Priviewbutton3.Click += new System.EventHandler(this.Priviewbutton3_Click);
             // 
@@ -1564,7 +1592,7 @@ namespace papacy1
             this.EndtextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EndtextBox3.Enabled = false;
             this.EndtextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.EndtextBox3.Location = new System.Drawing.Point(880, 429);
+            this.EndtextBox3.Location = new System.Drawing.Point(908, 436);
             this.EndtextBox3.Name = "EndtextBox3";
             this.EndtextBox3.ReadOnly = true;
             this.EndtextBox3.Size = new System.Drawing.Size(65, 32);
@@ -1576,7 +1604,7 @@ namespace papacy1
             // 
             this.StarttextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarttextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.StarttextBox3.Location = new System.Drawing.Point(775, 385);
+            this.StarttextBox3.Location = new System.Drawing.Point(759, 394);
             this.StarttextBox3.Name = "StarttextBox3";
             this.StarttextBox3.Size = new System.Drawing.Size(65, 32);
             this.StarttextBox3.TabIndex = 100;
@@ -1587,9 +1615,9 @@ namespace papacy1
             // 
             this.CNOtextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CNOtextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNOtextBox3.Location = new System.Drawing.Point(608, 385);
+            this.CNOtextBox3.Location = new System.Drawing.Point(758, 348);
             this.CNOtextBox3.Name = "CNOtextBox3";
-            this.CNOtextBox3.Size = new System.Drawing.Size(73, 32);
+            this.CNOtextBox3.Size = new System.Drawing.Size(215, 32);
             this.CNOtextBox3.TabIndex = 90;
             this.CNOtextBox3.Text = "0";
             this.CNOtextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1598,7 +1626,7 @@ namespace papacy1
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label56.Location = new System.Drawing.Point(687, 387);
+            this.label56.Location = new System.Drawing.Point(676, 396);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(77, 24);
             this.label56.TabIndex = 144;
@@ -1608,7 +1636,7 @@ namespace papacy1
             // 
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label57.Location = new System.Drawing.Point(797, 431);
+            this.label57.Location = new System.Drawing.Point(831, 441);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(77, 24);
             this.label57.TabIndex = 146;
@@ -1618,7 +1646,7 @@ namespace papacy1
             // 
             this.OrigintextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OrigintextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.OrigintextBox3.Location = new System.Drawing.Point(674, 341);
+            this.OrigintextBox3.Location = new System.Drawing.Point(758, 305);
             this.OrigintextBox3.Name = "OrigintextBox3";
             this.OrigintextBox3.Size = new System.Drawing.Size(215, 32);
             this.OrigintextBox3.TabIndex = 80;
@@ -1629,7 +1657,7 @@ namespace papacy1
             // label54
             // 
             this.label54.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label54.Location = new System.Drawing.Point(528, 343);
+            this.label54.Location = new System.Drawing.Point(612, 307);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(140, 29);
             this.label54.TabIndex = 140;
@@ -1640,7 +1668,7 @@ namespace papacy1
             // 
             this.GWtextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GWtextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWtextBox3.Location = new System.Drawing.Point(674, 297);
+            this.GWtextBox3.Location = new System.Drawing.Point(758, 261);
             this.GWtextBox3.Name = "GWtextBox3";
             this.GWtextBox3.Size = new System.Drawing.Size(97, 32);
             this.GWtextBox3.TabIndex = 50;
@@ -1651,7 +1679,7 @@ namespace papacy1
             // 
             this.NWtextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NWtextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWtextBox3.Location = new System.Drawing.Point(674, 253);
+            this.NWtextBox3.Location = new System.Drawing.Point(758, 217);
             this.NWtextBox3.Name = "NWtextBox3";
             this.NWtextBox3.Size = new System.Drawing.Size(97, 32);
             this.NWtextBox3.TabIndex = 40;
@@ -1668,7 +1696,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.GWunitcomboBox3.Location = new System.Drawing.Point(838, 295);
+            this.GWunitcomboBox3.Location = new System.Drawing.Point(922, 259);
             this.GWunitcomboBox3.Name = "GWunitcomboBox3";
             this.GWunitcomboBox3.Size = new System.Drawing.Size(51, 31);
             this.GWunitcomboBox3.TabIndex = 70;
@@ -1684,7 +1712,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.NWunitcomboBox3.Location = new System.Drawing.Point(838, 252);
+            this.NWunitcomboBox3.Location = new System.Drawing.Point(922, 216);
             this.NWunitcomboBox3.Name = "NWunitcomboBox3";
             this.NWunitcomboBox3.Size = new System.Drawing.Size(51, 31);
             this.NWunitcomboBox3.TabIndex = 60;
@@ -1694,7 +1722,7 @@ namespace papacy1
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label50.Location = new System.Drawing.Point(777, 299);
+            this.label50.Location = new System.Drawing.Point(861, 263);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(58, 24);
             this.label50.TabIndex = 135;
@@ -1704,7 +1732,7 @@ namespace papacy1
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label51.Location = new System.Drawing.Point(777, 255);
+            this.label51.Location = new System.Drawing.Point(861, 219);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(58, 24);
             this.label51.TabIndex = 134;
@@ -1713,7 +1741,7 @@ namespace papacy1
             // label52
             // 
             this.label52.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label52.Location = new System.Drawing.Point(528, 255);
+            this.label52.Location = new System.Drawing.Point(612, 219);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(140, 29);
             this.label52.TabIndex = 133;
@@ -1723,38 +1751,18 @@ namespace papacy1
             // label53
             // 
             this.label53.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label53.Location = new System.Drawing.Point(528, 299);
+            this.label53.Location = new System.Drawing.Point(612, 263);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(140, 29);
             this.label53.TabIndex = 132;
             this.label53.Text = "GW :";
             this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // SPECtextBox3
-            // 
-            this.SPECtextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SPECtextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.SPECtextBox3.Location = new System.Drawing.Point(674, 209);
-            this.SPECtextBox3.Name = "SPECtextBox3";
-            this.SPECtextBox3.Size = new System.Drawing.Size(215, 32);
-            this.SPECtextBox3.TabIndex = 30;
-            this.SPECtextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label49
-            // 
-            this.label49.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label49.Location = new System.Drawing.Point(528, 211);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(140, 29);
-            this.label49.TabIndex = 130;
-            this.label49.Text = "SPEC :";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // MaterialtextBox3
             // 
             this.MaterialtextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MaterialtextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MaterialtextBox3.Location = new System.Drawing.Point(674, 165);
+            this.MaterialtextBox3.Location = new System.Drawing.Point(758, 168);
             this.MaterialtextBox3.Name = "MaterialtextBox3";
             this.MaterialtextBox3.Size = new System.Drawing.Size(215, 32);
             this.MaterialtextBox3.TabIndex = 20;
@@ -1763,7 +1771,7 @@ namespace papacy1
             // label48
             // 
             this.label48.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label48.Location = new System.Drawing.Point(528, 167);
+            this.label48.Location = new System.Drawing.Point(612, 170);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(140, 29);
             this.label48.TabIndex = 128;
@@ -1774,7 +1782,7 @@ namespace papacy1
             // 
             this.GraphictextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GraphictextBox3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GraphictextBox3.Location = new System.Drawing.Point(674, 121);
+            this.GraphictextBox3.Location = new System.Drawing.Point(758, 124);
             this.GraphictextBox3.Name = "GraphictextBox3";
             this.GraphictextBox3.Size = new System.Drawing.Size(215, 32);
             this.GraphictextBox3.TabIndex = 10;
@@ -1783,7 +1791,7 @@ namespace papacy1
             // label47
             // 
             this.label47.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label47.Location = new System.Drawing.Point(528, 123);
+            this.label47.Location = new System.Drawing.Point(612, 126);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(140, 29);
             this.label47.TabIndex = 126;
@@ -1795,11 +1803,11 @@ namespace papacy1
             this.pictureBox3.BackColor = System.Drawing.Color.Silver;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(16, 150);
+            this.pictureBox3.Location = new System.Drawing.Point(28, 124);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(460, 344);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.Size = new System.Drawing.Size(541, 399);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 125;
             this.pictureBox3.TabStop = false;
             // 
@@ -1808,22 +1816,21 @@ namespace papacy1
             this.panel9.AutoSize = true;
             this.panel9.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel9.Controls.Add(this.Topiclabel3);
-            this.panel9.Location = new System.Drawing.Point(492, 0);
+            this.panel9.Location = new System.Drawing.Point(598, 0);
             this.panel9.Margin = new System.Windows.Forms.Padding(0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(518, 100);
+            this.panel9.Size = new System.Drawing.Size(412, 100);
             this.panel9.TabIndex = 124;
             // 
             // Topiclabel3
             // 
-            this.Topiclabel3.AutoSize = true;
             this.Topiclabel3.BackColor = System.Drawing.Color.Transparent;
             this.Topiclabel3.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Topiclabel3.ForeColor = System.Drawing.Color.White;
-            this.Topiclabel3.Location = new System.Drawing.Point(201, 23);
+            this.Topiclabel3.Location = new System.Drawing.Point(0, 23);
             this.Topiclabel3.Margin = new System.Windows.Forms.Padding(0);
             this.Topiclabel3.Name = "Topiclabel3";
-            this.Topiclabel3.Size = new System.Drawing.Size(160, 45);
+            this.Topiclabel3.Size = new System.Drawing.Size(397, 45);
             this.Topiclabel3.TabIndex = 116;
             this.Topiclabel3.Text = "辨識標籤";
             this.Topiclabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1835,19 +1842,18 @@ namespace papacy1
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Margin = new System.Windows.Forms.Padding(0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(492, 100);
+            this.panel10.Size = new System.Drawing.Size(598, 100);
             this.panel10.TabIndex = 123;
             // 
             // Examplelabel3
             // 
-            this.Examplelabel3.AutoSize = true;
             this.Examplelabel3.BackColor = System.Drawing.Color.Transparent;
             this.Examplelabel3.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Examplelabel3.ForeColor = System.Drawing.Color.White;
-            this.Examplelabel3.Location = new System.Drawing.Point(168, 23);
+            this.Examplelabel3.Location = new System.Drawing.Point(0, 23);
             this.Examplelabel3.Margin = new System.Windows.Forms.Padding(0);
             this.Examplelabel3.Name = "Examplelabel3";
-            this.Examplelabel3.Size = new System.Drawing.Size(160, 45);
+            this.Examplelabel3.Size = new System.Drawing.Size(598, 45);
             this.Examplelabel3.TabIndex = 117;
             this.Examplelabel3.Text = "列印樣本";
             this.Examplelabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1855,22 +1861,31 @@ namespace papacy1
             // label55
             // 
             this.label55.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label55.Location = new System.Drawing.Point(462, 387);
+            this.label55.Location = new System.Drawing.Point(612, 351);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(140, 29);
             this.label55.TabIndex = 142;
             this.label55.Text = "C/NO :";
             this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox11.Location = new System.Drawing.Point(3, 94);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(595, 592);
+            this.pictureBox11.TabIndex = 376;
+            this.pictureBox11.TabStop = false;
+            // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Controls.Add(this.MD4_CBX_CNO);
             this.tabPage4.Controls.Add(this.label94);
             this.tabPage4.Controls.Add(this.PrintQuantitynumericUpDown4);
             this.tabPage4.Controls.Add(this.label87);
             this.tabPage4.Controls.Add(this.AddtextBox4);
             this.tabPage4.Controls.Add(this.label83);
-            this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Controls.Add(this.EndtextBox4);
             this.tabPage4.Controls.Add(this.label44);
             this.tabPage4.Controls.Add(this.StarttextBox4);
@@ -1897,6 +1912,7 @@ namespace papacy1
             this.tabPage4.Controls.Add(this.panel7);
             this.tabPage4.Controls.Add(this.panel8);
             this.tabPage4.Controls.Add(this.label46);
+            this.tabPage4.Controls.Add(this.pictureBox12);
             this.tabPage4.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage4.Location = new System.Drawing.Point(4, 44);
             this.tabPage4.Name = "tabPage4";
@@ -1904,6 +1920,18 @@ namespace papacy1
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "模板4";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label12.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label12.Location = new System.Drawing.Point(3, 648);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(241, 20);
+            this.label12.TabIndex = 379;
+            this.label12.Text = "技術支援 : 0919-561-500 翁先生";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // MD4_CBX_CNO
             // 
@@ -1914,15 +1942,16 @@ namespace papacy1
             "2",
             "3",
             "4"});
-            this.MD4_CBX_CNO.Location = new System.Drawing.Point(164, 535);
+            this.MD4_CBX_CNO.Location = new System.Drawing.Point(161, 537);
             this.MD4_CBX_CNO.Name = "MD4_CBX_CNO";
             this.MD4_CBX_CNO.Size = new System.Drawing.Size(70, 31);
             this.MD4_CBX_CNO.TabIndex = 376;
             // 
             // label94
             // 
+            this.label94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label94.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label94.Location = new System.Drawing.Point(12, 535);
+            this.label94.Location = new System.Drawing.Point(9, 537);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(140, 29);
             this.label94.TabIndex = 377;
@@ -1932,21 +1961,21 @@ namespace papacy1
             // PrintQuantitynumericUpDown4
             // 
             this.PrintQuantitynumericUpDown4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown4.Location = new System.Drawing.Point(674, 384);
+            this.PrintQuantitynumericUpDown4.Location = new System.Drawing.Point(755, 434);
             this.PrintQuantitynumericUpDown4.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
             this.PrintQuantitynumericUpDown4.Name = "PrintQuantitynumericUpDown4";
-            this.PrintQuantitynumericUpDown4.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown4.Size = new System.Drawing.Size(65, 32);
             this.PrintQuantitynumericUpDown4.TabIndex = 97;
             this.PrintQuantitynumericUpDown4.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown4_ValueChanged);
             // 
             // label87
             // 
             this.label87.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label87.Location = new System.Drawing.Point(518, 386);
+            this.label87.Location = new System.Drawing.Point(599, 437);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(150, 29);
             this.label87.TabIndex = 203;
@@ -1957,7 +1986,7 @@ namespace papacy1
             // 
             this.AddtextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddtextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.AddtextBox4.Location = new System.Drawing.Point(923, 340);
+            this.AddtextBox4.Location = new System.Drawing.Point(905, 387);
             this.AddtextBox4.Margin = new System.Windows.Forms.Padding(4);
             this.AddtextBox4.Name = "AddtextBox4";
             this.AddtextBox4.Size = new System.Drawing.Size(65, 32);
@@ -1970,23 +1999,12 @@ namespace papacy1
             // 
             this.label83.AutoSize = true;
             this.label83.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label83.Location = new System.Drawing.Point(846, 342);
+            this.label83.Location = new System.Drawing.Point(831, 389);
             this.label83.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(77, 24);
             this.label83.TabIndex = 201;
             this.label83.Text = "累加值 :";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label12.Location = new System.Drawing.Point(3, 643);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(241, 20);
-            this.label12.TabIndex = 196;
-            this.label12.Text = "技術支援 : 0919-561-500 翁先生";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // EndtextBox4
             // 
@@ -1994,7 +2012,7 @@ namespace papacy1
             this.EndtextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EndtextBox4.Enabled = false;
             this.EndtextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.EndtextBox4.Location = new System.Drawing.Point(881, 384);
+            this.EndtextBox4.Location = new System.Drawing.Point(905, 433);
             this.EndtextBox4.Name = "EndtextBox4";
             this.EndtextBox4.ReadOnly = true;
             this.EndtextBox4.Size = new System.Drawing.Size(65, 32);
@@ -2006,7 +2024,7 @@ namespace papacy1
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label44.Location = new System.Drawing.Point(797, 386);
+            this.label44.Location = new System.Drawing.Point(831, 434);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(77, 24);
             this.label44.TabIndex = 147;
@@ -2017,7 +2035,7 @@ namespace papacy1
             // 
             this.StarttextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarttextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.StarttextBox4.Location = new System.Drawing.Point(774, 340);
+            this.StarttextBox4.Location = new System.Drawing.Point(755, 387);
             this.StarttextBox4.Name = "StarttextBox4";
             this.StarttextBox4.Size = new System.Drawing.Size(65, 32);
             this.StarttextBox4.TabIndex = 90;
@@ -2028,7 +2046,7 @@ namespace papacy1
             // 
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label45.Location = new System.Drawing.Point(689, 342);
+            this.label45.Location = new System.Drawing.Point(672, 389);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(77, 24);
             this.label45.TabIndex = 145;
@@ -2039,24 +2057,23 @@ namespace papacy1
             // 
             this.CNOtextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CNOtextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNOtextBox4.Location = new System.Drawing.Point(610, 340);
+            this.CNOtextBox4.Location = new System.Drawing.Point(755, 342);
             this.CNOtextBox4.Name = "CNOtextBox4";
-            this.CNOtextBox4.Size = new System.Drawing.Size(73, 32);
+            this.CNOtextBox4.Size = new System.Drawing.Size(215, 32);
             this.CNOtextBox4.TabIndex = 80;
             this.CNOtextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Resetbutton4
             // 
             this.Resetbutton4.AutoSize = true;
-            this.Resetbutton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Resetbutton4.BackColor = System.Drawing.Color.Firebrick;
-            this.Resetbutton4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Resetbutton4.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Resetbutton4.ForeColor = System.Drawing.Color.White;
-            this.Resetbutton4.Location = new System.Drawing.Point(928, 535);
+            this.Resetbutton4.Location = new System.Drawing.Point(910, 480);
             this.Resetbutton4.Margin = new System.Windows.Forms.Padding(1);
             this.Resetbutton4.Name = "Resetbutton4";
             this.Resetbutton4.Padding = new System.Windows.Forms.Padding(2);
-            this.Resetbutton4.Size = new System.Drawing.Size(56, 35);
+            this.Resetbutton4.Size = new System.Drawing.Size(62, 38);
             this.Resetbutton4.TabIndex = 120;
             this.Resetbutton4.Text = "清除";
             this.Resetbutton4.UseVisualStyleBackColor = false;
@@ -2065,34 +2082,32 @@ namespace papacy1
             // Submitbutton4
             // 
             this.Submitbutton4.AutoSize = true;
-            this.Submitbutton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Submitbutton4.BackColor = System.Drawing.Color.YellowGreen;
-            this.Submitbutton4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Submitbutton4.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Submitbutton4.ForeColor = System.Drawing.Color.White;
-            this.Submitbutton4.Location = new System.Drawing.Point(765, 535);
+            this.Submitbutton4.Location = new System.Drawing.Point(747, 480);
             this.Submitbutton4.Margin = new System.Windows.Forms.Padding(1);
             this.Submitbutton4.Name = "Submitbutton4";
             this.Submitbutton4.Padding = new System.Windows.Forms.Padding(2);
-            this.Submitbutton4.Size = new System.Drawing.Size(56, 35);
+            this.Submitbutton4.Size = new System.Drawing.Size(161, 38);
             this.Submitbutton4.TabIndex = 100;
-            this.Submitbutton4.Text = "提交";
+            this.Submitbutton4.Text = "列印";
             this.Submitbutton4.UseVisualStyleBackColor = false;
             this.Submitbutton4.Click += new System.EventHandler(this.Submitbutton4_Click);
             // 
             // Priviewbutton4
             // 
             this.Priviewbutton4.AutoSize = true;
-            this.Priviewbutton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Priviewbutton4.BackColor = System.Drawing.Color.Orange;
-            this.Priviewbutton4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Priviewbutton4.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Priviewbutton4.ForeColor = System.Drawing.Color.White;
-            this.Priviewbutton4.Location = new System.Drawing.Point(562, 535);
+            this.Priviewbutton4.Location = new System.Drawing.Point(645, 480);
             this.Priviewbutton4.Margin = new System.Windows.Forms.Padding(1);
             this.Priviewbutton4.Name = "Priviewbutton4";
             this.Priviewbutton4.Padding = new System.Windows.Forms.Padding(2);
-            this.Priviewbutton4.Size = new System.Drawing.Size(88, 35);
+            this.Priviewbutton4.Size = new System.Drawing.Size(100, 38);
             this.Priviewbutton4.TabIndex = 110;
-            this.Priviewbutton4.Text = "列印預覽";
+            this.Priviewbutton4.Text = "預覽";
             this.Priviewbutton4.UseVisualStyleBackColor = false;
             this.Priviewbutton4.Click += new System.EventHandler(this.Priviewbutton4_Click);
             // 
@@ -2100,7 +2115,7 @@ namespace papacy1
             // 
             this.OrigintextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OrigintextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.OrigintextBox4.Location = new System.Drawing.Point(674, 296);
+            this.OrigintextBox4.Location = new System.Drawing.Point(755, 296);
             this.OrigintextBox4.Name = "OrigintextBox4";
             this.OrigintextBox4.Size = new System.Drawing.Size(215, 32);
             this.OrigintextBox4.TabIndex = 70;
@@ -2111,7 +2126,7 @@ namespace papacy1
             // label43
             // 
             this.label43.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label43.Location = new System.Drawing.Point(554, 298);
+            this.label43.Location = new System.Drawing.Point(635, 298);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(114, 29);
             this.label43.TabIndex = 138;
@@ -2122,7 +2137,7 @@ namespace papacy1
             // 
             this.GWtextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GWtextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWtextBox4.Location = new System.Drawing.Point(674, 252);
+            this.GWtextBox4.Location = new System.Drawing.Point(755, 252);
             this.GWtextBox4.Name = "GWtextBox4";
             this.GWtextBox4.Size = new System.Drawing.Size(97, 32);
             this.GWtextBox4.TabIndex = 40;
@@ -2138,7 +2153,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.GWunitcomboBox4.Location = new System.Drawing.Point(838, 251);
+            this.GWunitcomboBox4.Location = new System.Drawing.Point(919, 251);
             this.GWunitcomboBox4.Name = "GWunitcomboBox4";
             this.GWunitcomboBox4.Size = new System.Drawing.Size(51, 31);
             this.GWunitcomboBox4.TabIndex = 60;
@@ -2148,7 +2163,7 @@ namespace papacy1
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label39.Location = new System.Drawing.Point(777, 254);
+            this.label39.Location = new System.Drawing.Point(858, 254);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(58, 24);
             this.label39.TabIndex = 134;
@@ -2164,7 +2179,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.NWunitcomboBox4.Location = new System.Drawing.Point(838, 208);
+            this.NWunitcomboBox4.Location = new System.Drawing.Point(919, 208);
             this.NWunitcomboBox4.Name = "NWunitcomboBox4";
             this.NWunitcomboBox4.Size = new System.Drawing.Size(51, 31);
             this.NWunitcomboBox4.TabIndex = 50;
@@ -2174,7 +2189,7 @@ namespace papacy1
             // 
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label40.Location = new System.Drawing.Point(777, 211);
+            this.label40.Location = new System.Drawing.Point(858, 211);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(58, 24);
             this.label40.TabIndex = 132;
@@ -2184,7 +2199,7 @@ namespace papacy1
             // label41
             // 
             this.label41.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label41.Location = new System.Drawing.Point(554, 254);
+            this.label41.Location = new System.Drawing.Point(635, 254);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(114, 29);
             this.label41.TabIndex = 131;
@@ -2194,7 +2209,7 @@ namespace papacy1
             // label42
             // 
             this.label42.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label42.Location = new System.Drawing.Point(554, 211);
+            this.label42.Location = new System.Drawing.Point(635, 211);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(114, 29);
             this.label42.TabIndex = 130;
@@ -2205,7 +2220,7 @@ namespace papacy1
             // 
             this.NWtextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NWtextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWtextBox4.Location = new System.Drawing.Point(674, 209);
+            this.NWtextBox4.Location = new System.Drawing.Point(755, 209);
             this.NWtextBox4.Name = "NWtextBox4";
             this.NWtextBox4.Size = new System.Drawing.Size(97, 32);
             this.NWtextBox4.TabIndex = 30;
@@ -2216,7 +2231,7 @@ namespace papacy1
             // 
             this.LOTtextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LOTtextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LOTtextBox4.Location = new System.Drawing.Point(674, 165);
+            this.LOTtextBox4.Location = new System.Drawing.Point(755, 165);
             this.LOTtextBox4.Name = "LOTtextBox4";
             this.LOTtextBox4.Size = new System.Drawing.Size(215, 32);
             this.LOTtextBox4.TabIndex = 20;
@@ -2225,7 +2240,7 @@ namespace papacy1
             // label38
             // 
             this.label38.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label38.Location = new System.Drawing.Point(554, 167);
+            this.label38.Location = new System.Drawing.Point(635, 167);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(114, 29);
             this.label38.TabIndex = 128;
@@ -2236,7 +2251,7 @@ namespace papacy1
             // 
             this.SPECtextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SPECtextBox4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.SPECtextBox4.Location = new System.Drawing.Point(674, 121);
+            this.SPECtextBox4.Location = new System.Drawing.Point(755, 121);
             this.SPECtextBox4.Name = "SPECtextBox4";
             this.SPECtextBox4.Size = new System.Drawing.Size(215, 32);
             this.SPECtextBox4.TabIndex = 10;
@@ -2245,7 +2260,7 @@ namespace papacy1
             // label37
             // 
             this.label37.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label37.Location = new System.Drawing.Point(554, 123);
+            this.label37.Location = new System.Drawing.Point(635, 123);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(114, 29);
             this.label37.TabIndex = 126;
@@ -2257,11 +2272,11 @@ namespace papacy1
             this.pictureBox4.BackColor = System.Drawing.Color.Silver;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.InitialImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(16, 150);
+            this.pictureBox4.Location = new System.Drawing.Point(16, 121);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(476, 358);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.Size = new System.Drawing.Size(560, 397);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 125;
             this.pictureBox4.TabStop = false;
             // 
@@ -2270,10 +2285,10 @@ namespace papacy1
             this.panel7.AutoSize = true;
             this.panel7.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel7.Controls.Add(this.Topiclabel4);
-            this.panel7.Location = new System.Drawing.Point(492, 0);
+            this.panel7.Location = new System.Drawing.Point(595, 0);
             this.panel7.Margin = new System.Windows.Forms.Padding(0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(518, 100);
+            this.panel7.Size = new System.Drawing.Size(415, 100);
             this.panel7.TabIndex = 124;
             // 
             // Topiclabel4
@@ -2281,10 +2296,10 @@ namespace papacy1
             this.Topiclabel4.BackColor = System.Drawing.Color.Transparent;
             this.Topiclabel4.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Topiclabel4.ForeColor = System.Drawing.Color.White;
-            this.Topiclabel4.Location = new System.Drawing.Point(201, 23);
+            this.Topiclabel4.Location = new System.Drawing.Point(0, 23);
             this.Topiclabel4.Margin = new System.Windows.Forms.Padding(0);
             this.Topiclabel4.Name = "Topiclabel4";
-            this.Topiclabel4.Size = new System.Drawing.Size(196, 55);
+            this.Topiclabel4.Size = new System.Drawing.Size(407, 55);
             this.Topiclabel4.TabIndex = 116;
             this.Topiclabel4.Text = "辨識標籤";
             this.Topiclabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2296,19 +2311,18 @@ namespace papacy1
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Margin = new System.Windows.Forms.Padding(0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(492, 100);
+            this.panel8.Size = new System.Drawing.Size(595, 100);
             this.panel8.TabIndex = 123;
             // 
             // Examplelabel4
             // 
-            this.Examplelabel4.AutoSize = true;
             this.Examplelabel4.BackColor = System.Drawing.Color.Transparent;
             this.Examplelabel4.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Examplelabel4.ForeColor = System.Drawing.Color.White;
-            this.Examplelabel4.Location = new System.Drawing.Point(168, 23);
+            this.Examplelabel4.Location = new System.Drawing.Point(0, 23);
             this.Examplelabel4.Margin = new System.Windows.Forms.Padding(0);
             this.Examplelabel4.Name = "Examplelabel4";
-            this.Examplelabel4.Size = new System.Drawing.Size(160, 45);
+            this.Examplelabel4.Size = new System.Drawing.Size(595, 45);
             this.Examplelabel4.TabIndex = 117;
             this.Examplelabel4.Text = "列印樣本";
             this.Examplelabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2316,12 +2330,21 @@ namespace papacy1
             // label46
             // 
             this.label46.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label46.Location = new System.Drawing.Point(490, 342);
+            this.label46.Location = new System.Drawing.Point(635, 341);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(114, 29);
             this.label46.TabIndex = 143;
             this.label46.Text = "C/NO :";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox12.Location = new System.Drawing.Point(0, 85);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(595, 592);
+            this.pictureBox12.TabIndex = 378;
+            this.pictureBox12.TabStop = false;
             // 
             // tabPage5
             // 
@@ -2362,6 +2385,7 @@ namespace papacy1
             this.tabPage5.Controls.Add(this.panel5);
             this.tabPage5.Controls.Add(this.panel6);
             this.tabPage5.Controls.Add(this.label36);
+            this.tabPage5.Controls.Add(this.pictureBox13);
             this.tabPage5.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage5.Location = new System.Drawing.Point(4, 44);
             this.tabPage5.Name = "tabPage5";
@@ -2379,15 +2403,16 @@ namespace papacy1
             "2",
             "3",
             "4"});
-            this.MD5_CBX_CNO.Location = new System.Drawing.Point(163, 535);
+            this.MD5_CBX_CNO.Location = new System.Drawing.Point(174, 542);
             this.MD5_CBX_CNO.Name = "MD5_CBX_CNO";
             this.MD5_CBX_CNO.Size = new System.Drawing.Size(70, 31);
             this.MD5_CBX_CNO.TabIndex = 378;
             // 
             // label95
             // 
+            this.label95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label95.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label95.Location = new System.Drawing.Point(11, 535);
+            this.label95.Location = new System.Drawing.Point(22, 542);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(140, 29);
             this.label95.TabIndex = 379;
@@ -2398,7 +2423,7 @@ namespace papacy1
             // 
             this.AddtextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddtextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.AddtextBox5.Location = new System.Drawing.Point(920, 429);
+            this.AddtextBox5.Location = new System.Drawing.Point(901, 473);
             this.AddtextBox5.Margin = new System.Windows.Forms.Padding(4);
             this.AddtextBox5.Name = "AddtextBox5";
             this.AddtextBox5.Size = new System.Drawing.Size(65, 32);
@@ -2411,7 +2436,7 @@ namespace papacy1
             // 
             this.label82.AutoSize = true;
             this.label82.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label82.Location = new System.Drawing.Point(843, 431);
+            this.label82.Location = new System.Drawing.Point(816, 475);
             this.label82.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(77, 24);
@@ -2421,23 +2446,23 @@ namespace papacy1
             // PrintQuantitynumericUpDown5
             // 
             this.PrintQuantitynumericUpDown5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown5.Location = new System.Drawing.Point(674, 473);
+            this.PrintQuantitynumericUpDown5.Location = new System.Drawing.Point(751, 518);
             this.PrintQuantitynumericUpDown5.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
             this.PrintQuantitynumericUpDown5.Name = "PrintQuantitynumericUpDown5";
-            this.PrintQuantitynumericUpDown5.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown5.Size = new System.Drawing.Size(65, 32);
             this.PrintQuantitynumericUpDown5.TabIndex = 117;
             this.PrintQuantitynumericUpDown5.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown5_ValueChanged);
             // 
             // label81
             // 
             this.label81.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label81.Location = new System.Drawing.Point(518, 475);
+            this.label81.Location = new System.Drawing.Point(614, 517);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(150, 29);
+            this.label81.Size = new System.Drawing.Size(131, 29);
             this.label81.TabIndex = 199;
             this.label81.Text = "列印數量 :";
             this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2445,6 +2470,7 @@ namespace papacy1
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label11.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label11.Location = new System.Drawing.Point(3, 643);
             this.label11.Name = "label11";
@@ -2459,7 +2485,7 @@ namespace papacy1
             this.EndtextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EndtextBox5.Enabled = false;
             this.EndtextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.EndtextBox5.Location = new System.Drawing.Point(884, 473);
+            this.EndtextBox5.Location = new System.Drawing.Point(901, 518);
             this.EndtextBox5.Name = "EndtextBox5";
             this.EndtextBox5.ReadOnly = true;
             this.EndtextBox5.Size = new System.Drawing.Size(65, 32);
@@ -2470,7 +2496,7 @@ namespace papacy1
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label34.Location = new System.Drawing.Point(797, 475);
+            this.label34.Location = new System.Drawing.Point(816, 520);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(77, 24);
             this.label34.TabIndex = 151;
@@ -2480,7 +2506,7 @@ namespace papacy1
             // 
             this.StarttextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarttextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.StarttextBox5.Location = new System.Drawing.Point(771, 429);
+            this.StarttextBox5.Location = new System.Drawing.Point(751, 473);
             this.StarttextBox5.Name = "StarttextBox5";
             this.StarttextBox5.Size = new System.Drawing.Size(65, 32);
             this.StarttextBox5.TabIndex = 110;
@@ -2491,7 +2517,7 @@ namespace papacy1
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label35.Location = new System.Drawing.Point(686, 431);
+            this.label35.Location = new System.Drawing.Point(668, 475);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(77, 24);
             this.label35.TabIndex = 149;
@@ -2501,24 +2527,23 @@ namespace papacy1
             // 
             this.CNOtextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CNOtextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNOtextBox5.Location = new System.Drawing.Point(607, 429);
+            this.CNOtextBox5.Location = new System.Drawing.Point(751, 430);
             this.CNOtextBox5.Name = "CNOtextBox5";
-            this.CNOtextBox5.Size = new System.Drawing.Size(73, 32);
+            this.CNOtextBox5.Size = new System.Drawing.Size(215, 32);
             this.CNOtextBox5.TabIndex = 100;
             this.CNOtextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Resetbutton5
             // 
             this.Resetbutton5.AutoSize = true;
-            this.Resetbutton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Resetbutton5.BackColor = System.Drawing.Color.Firebrick;
-            this.Resetbutton5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Resetbutton5.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Resetbutton5.ForeColor = System.Drawing.Color.White;
-            this.Resetbutton5.Location = new System.Drawing.Point(928, 535);
+            this.Resetbutton5.Location = new System.Drawing.Point(904, 589);
             this.Resetbutton5.Margin = new System.Windows.Forms.Padding(1);
             this.Resetbutton5.Name = "Resetbutton5";
             this.Resetbutton5.Padding = new System.Windows.Forms.Padding(2);
-            this.Resetbutton5.Size = new System.Drawing.Size(56, 35);
+            this.Resetbutton5.Size = new System.Drawing.Size(62, 38);
             this.Resetbutton5.TabIndex = 140;
             this.Resetbutton5.Text = "清除";
             this.Resetbutton5.UseVisualStyleBackColor = false;
@@ -2527,34 +2552,32 @@ namespace papacy1
             // Submitbutton5
             // 
             this.Submitbutton5.AutoSize = true;
-            this.Submitbutton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Submitbutton5.BackColor = System.Drawing.Color.YellowGreen;
-            this.Submitbutton5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Submitbutton5.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Submitbutton5.ForeColor = System.Drawing.Color.White;
-            this.Submitbutton5.Location = new System.Drawing.Point(765, 535);
+            this.Submitbutton5.Location = new System.Drawing.Point(721, 589);
             this.Submitbutton5.Margin = new System.Windows.Forms.Padding(1);
             this.Submitbutton5.Name = "Submitbutton5";
             this.Submitbutton5.Padding = new System.Windows.Forms.Padding(2);
-            this.Submitbutton5.Size = new System.Drawing.Size(56, 35);
+            this.Submitbutton5.Size = new System.Drawing.Size(181, 38);
             this.Submitbutton5.TabIndex = 120;
-            this.Submitbutton5.Text = "提交";
+            this.Submitbutton5.Text = "列印";
             this.Submitbutton5.UseVisualStyleBackColor = false;
             this.Submitbutton5.Click += new System.EventHandler(this.Submitbutton5_Click);
             // 
             // Priviewbutton5
             // 
             this.Priviewbutton5.AutoSize = true;
-            this.Priviewbutton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Priviewbutton5.BackColor = System.Drawing.Color.Orange;
-            this.Priviewbutton5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Priviewbutton5.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Priviewbutton5.ForeColor = System.Drawing.Color.White;
-            this.Priviewbutton5.Location = new System.Drawing.Point(562, 535);
+            this.Priviewbutton5.Location = new System.Drawing.Point(657, 589);
             this.Priviewbutton5.Margin = new System.Windows.Forms.Padding(1);
             this.Priviewbutton5.Name = "Priviewbutton5";
             this.Priviewbutton5.Padding = new System.Windows.Forms.Padding(2);
-            this.Priviewbutton5.Size = new System.Drawing.Size(88, 35);
+            this.Priviewbutton5.Size = new System.Drawing.Size(62, 38);
             this.Priviewbutton5.TabIndex = 130;
-            this.Priviewbutton5.Text = "列印預覽";
+            this.Priviewbutton5.Text = "預覽";
             this.Priviewbutton5.UseVisualStyleBackColor = false;
             this.Priviewbutton5.Click += new System.EventHandler(this.Priviewbutton5_Click);
             // 
@@ -2562,7 +2585,7 @@ namespace papacy1
             // 
             this.LOTtextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LOTtextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LOTtextBox5.Location = new System.Drawing.Point(674, 385);
+            this.LOTtextBox5.Location = new System.Drawing.Point(751, 384);
             this.LOTtextBox5.Name = "LOTtextBox5";
             this.LOTtextBox5.Size = new System.Drawing.Size(215, 32);
             this.LOTtextBox5.TabIndex = 90;
@@ -2571,7 +2594,7 @@ namespace papacy1
             // label33
             // 
             this.label33.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label33.Location = new System.Drawing.Point(533, 387);
+            this.label33.Location = new System.Drawing.Point(610, 386);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(135, 29);
             this.label33.TabIndex = 142;
@@ -2587,7 +2610,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.GWunitcomboBox5.Location = new System.Drawing.Point(838, 340);
+            this.GWunitcomboBox5.Location = new System.Drawing.Point(915, 339);
             this.GWunitcomboBox5.Name = "GWunitcomboBox5";
             this.GWunitcomboBox5.Size = new System.Drawing.Size(51, 31);
             this.GWunitcomboBox5.TabIndex = 80;
@@ -2602,7 +2625,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.NWunitcomboBox5.Location = new System.Drawing.Point(838, 296);
+            this.NWunitcomboBox5.Location = new System.Drawing.Point(915, 295);
             this.NWunitcomboBox5.Name = "NWunitcomboBox5";
             this.NWunitcomboBox5.Size = new System.Drawing.Size(51, 31);
             this.NWunitcomboBox5.TabIndex = 70;
@@ -2612,7 +2635,7 @@ namespace papacy1
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label29.Location = new System.Drawing.Point(777, 343);
+            this.label29.Location = new System.Drawing.Point(854, 342);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(58, 24);
             this.label29.TabIndex = 137;
@@ -2623,7 +2646,7 @@ namespace papacy1
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label30.Location = new System.Drawing.Point(777, 299);
+            this.label30.Location = new System.Drawing.Point(854, 298);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(58, 24);
             this.label30.TabIndex = 136;
@@ -2633,7 +2656,7 @@ namespace papacy1
             // label31
             // 
             this.label31.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label31.Location = new System.Drawing.Point(533, 299);
+            this.label31.Location = new System.Drawing.Point(610, 298);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(135, 29);
             this.label31.TabIndex = 135;
@@ -2643,7 +2666,7 @@ namespace papacy1
             // label32
             // 
             this.label32.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label32.Location = new System.Drawing.Point(533, 343);
+            this.label32.Location = new System.Drawing.Point(610, 342);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(135, 29);
             this.label32.TabIndex = 134;
@@ -2654,7 +2677,7 @@ namespace papacy1
             // 
             this.GWtextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GWtextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWtextBox5.Location = new System.Drawing.Point(674, 341);
+            this.GWtextBox5.Location = new System.Drawing.Point(751, 340);
             this.GWtextBox5.Name = "GWtextBox5";
             this.GWtextBox5.Size = new System.Drawing.Size(97, 32);
             this.GWtextBox5.TabIndex = 60;
@@ -2665,7 +2688,7 @@ namespace papacy1
             // 
             this.NWtextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NWtextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWtextBox5.Location = new System.Drawing.Point(674, 297);
+            this.NWtextBox5.Location = new System.Drawing.Point(751, 296);
             this.NWtextBox5.Name = "NWtextBox5";
             this.NWtextBox5.Size = new System.Drawing.Size(97, 32);
             this.NWtextBox5.TabIndex = 50;
@@ -2676,7 +2699,7 @@ namespace papacy1
             // 
             this.SPECtextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SPECtextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.SPECtextBox5.Location = new System.Drawing.Point(674, 253);
+            this.SPECtextBox5.Location = new System.Drawing.Point(751, 252);
             this.SPECtextBox5.Name = "SPECtextBox5";
             this.SPECtextBox5.Size = new System.Drawing.Size(215, 32);
             this.SPECtextBox5.TabIndex = 40;
@@ -2685,7 +2708,7 @@ namespace papacy1
             // SPEClabel
             // 
             this.SPEClabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.SPEClabel.Location = new System.Drawing.Point(533, 255);
+            this.SPEClabel.Location = new System.Drawing.Point(610, 254);
             this.SPEClabel.Name = "SPEClabel";
             this.SPEClabel.Size = new System.Drawing.Size(135, 29);
             this.SPEClabel.TabIndex = 132;
@@ -2696,7 +2719,7 @@ namespace papacy1
             // 
             this.OrigintextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OrigintextBox5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.OrigintextBox5.Location = new System.Drawing.Point(674, 209);
+            this.OrigintextBox5.Location = new System.Drawing.Point(751, 208);
             this.OrigintextBox5.Name = "OrigintextBox5";
             this.OrigintextBox5.Size = new System.Drawing.Size(215, 32);
             this.OrigintextBox5.TabIndex = 30;
@@ -2707,7 +2730,7 @@ namespace papacy1
             // label28
             // 
             this.label28.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label28.Location = new System.Drawing.Point(533, 211);
+            this.label28.Location = new System.Drawing.Point(610, 210);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(135, 29);
             this.label28.TabIndex = 130;
@@ -2718,7 +2741,7 @@ namespace papacy1
             // 
             this.LocationtextBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LocationtextBox15.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LocationtextBox15.Location = new System.Drawing.Point(674, 121);
+            this.LocationtextBox15.Location = new System.Drawing.Point(751, 120);
             this.LocationtextBox15.Name = "LocationtextBox15";
             this.LocationtextBox15.Size = new System.Drawing.Size(215, 32);
             this.LocationtextBox15.TabIndex = 10;
@@ -2728,7 +2751,7 @@ namespace papacy1
             // 
             this.LocationtextBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LocationtextBox25.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LocationtextBox25.Location = new System.Drawing.Point(674, 165);
+            this.LocationtextBox25.Location = new System.Drawing.Point(751, 164);
             this.LocationtextBox25.Name = "LocationtextBox25";
             this.LocationtextBox25.Size = new System.Drawing.Size(215, 32);
             this.LocationtextBox25.TabIndex = 20;
@@ -2737,7 +2760,7 @@ namespace papacy1
             // Locationlabel25
             // 
             this.Locationlabel25.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Locationlabel25.Location = new System.Drawing.Point(533, 167);
+            this.Locationlabel25.Location = new System.Drawing.Point(610, 166);
             this.Locationlabel25.Name = "Locationlabel25";
             this.Locationlabel25.Size = new System.Drawing.Size(135, 29);
             this.Locationlabel25.TabIndex = 127;
@@ -2747,7 +2770,7 @@ namespace papacy1
             // Locationlabel15
             // 
             this.Locationlabel15.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Locationlabel15.Location = new System.Drawing.Point(533, 123);
+            this.Locationlabel15.Location = new System.Drawing.Point(610, 122);
             this.Locationlabel15.Name = "Locationlabel15";
             this.Locationlabel15.Size = new System.Drawing.Size(135, 29);
             this.Locationlabel15.TabIndex = 126;
@@ -2759,35 +2782,33 @@ namespace papacy1
             this.pictureBox5.BackColor = System.Drawing.Color.Silver;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.InitialImage")));
-            this.pictureBox5.Location = new System.Drawing.Point(15, 150);
+            this.pictureBox5.Location = new System.Drawing.Point(24, 120);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(477, 358);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.Size = new System.Drawing.Size(545, 399);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 125;
             this.pictureBox5.TabStop = false;
             // 
             // panel5
             // 
-            this.panel5.AutoSize = true;
             this.panel5.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel5.Controls.Add(this.Topiclabel5);
-            this.panel5.Location = new System.Drawing.Point(492, 0);
+            this.panel5.Location = new System.Drawing.Point(595, 0);
             this.panel5.Margin = new System.Windows.Forms.Padding(0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(518, 100);
+            this.panel5.Size = new System.Drawing.Size(411, 100);
             this.panel5.TabIndex = 124;
             // 
             // Topiclabel5
             // 
-            this.Topiclabel5.AutoSize = true;
             this.Topiclabel5.BackColor = System.Drawing.Color.Transparent;
             this.Topiclabel5.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Topiclabel5.ForeColor = System.Drawing.Color.White;
-            this.Topiclabel5.Location = new System.Drawing.Point(201, 23);
+            this.Topiclabel5.Location = new System.Drawing.Point(0, 23);
             this.Topiclabel5.Margin = new System.Windows.Forms.Padding(0);
             this.Topiclabel5.Name = "Topiclabel5";
-            this.Topiclabel5.Size = new System.Drawing.Size(160, 45);
+            this.Topiclabel5.Size = new System.Drawing.Size(402, 45);
             this.Topiclabel5.TabIndex = 116;
             this.Topiclabel5.Text = "辨識標籤";
             this.Topiclabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2799,19 +2820,18 @@ namespace papacy1
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Margin = new System.Windows.Forms.Padding(0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(492, 100);
+            this.panel6.Size = new System.Drawing.Size(595, 100);
             this.panel6.TabIndex = 123;
             // 
             // Examplelabel5
             // 
-            this.Examplelabel5.AutoSize = true;
             this.Examplelabel5.BackColor = System.Drawing.Color.Transparent;
             this.Examplelabel5.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Examplelabel5.ForeColor = System.Drawing.Color.White;
-            this.Examplelabel5.Location = new System.Drawing.Point(168, 23);
+            this.Examplelabel5.Location = new System.Drawing.Point(0, 23);
             this.Examplelabel5.Margin = new System.Windows.Forms.Padding(0);
             this.Examplelabel5.Name = "Examplelabel5";
-            this.Examplelabel5.Size = new System.Drawing.Size(160, 45);
+            this.Examplelabel5.Size = new System.Drawing.Size(595, 45);
             this.Examplelabel5.TabIndex = 117;
             this.Examplelabel5.Text = "列印樣本";
             this.Examplelabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2819,12 +2839,21 @@ namespace papacy1
             // label36
             // 
             this.label36.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label36.Location = new System.Drawing.Point(466, 431);
+            this.label36.Location = new System.Drawing.Point(610, 429);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(135, 29);
             this.label36.TabIndex = 147;
             this.label36.Text = "C/NO :";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox13.Location = new System.Drawing.Point(3, 85);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(592, 592);
+            this.pictureBox13.TabIndex = 380;
+            this.pictureBox13.TabStop = false;
             // 
             // tabPage6
             // 
@@ -2873,6 +2902,7 @@ namespace papacy1
             this.tabPage6.Controls.Add(this.panel3);
             this.tabPage6.Controls.Add(this.panel4);
             this.tabPage6.Controls.Add(this.label26);
+            this.tabPage6.Controls.Add(this.pictureBox14);
             this.tabPage6.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage6.Location = new System.Drawing.Point(4, 44);
             this.tabPage6.Name = "tabPage6";
@@ -2890,15 +2920,16 @@ namespace papacy1
             "2",
             "3",
             "4"});
-            this.MD6_CBX_CNO.Location = new System.Drawing.Point(164, 520);
+            this.MD6_CBX_CNO.Location = new System.Drawing.Point(160, 465);
             this.MD6_CBX_CNO.Name = "MD6_CBX_CNO";
             this.MD6_CBX_CNO.Size = new System.Drawing.Size(70, 31);
             this.MD6_CBX_CNO.TabIndex = 380;
             // 
             // label96
             // 
+            this.label96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label96.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label96.Location = new System.Drawing.Point(12, 520);
+            this.label96.Location = new System.Drawing.Point(8, 465);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(140, 29);
             this.label96.TabIndex = 381;
@@ -2908,23 +2939,23 @@ namespace papacy1
             // PrintQuantitynumericUpDown6
             // 
             this.PrintQuantitynumericUpDown6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown6.Location = new System.Drawing.Point(248, 565);
+            this.PrintQuantitynumericUpDown6.Location = new System.Drawing.Point(674, 579);
             this.PrintQuantitynumericUpDown6.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
             this.PrintQuantitynumericUpDown6.Name = "PrintQuantitynumericUpDown6";
-            this.PrintQuantitynumericUpDown6.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown6.Size = new System.Drawing.Size(111, 32);
             this.PrintQuantitynumericUpDown6.TabIndex = 135;
             this.PrintQuantitynumericUpDown6.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown6_ValueChanged);
             // 
             // label80
             // 
             this.label80.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label80.Location = new System.Drawing.Point(92, 567);
+            this.label80.Location = new System.Drawing.Point(551, 580);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(150, 29);
+            this.label80.Size = new System.Drawing.Size(117, 29);
             this.label80.TabIndex = 203;
             this.label80.Text = "列印數量 :";
             this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2933,10 +2964,10 @@ namespace papacy1
             // 
             this.AddtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.AddtextBox6.Location = new System.Drawing.Point(782, 565);
+            this.AddtextBox6.Location = new System.Drawing.Point(878, 540);
             this.AddtextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.AddtextBox6.Name = "AddtextBox6";
-            this.AddtextBox6.Size = new System.Drawing.Size(65, 32);
+            this.AddtextBox6.Size = new System.Drawing.Size(116, 32);
             this.AddtextBox6.TabIndex = 155;
             this.AddtextBox6.Text = "1";
             this.AddtextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2946,7 +2977,7 @@ namespace papacy1
             // 
             this.label79.AutoSize = true;
             this.label79.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label79.Location = new System.Drawing.Point(705, 567);
+            this.label79.Location = new System.Drawing.Point(793, 542);
             this.label79.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(77, 24);
@@ -2956,6 +2987,7 @@ namespace papacy1
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label8.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label8.Location = new System.Drawing.Point(3, 643);
             this.label8.Name = "label8";
@@ -2968,7 +3000,7 @@ namespace papacy1
             // 
             this.ManufacturertextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ManufacturertextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ManufacturertextBox6.Location = new System.Drawing.Point(674, 341);
+            this.ManufacturertextBox6.Location = new System.Drawing.Point(674, 286);
             this.ManufacturertextBox6.Name = "ManufacturertextBox6";
             this.ManufacturertextBox6.Size = new System.Drawing.Size(320, 32);
             this.ManufacturertextBox6.TabIndex = 70;
@@ -2978,15 +3010,14 @@ namespace papacy1
             // Resetbutton6
             // 
             this.Resetbutton6.AutoSize = true;
-            this.Resetbutton6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Resetbutton6.BackColor = System.Drawing.Color.Firebrick;
-            this.Resetbutton6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Resetbutton6.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Resetbutton6.ForeColor = System.Drawing.Color.White;
-            this.Resetbutton6.Location = new System.Drawing.Point(928, 612);
+            this.Resetbutton6.Location = new System.Drawing.Point(934, 625);
             this.Resetbutton6.Margin = new System.Windows.Forms.Padding(2);
             this.Resetbutton6.Name = "Resetbutton6";
             this.Resetbutton6.Padding = new System.Windows.Forms.Padding(2);
-            this.Resetbutton6.Size = new System.Drawing.Size(56, 35);
+            this.Resetbutton6.Size = new System.Drawing.Size(62, 38);
             this.Resetbutton6.TabIndex = 180;
             this.Resetbutton6.Text = "清除";
             this.Resetbutton6.UseVisualStyleBackColor = false;
@@ -2995,34 +3026,32 @@ namespace papacy1
             // Submitbutton6
             // 
             this.Submitbutton6.AutoSize = true;
-            this.Submitbutton6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Submitbutton6.BackColor = System.Drawing.Color.YellowGreen;
-            this.Submitbutton6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Submitbutton6.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Submitbutton6.ForeColor = System.Drawing.Color.White;
-            this.Submitbutton6.Location = new System.Drawing.Point(765, 612);
+            this.Submitbutton6.Location = new System.Drawing.Point(638, 625);
             this.Submitbutton6.Margin = new System.Windows.Forms.Padding(2);
             this.Submitbutton6.Name = "Submitbutton6";
             this.Submitbutton6.Padding = new System.Windows.Forms.Padding(2);
-            this.Submitbutton6.Size = new System.Drawing.Size(56, 35);
+            this.Submitbutton6.Size = new System.Drawing.Size(292, 38);
             this.Submitbutton6.TabIndex = 160;
-            this.Submitbutton6.Text = "提交";
+            this.Submitbutton6.Text = "列印";
             this.Submitbutton6.UseVisualStyleBackColor = false;
             this.Submitbutton6.Click += new System.EventHandler(this.Submitbutton6_Click);
             // 
             // Priviewbutton6
             // 
             this.Priviewbutton6.AutoSize = true;
-            this.Priviewbutton6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Priviewbutton6.BackColor = System.Drawing.Color.Orange;
-            this.Priviewbutton6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Priviewbutton6.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Priviewbutton6.ForeColor = System.Drawing.Color.White;
-            this.Priviewbutton6.Location = new System.Drawing.Point(562, 612);
+            this.Priviewbutton6.Location = new System.Drawing.Point(573, 625);
             this.Priviewbutton6.Margin = new System.Windows.Forms.Padding(1);
             this.Priviewbutton6.Name = "Priviewbutton6";
             this.Priviewbutton6.Padding = new System.Windows.Forms.Padding(2);
-            this.Priviewbutton6.Size = new System.Drawing.Size(88, 35);
+            this.Priviewbutton6.Size = new System.Drawing.Size(62, 38);
             this.Priviewbutton6.TabIndex = 170;
-            this.Priviewbutton6.Text = "列印預覽";
+            this.Priviewbutton6.Text = "預覽";
             this.Priviewbutton6.UseVisualStyleBackColor = false;
             this.Priviewbutton6.Click += new System.EventHandler(this.Priviewbutton6_Click);
             // 
@@ -3030,7 +3059,7 @@ namespace papacy1
             // 
             this.GWtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GWtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWtextBox6.Location = new System.Drawing.Point(674, 517);
+            this.GWtextBox6.Location = new System.Drawing.Point(674, 462);
             this.GWtextBox6.Name = "GWtextBox6";
             this.GWtextBox6.Size = new System.Drawing.Size(97, 32);
             this.GWtextBox6.TabIndex = 110;
@@ -3041,7 +3070,7 @@ namespace papacy1
             // 
             this.NWtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NWtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWtextBox6.Location = new System.Drawing.Point(674, 473);
+            this.NWtextBox6.Location = new System.Drawing.Point(674, 418);
             this.NWtextBox6.Name = "NWtextBox6";
             this.NWtextBox6.Size = new System.Drawing.Size(97, 32);
             this.NWtextBox6.TabIndex = 100;
@@ -3057,7 +3086,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.GWunitcomboBox6.Location = new System.Drawing.Point(838, 515);
+            this.GWunitcomboBox6.Location = new System.Drawing.Point(838, 460);
             this.GWunitcomboBox6.Name = "GWunitcomboBox6";
             this.GWunitcomboBox6.Size = new System.Drawing.Size(51, 31);
             this.GWunitcomboBox6.TabIndex = 130;
@@ -3072,7 +3101,7 @@ namespace papacy1
             "T",
             "KG",
             "g"});
-            this.NWunitcomboBox6.Location = new System.Drawing.Point(838, 472);
+            this.NWunitcomboBox6.Location = new System.Drawing.Point(838, 417);
             this.NWunitcomboBox6.Name = "NWunitcomboBox6";
             this.NWunitcomboBox6.Size = new System.Drawing.Size(51, 31);
             this.NWunitcomboBox6.TabIndex = 120;
@@ -3082,7 +3111,7 @@ namespace papacy1
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label27.Location = new System.Drawing.Point(776, 519);
+            this.label27.Location = new System.Drawing.Point(776, 464);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(58, 24);
             this.label27.TabIndex = 186;
@@ -3093,7 +3122,7 @@ namespace papacy1
             // 
             this.NWunitlabel.AutoSize = true;
             this.NWunitlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWunitlabel.Location = new System.Drawing.Point(776, 475);
+            this.NWunitlabel.Location = new System.Drawing.Point(776, 420);
             this.NWunitlabel.Name = "NWunitlabel";
             this.NWunitlabel.Size = new System.Drawing.Size(58, 24);
             this.NWunitlabel.TabIndex = 185;
@@ -3103,7 +3132,7 @@ namespace papacy1
             // NWlabel
             // 
             this.NWlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NWlabel.Location = new System.Drawing.Point(487, 475);
+            this.NWlabel.Location = new System.Drawing.Point(487, 420);
             this.NWlabel.Name = "NWlabel";
             this.NWlabel.Size = new System.Drawing.Size(181, 29);
             this.NWlabel.TabIndex = 184;
@@ -3113,7 +3142,7 @@ namespace papacy1
             // GWlabel
             // 
             this.GWlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWlabel.Location = new System.Drawing.Point(487, 519);
+            this.GWlabel.Location = new System.Drawing.Point(487, 464);
             this.GWlabel.Name = "GWlabel";
             this.GWlabel.Size = new System.Drawing.Size(181, 29);
             this.GWlabel.TabIndex = 183;
@@ -3126,10 +3155,10 @@ namespace papacy1
             this.EndtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EndtextBox6.Enabled = false;
             this.EndtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.EndtextBox6.Location = new System.Drawing.Point(933, 565);
+            this.EndtextBox6.Location = new System.Drawing.Point(878, 580);
             this.EndtextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.EndtextBox6.Name = "EndtextBox6";
-            this.EndtextBox6.Size = new System.Drawing.Size(65, 32);
+            this.EndtextBox6.Size = new System.Drawing.Size(116, 32);
             this.EndtextBox6.TabIndex = 181;
             this.EndtextBox6.TabStop = false;
             this.EndtextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3137,7 +3166,7 @@ namespace papacy1
             // label24
             // 
             this.label24.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label24.Location = new System.Drawing.Point(846, 567);
+            this.label24.Location = new System.Drawing.Point(793, 581);
             this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(94, 29);
@@ -3148,10 +3177,10 @@ namespace papacy1
             // 
             this.StarttextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarttextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.StarttextBox6.Location = new System.Drawing.Point(632, 565);
+            this.StarttextBox6.Location = new System.Drawing.Point(674, 541);
             this.StarttextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.StarttextBox6.Name = "StarttextBox6";
-            this.StarttextBox6.Size = new System.Drawing.Size(65, 32);
+            this.StarttextBox6.Size = new System.Drawing.Size(111, 32);
             this.StarttextBox6.TabIndex = 150;
             this.StarttextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.StarttextBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.StarttextBox6_KeyPress);
@@ -3159,7 +3188,7 @@ namespace papacy1
             // label25
             // 
             this.label25.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label25.Location = new System.Drawing.Point(547, 567);
+            this.label25.Location = new System.Drawing.Point(589, 543);
             this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(94, 29);
@@ -3170,10 +3199,10 @@ namespace papacy1
             // 
             this.CNOtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CNOtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNOtextBox6.Location = new System.Drawing.Point(466, 565);
+            this.CNOtextBox6.Location = new System.Drawing.Point(674, 501);
             this.CNOtextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.CNOtextBox6.Name = "CNOtextBox6";
-            this.CNOtextBox6.Size = new System.Drawing.Size(73, 32);
+            this.CNOtextBox6.Size = new System.Drawing.Size(320, 32);
             this.CNOtextBox6.TabIndex = 140;
             this.CNOtextBox6.Text = "F";
             this.CNOtextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3182,7 +3211,7 @@ namespace papacy1
             // 
             this.MaterialtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MaterialtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MaterialtextBox6.Location = new System.Drawing.Point(674, 429);
+            this.MaterialtextBox6.Location = new System.Drawing.Point(674, 374);
             this.MaterialtextBox6.Name = "MaterialtextBox6";
             this.MaterialtextBox6.Size = new System.Drawing.Size(320, 32);
             this.MaterialtextBox6.TabIndex = 90;
@@ -3191,7 +3220,7 @@ namespace papacy1
             // label23
             // 
             this.label23.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label23.Location = new System.Drawing.Point(487, 431);
+            this.label23.Location = new System.Drawing.Point(487, 376);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(181, 29);
             this.label23.TabIndex = 175;
@@ -3202,7 +3231,7 @@ namespace papacy1
             // 
             this.OrigintextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OrigintextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.OrigintextBox6.Location = new System.Drawing.Point(674, 385);
+            this.OrigintextBox6.Location = new System.Drawing.Point(674, 330);
             this.OrigintextBox6.Name = "OrigintextBox6";
             this.OrigintextBox6.Size = new System.Drawing.Size(320, 32);
             this.OrigintextBox6.TabIndex = 80;
@@ -3213,7 +3242,7 @@ namespace papacy1
             // Originlabel
             // 
             this.Originlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Originlabel.Location = new System.Drawing.Point(487, 387);
+            this.Originlabel.Location = new System.Drawing.Point(487, 332);
             this.Originlabel.Name = "Originlabel";
             this.Originlabel.Size = new System.Drawing.Size(181, 29);
             this.Originlabel.TabIndex = 173;
@@ -3223,7 +3252,7 @@ namespace papacy1
             // label22
             // 
             this.label22.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label22.Location = new System.Drawing.Point(487, 343);
+            this.label22.Location = new System.Drawing.Point(487, 288);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(181, 29);
             this.label22.TabIndex = 171;
@@ -3234,7 +3263,7 @@ namespace papacy1
             // 
             this.CNPJtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CNPJtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNPJtextBox6.Location = new System.Drawing.Point(674, 297);
+            this.CNPJtextBox6.Location = new System.Drawing.Point(674, 242);
             this.CNPJtextBox6.Name = "CNPJtextBox6";
             this.CNPJtextBox6.Size = new System.Drawing.Size(320, 32);
             this.CNPJtextBox6.TabIndex = 60;
@@ -3243,7 +3272,7 @@ namespace papacy1
             // label21
             // 
             this.label21.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label21.Location = new System.Drawing.Point(487, 299);
+            this.label21.Location = new System.Drawing.Point(487, 244);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(181, 29);
             this.label21.TabIndex = 169;
@@ -3254,7 +3283,7 @@ namespace papacy1
             // 
             this.ImportertextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ImportertextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ImportertextBox6.Location = new System.Drawing.Point(674, 253);
+            this.ImportertextBox6.Location = new System.Drawing.Point(674, 198);
             this.ImportertextBox6.Name = "ImportertextBox6";
             this.ImportertextBox6.Size = new System.Drawing.Size(320, 32);
             this.ImportertextBox6.TabIndex = 50;
@@ -3263,7 +3292,7 @@ namespace papacy1
             // label20
             // 
             this.label20.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label20.Location = new System.Drawing.Point(487, 255);
+            this.label20.Location = new System.Drawing.Point(487, 200);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(181, 29);
             this.label20.TabIndex = 167;
@@ -3279,7 +3308,7 @@ namespace papacy1
             "TEX",
             "DECITEX",
             "DENIER"});
-            this.LinearDensityUnitcomboBox6.Location = new System.Drawing.Point(829, 208);
+            this.LinearDensityUnitcomboBox6.Location = new System.Drawing.Point(829, 153);
             this.LinearDensityUnitcomboBox6.Name = "LinearDensityUnitcomboBox6";
             this.LinearDensityUnitcomboBox6.Size = new System.Drawing.Size(111, 31);
             this.LinearDensityUnitcomboBox6.TabIndex = 40;
@@ -3288,7 +3317,7 @@ namespace papacy1
             // 
             this.GWunitlabel.AutoSize = true;
             this.GWunitlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.GWunitlabel.Location = new System.Drawing.Point(761, 211);
+            this.GWunitlabel.Location = new System.Drawing.Point(761, 156);
             this.GWunitlabel.Name = "GWunitlabel";
             this.GWunitlabel.Size = new System.Drawing.Size(58, 24);
             this.GWunitlabel.TabIndex = 165;
@@ -3299,7 +3328,7 @@ namespace papacy1
             // 
             this.LinearDensitynumericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LinearDensitynumericUpDown6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LinearDensitynumericUpDown6.Location = new System.Drawing.Point(674, 209);
+            this.LinearDensitynumericUpDown6.Location = new System.Drawing.Point(674, 154);
             this.LinearDensitynumericUpDown6.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
@@ -3313,7 +3342,7 @@ namespace papacy1
             // LinearDensitylabel
             // 
             this.LinearDensitylabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LinearDensitylabel.Location = new System.Drawing.Point(487, 211);
+            this.LinearDensitylabel.Location = new System.Drawing.Point(487, 156);
             this.LinearDensitylabel.Name = "LinearDensitylabel";
             this.LinearDensitylabel.Size = new System.Drawing.Size(181, 29);
             this.LinearDensitylabel.TabIndex = 163;
@@ -3324,7 +3353,7 @@ namespace papacy1
             // 
             this.YarnCounttextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.YarnCounttextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.YarnCounttextBox6.Location = new System.Drawing.Point(674, 165);
+            this.YarnCounttextBox6.Location = new System.Drawing.Point(674, 110);
             this.YarnCounttextBox6.Name = "YarnCounttextBox6";
             this.YarnCounttextBox6.Size = new System.Drawing.Size(215, 32);
             this.YarnCounttextBox6.TabIndex = 20;
@@ -3333,7 +3362,7 @@ namespace papacy1
             // YarnCountlabel
             // 
             this.YarnCountlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.YarnCountlabel.Location = new System.Drawing.Point(487, 167);
+            this.YarnCountlabel.Location = new System.Drawing.Point(487, 112);
             this.YarnCountlabel.Name = "YarnCountlabel";
             this.YarnCountlabel.Size = new System.Drawing.Size(181, 29);
             this.YarnCountlabel.TabIndex = 161;
@@ -3344,7 +3373,7 @@ namespace papacy1
             // 
             this.LOTtextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LOTtextBox6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LOTtextBox6.Location = new System.Drawing.Point(674, 121);
+            this.LOTtextBox6.Location = new System.Drawing.Point(674, 66);
             this.LOTtextBox6.Name = "LOTtextBox6";
             this.LOTtextBox6.Size = new System.Drawing.Size(215, 32);
             this.LOTtextBox6.TabIndex = 10;
@@ -3353,7 +3382,7 @@ namespace papacy1
             // label19
             // 
             this.label19.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label19.Location = new System.Drawing.Point(487, 123);
+            this.label19.Location = new System.Drawing.Point(487, 68);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(181, 29);
             this.label19.TabIndex = 159;
@@ -3365,11 +3394,11 @@ namespace papacy1
             this.pictureBox6.BackColor = System.Drawing.Color.Silver;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.InitialImage")));
-            this.pictureBox6.Location = new System.Drawing.Point(16, 150);
+            this.pictureBox6.Location = new System.Drawing.Point(5, 78);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(468, 352);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 158;
             this.pictureBox6.TabStop = false;
             // 
@@ -3378,22 +3407,21 @@ namespace papacy1
             this.panel3.AutoSize = true;
             this.panel3.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel3.Controls.Add(this.Topiclabel6);
-            this.panel3.Location = new System.Drawing.Point(492, 0);
+            this.panel3.Location = new System.Drawing.Point(486, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(518, 100);
+            this.panel3.Size = new System.Drawing.Size(524, 55);
             this.panel3.TabIndex = 124;
             // 
             // Topiclabel6
             // 
-            this.Topiclabel6.AutoSize = true;
             this.Topiclabel6.BackColor = System.Drawing.Color.Transparent;
             this.Topiclabel6.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Topiclabel6.ForeColor = System.Drawing.Color.White;
-            this.Topiclabel6.Location = new System.Drawing.Point(201, 23);
+            this.Topiclabel6.Location = new System.Drawing.Point(0, 0);
             this.Topiclabel6.Margin = new System.Windows.Forms.Padding(0);
             this.Topiclabel6.Name = "Topiclabel6";
-            this.Topiclabel6.Size = new System.Drawing.Size(160, 45);
+            this.Topiclabel6.Size = new System.Drawing.Size(510, 55);
             this.Topiclabel6.TabIndex = 116;
             this.Topiclabel6.Text = "辨識標籤";
             this.Topiclabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3405,19 +3433,18 @@ namespace papacy1
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(492, 100);
+            this.panel4.Size = new System.Drawing.Size(486, 55);
             this.panel4.TabIndex = 123;
             // 
             // Examplelabel6
             // 
-            this.Examplelabel6.AutoSize = true;
             this.Examplelabel6.BackColor = System.Drawing.Color.Transparent;
             this.Examplelabel6.Font = new System.Drawing.Font("微軟正黑體", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Examplelabel6.ForeColor = System.Drawing.Color.White;
-            this.Examplelabel6.Location = new System.Drawing.Point(168, 23);
+            this.Examplelabel6.Location = new System.Drawing.Point(0, 0);
             this.Examplelabel6.Margin = new System.Windows.Forms.Padding(0);
             this.Examplelabel6.Name = "Examplelabel6";
-            this.Examplelabel6.Size = new System.Drawing.Size(160, 45);
+            this.Examplelabel6.Size = new System.Drawing.Size(486, 55);
             this.Examplelabel6.TabIndex = 117;
             this.Examplelabel6.Text = "列印樣本";
             this.Examplelabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3425,12 +3452,21 @@ namespace papacy1
             // label26
             // 
             this.label26.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label26.Location = new System.Drawing.Point(371, 567);
+            this.label26.Location = new System.Drawing.Point(580, 504);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(88, 29);
             this.label26.TabIndex = 182;
             this.label26.Text = "C/NO :";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox14.Location = new System.Drawing.Point(-4, 48);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(490, 649);
+            this.pictureBox14.TabIndex = 382;
+            this.pictureBox14.TabStop = false;
             // 
             // tabPage7
             // 
@@ -3465,6 +3501,7 @@ namespace papacy1
             this.tabPage7.Controls.Add(this.panel2);
             this.tabPage7.Controls.Add(this.CNOlabel);
             this.tabPage7.Controls.Add(this.EndtextBox7);
+            this.tabPage7.Controls.Add(this.pictureBox15);
             this.tabPage7.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage7.Location = new System.Drawing.Point(4, 44);
             this.tabPage7.Margin = new System.Windows.Forms.Padding(0);
@@ -3490,6 +3527,7 @@ namespace papacy1
             // 
             // label97
             // 
+            this.label97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label97.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label97.Location = new System.Drawing.Point(15, 517);
             this.label97.Name = "label97";
@@ -3502,10 +3540,10 @@ namespace papacy1
             // 
             this.AddtextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AddtextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.AddtextBox7.Location = new System.Drawing.Point(914, 351);
+            this.AddtextBox7.Location = new System.Drawing.Point(878, 422);
             this.AddtextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.AddtextBox7.Name = "AddtextBox7";
-            this.AddtextBox7.Size = new System.Drawing.Size(65, 32);
+            this.AddtextBox7.Size = new System.Drawing.Size(104, 32);
             this.AddtextBox7.TabIndex = 83;
             this.AddtextBox7.Text = "1";
             this.AddtextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3515,7 +3553,7 @@ namespace papacy1
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label18.Location = new System.Drawing.Point(837, 353);
+            this.label18.Location = new System.Drawing.Point(793, 424);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(77, 24);
@@ -3525,23 +3563,23 @@ namespace papacy1
             // PrintQuantitynumericUpDown7
             // 
             this.PrintQuantitynumericUpDown7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown7.Location = new System.Drawing.Point(672, 396);
+            this.PrintQuantitynumericUpDown7.Location = new System.Drawing.Point(663, 464);
             this.PrintQuantitynumericUpDown7.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
             0,
             0});
             this.PrintQuantitynumericUpDown7.Name = "PrintQuantitynumericUpDown7";
-            this.PrintQuantitynumericUpDown7.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown7.Size = new System.Drawing.Size(122, 32);
             this.PrintQuantitynumericUpDown7.TabIndex = 87;
             this.PrintQuantitynumericUpDown7.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown7_ValueChanged);
             // 
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label7.Location = new System.Drawing.Point(516, 398);
+            this.label7.Location = new System.Drawing.Point(549, 467);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 29);
+            this.label7.Size = new System.Drawing.Size(110, 29);
             this.label7.TabIndex = 197;
             this.label7.Text = "列印數量 :";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3549,6 +3587,7 @@ namespace papacy1
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label10.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label10.Location = new System.Drawing.Point(3, 643);
             this.label10.Name = "label10";
@@ -3561,7 +3600,7 @@ namespace papacy1
             // 
             this.ImportertextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ImportertextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ImportertextBox7.Location = new System.Drawing.Point(674, 121);
+            this.ImportertextBox7.Location = new System.Drawing.Point(663, 150);
             this.ImportertextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.ImportertextBox7.Name = "ImportertextBox7";
             this.ImportertextBox7.Size = new System.Drawing.Size(319, 32);
@@ -3574,10 +3613,10 @@ namespace papacy1
             // 
             this.OrigintextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OrigintextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.OrigintextBox7.Location = new System.Drawing.Point(674, 305);
+            this.OrigintextBox7.Location = new System.Drawing.Point(663, 334);
             this.OrigintextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.OrigintextBox7.Name = "OrigintextBox7";
-            this.OrigintextBox7.Size = new System.Drawing.Size(214, 32);
+            this.OrigintextBox7.Size = new System.Drawing.Size(319, 32);
             this.OrigintextBox7.TabIndex = 60;
             this.OrigintextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.OrigintextBox7.Enter += new System.EventHandler(this.OrigintextBox7_Enter);
@@ -3586,7 +3625,7 @@ namespace papacy1
             // label78
             // 
             this.label78.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label78.Location = new System.Drawing.Point(516, 307);
+            this.label78.Location = new System.Drawing.Point(505, 336);
             this.label78.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(150, 29);
@@ -3597,15 +3636,14 @@ namespace papacy1
             // Resetbutton7
             // 
             this.Resetbutton7.AutoSize = true;
-            this.Resetbutton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Resetbutton7.BackColor = System.Drawing.Color.Firebrick;
-            this.Resetbutton7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Resetbutton7.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Resetbutton7.ForeColor = System.Drawing.Color.White;
-            this.Resetbutton7.Location = new System.Drawing.Point(926, 526);
+            this.Resetbutton7.Location = new System.Drawing.Point(920, 517);
             this.Resetbutton7.Margin = new System.Windows.Forms.Padding(2);
             this.Resetbutton7.Name = "Resetbutton7";
             this.Resetbutton7.Padding = new System.Windows.Forms.Padding(2);
-            this.Resetbutton7.Size = new System.Drawing.Size(56, 35);
+            this.Resetbutton7.Size = new System.Drawing.Size(62, 38);
             this.Resetbutton7.TabIndex = 110;
             this.Resetbutton7.Text = "清除";
             this.Resetbutton7.UseVisualStyleBackColor = false;
@@ -3614,34 +3652,32 @@ namespace papacy1
             // Submitbutton7
             // 
             this.Submitbutton7.AutoSize = true;
-            this.Submitbutton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Submitbutton7.BackColor = System.Drawing.Color.YellowGreen;
-            this.Submitbutton7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Submitbutton7.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Submitbutton7.ForeColor = System.Drawing.Color.White;
-            this.Submitbutton7.Location = new System.Drawing.Point(763, 526);
+            this.Submitbutton7.Location = new System.Drawing.Point(628, 519);
             this.Submitbutton7.Margin = new System.Windows.Forms.Padding(2);
             this.Submitbutton7.Name = "Submitbutton7";
             this.Submitbutton7.Padding = new System.Windows.Forms.Padding(2);
-            this.Submitbutton7.Size = new System.Drawing.Size(56, 35);
+            this.Submitbutton7.Size = new System.Drawing.Size(288, 38);
             this.Submitbutton7.TabIndex = 90;
-            this.Submitbutton7.Text = "提交";
+            this.Submitbutton7.Text = "列印";
             this.Submitbutton7.UseVisualStyleBackColor = false;
             this.Submitbutton7.Click += new System.EventHandler(this.Submitbutton7_Click);
             // 
             // Priviewbutton7
             // 
             this.Priviewbutton7.AutoSize = true;
-            this.Priviewbutton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Priviewbutton7.BackColor = System.Drawing.Color.Orange;
-            this.Priviewbutton7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Priviewbutton7.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold);
             this.Priviewbutton7.ForeColor = System.Drawing.Color.White;
-            this.Priviewbutton7.Location = new System.Drawing.Point(560, 526);
+            this.Priviewbutton7.Location = new System.Drawing.Point(563, 519);
             this.Priviewbutton7.Margin = new System.Windows.Forms.Padding(1);
             this.Priviewbutton7.Name = "Priviewbutton7";
             this.Priviewbutton7.Padding = new System.Windows.Forms.Padding(2);
-            this.Priviewbutton7.Size = new System.Drawing.Size(88, 35);
+            this.Priviewbutton7.Size = new System.Drawing.Size(62, 38);
             this.Priviewbutton7.TabIndex = 100;
-            this.Priviewbutton7.Text = "列印預覽";
+            this.Priviewbutton7.Text = "預覽";
             this.Priviewbutton7.UseVisualStyleBackColor = false;
             this.Priviewbutton7.Click += new System.EventHandler(this.Priviewbutton7_Click);
             // 
@@ -3649,7 +3685,7 @@ namespace papacy1
             // 
             this.Endlabel.AutoSize = true;
             this.Endlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Endlabel.Location = new System.Drawing.Point(796, 398);
+            this.Endlabel.Location = new System.Drawing.Point(792, 466);
             this.Endlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Endlabel.Name = "Endlabel";
             this.Endlabel.Size = new System.Drawing.Size(77, 24);
@@ -3660,10 +3696,10 @@ namespace papacy1
             // 
             this.StarttextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarttextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.StarttextBox7.Location = new System.Drawing.Point(763, 351);
+            this.StarttextBox7.Location = new System.Drawing.Point(663, 422);
             this.StarttextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.StarttextBox7.Name = "StarttextBox7";
-            this.StarttextBox7.Size = new System.Drawing.Size(65, 32);
+            this.StarttextBox7.Size = new System.Drawing.Size(122, 32);
             this.StarttextBox7.TabIndex = 80;
             this.StarttextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.StarttextBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.StarttextBox7_KeyPress);
@@ -3672,7 +3708,7 @@ namespace papacy1
             // 
             this.Startlabel.AutoSize = true;
             this.Startlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Startlabel.Location = new System.Drawing.Point(680, 353);
+            this.Startlabel.Location = new System.Drawing.Point(582, 424);
             this.Startlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Startlabel.Name = "Startlabel";
             this.Startlabel.Size = new System.Drawing.Size(77, 24);
@@ -3683,10 +3719,10 @@ namespace papacy1
             // 
             this.CartontextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CartontextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CartontextBox7.Location = new System.Drawing.Point(599, 351);
+            this.CartontextBox7.Location = new System.Drawing.Point(663, 379);
             this.CartontextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.CartontextBox7.Name = "CartontextBox7";
-            this.CartontextBox7.Size = new System.Drawing.Size(73, 32);
+            this.CartontextBox7.Size = new System.Drawing.Size(319, 32);
             this.CartontextBox7.TabIndex = 70;
             this.CartontextBox7.Text = "b";
             this.CartontextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3695,17 +3731,17 @@ namespace papacy1
             // 
             this.LOTtextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LOTtextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LOTtextBox7.Location = new System.Drawing.Point(674, 259);
+            this.LOTtextBox7.Location = new System.Drawing.Point(663, 288);
             this.LOTtextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.LOTtextBox7.Name = "LOTtextBox7";
-            this.LOTtextBox7.Size = new System.Drawing.Size(214, 32);
+            this.LOTtextBox7.Size = new System.Drawing.Size(319, 32);
             this.LOTtextBox7.TabIndex = 50;
             this.LOTtextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LOTlabel
             // 
             this.LOTlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.LOTlabel.Location = new System.Drawing.Point(516, 261);
+            this.LOTlabel.Location = new System.Drawing.Point(505, 290);
             this.LOTlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LOTlabel.Name = "LOTlabel";
             this.LOTlabel.Size = new System.Drawing.Size(150, 29);
@@ -3717,17 +3753,17 @@ namespace papacy1
             // 
             this.MaterialtextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MaterialtextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MaterialtextBox7.Location = new System.Drawing.Point(674, 213);
+            this.MaterialtextBox7.Location = new System.Drawing.Point(663, 242);
             this.MaterialtextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.MaterialtextBox7.Name = "MaterialtextBox7";
-            this.MaterialtextBox7.Size = new System.Drawing.Size(214, 32);
+            this.MaterialtextBox7.Size = new System.Drawing.Size(319, 32);
             this.MaterialtextBox7.TabIndex = 40;
             this.MaterialtextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(516, 215);
+            this.label4.Location = new System.Drawing.Point(505, 244);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(150, 29);
@@ -3739,7 +3775,7 @@ namespace papacy1
             // 
             this.POtextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.POtextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.POtextBox7.Location = new System.Drawing.Point(885, 167);
+            this.POtextBox7.Location = new System.Drawing.Point(874, 196);
             this.POtextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.POtextBox7.Name = "POtextBox7";
             this.POtextBox7.Size = new System.Drawing.Size(108, 32);
@@ -3750,7 +3786,7 @@ namespace papacy1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(850, 169);
+            this.label3.Location = new System.Drawing.Point(839, 198);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 24);
@@ -3762,7 +3798,7 @@ namespace papacy1
             // 
             this.SNtextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SNtextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.SNtextBox7.Location = new System.Drawing.Point(674, 167);
+            this.SNtextBox7.Location = new System.Drawing.Point(663, 196);
             this.SNtextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.SNtextBox7.Name = "SNtextBox7";
             this.SNtextBox7.Size = new System.Drawing.Size(168, 32);
@@ -3772,7 +3808,7 @@ namespace papacy1
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(516, 169);
+            this.label2.Location = new System.Drawing.Point(505, 198);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 29);
@@ -3783,7 +3819,7 @@ namespace papacy1
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(516, 123);
+            this.label1.Location = new System.Drawing.Point(505, 152);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -3822,11 +3858,11 @@ namespace papacy1
             this.pictureBox7.BackColor = System.Drawing.Color.Silver;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.InitialImage")));
-            this.pictureBox7.Location = new System.Drawing.Point(19, 150);
+            this.pictureBox7.Location = new System.Drawing.Point(19, 141);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(460, 349);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 121;
             this.pictureBox7.TabStop = false;
             // 
@@ -3857,7 +3893,7 @@ namespace papacy1
             // CNOlabel
             // 
             this.CNOlabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.CNOlabel.Location = new System.Drawing.Point(441, 353);
+            this.CNOlabel.Location = new System.Drawing.Point(505, 378);
             this.CNOlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CNOlabel.Name = "CNOlabel";
             this.CNOlabel.Size = new System.Drawing.Size(150, 29);
@@ -3871,28 +3907,19 @@ namespace papacy1
             this.EndtextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EndtextBox7.Enabled = false;
             this.EndtextBox7.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.EndtextBox7.Location = new System.Drawing.Point(876, 396);
+            this.EndtextBox7.Location = new System.Drawing.Point(877, 462);
             this.EndtextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.EndtextBox7.Name = "EndtextBox7";
-            this.EndtextBox7.Size = new System.Drawing.Size(65, 32);
+            this.EndtextBox7.Size = new System.Drawing.Size(105, 32);
             this.EndtextBox7.TabIndex = 141;
             this.EndtextBox7.TabStop = false;
             this.EndtextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tabPage8
             // 
-            this.tabPage8.Controls.Add(this.pictureBox8);
-            this.tabPage8.Controls.Add(this.label16);
-            this.tabPage8.Controls.Add(this.richTextBox);
-            this.tabPage8.Controls.Add(this.label9);
-            this.tabPage8.Controls.Add(this.Printerbutton);
-            this.tabPage8.Controls.Add(this.button1);
-            this.tabPage8.Controls.Add(this.PrintMachinelabel);
-            this.tabPage8.Controls.Add(this.listBoxPrinters);
-            this.tabPage8.Controls.Add(this.label6);
-            this.tabPage8.Controls.Add(this.PrintQuantitynumericUpDown);
-            this.tabPage8.Controls.Add(this.label5);
-            this.tabPage8.Controls.Add(this.label17);
+            this.tabPage8.Controls.Add(this.groupBox3);
+            this.tabPage8.Controls.Add(this.groupBox2);
+            this.tabPage8.Controls.Add(this.groupBox1);
             this.tabPage8.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tabPage8.Location = new System.Drawing.Point(4, 44);
             this.tabPage8.Name = "tabPage8";
@@ -3906,61 +3933,39 @@ namespace papacy1
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.InitialImage = null;
-            this.pictureBox8.Location = new System.Drawing.Point(491, 260);
+            this.pictureBox8.Location = new System.Drawing.Point(10, 26);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(443, 381);
+            this.pictureBox8.Size = new System.Drawing.Size(475, 426);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 201;
             this.pictureBox8.TabStop = false;
             // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label16.Location = new System.Drawing.Point(36, 224);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(140, 33);
-            this.label16.TabIndex = 198;
-            this.label16.Text = "更新資訊 :";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // richTextBox
             // 
             this.richTextBox.BackColor = System.Drawing.Color.White;
-            this.richTextBox.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox.Location = new System.Drawing.Point(67, 260);
+            this.richTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBox.Location = new System.Drawing.Point(10, 32);
             this.richTextBox.Name = "richTextBox";
             this.richTextBox.ReadOnly = true;
             this.richTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.richTextBox.Size = new System.Drawing.Size(418, 381);
+            this.richTextBox.Size = new System.Drawing.Size(469, 625);
             this.richTextBox.TabIndex = 197;
             this.richTextBox.TabStop = false;
             this.richTextBox.Text = "V1.0 [2023.08.25]\n　　-依照邏輯產生標籤。\n　　-判斷標籤必填項目與防呆處理。\n　　-列印項目預覽。\n　　-選擇印表機與列印\nV1.1 [202" +
     "3.11.17]\n　　-加入流水號碼數設定。";
             this.richTextBox.Enter += new System.EventHandler(this.richTextBox_Enter);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label9.Location = new System.Drawing.Point(3, 643);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(241, 20);
-            this.label9.TabIndex = 196;
-            this.label9.Text = "技術支援 : 0919-561-500 翁先生";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // Printerbutton
             // 
             this.Printerbutton.AutoSize = true;
-            this.Printerbutton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Printerbutton.BackColor = System.Drawing.Color.Orange;
             this.Printerbutton.Cursor = System.Windows.Forms.Cursors.Default;
             this.Printerbutton.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Printerbutton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Printerbutton.Location = new System.Drawing.Point(584, 91);
+            this.Printerbutton.Location = new System.Drawing.Point(279, 32);
             this.Printerbutton.Name = "Printerbutton";
             this.Printerbutton.Padding = new System.Windows.Forms.Padding(2);
-            this.Printerbutton.Size = new System.Drawing.Size(62, 38);
+            this.Printerbutton.Size = new System.Drawing.Size(100, 40);
             this.Printerbutton.TabIndex = 30;
             this.Printerbutton.Text = "儲存";
             this.Printerbutton.UseVisualStyleBackColor = false;
@@ -3969,15 +3974,14 @@ namespace papacy1
             // button1
             // 
             this.button1.AutoSize = true;
-            this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.BackColor = System.Drawing.Color.YellowGreen;
             this.button1.Cursor = System.Windows.Forms.Cursors.Default;
             this.button1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(663, 91);
+            this.button1.Location = new System.Drawing.Point(385, 32);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(2);
-            this.button1.Size = new System.Drawing.Size(100, 38);
+            this.button1.Size = new System.Drawing.Size(100, 40);
             this.button1.TabIndex = 40;
             this.button1.Text = "重新整理";
             this.button1.UseVisualStyleBackColor = false;
@@ -3986,9 +3990,9 @@ namespace papacy1
             // PrintMachinelabel
             // 
             this.PrintMachinelabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintMachinelabel.Location = new System.Drawing.Point(236, 96);
+            this.PrintMachinelabel.Location = new System.Drawing.Point(130, 88);
             this.PrintMachinelabel.Name = "PrintMachinelabel";
-            this.PrintMachinelabel.Size = new System.Drawing.Size(402, 33);
+            this.PrintMachinelabel.Size = new System.Drawing.Size(355, 33);
             this.PrintMachinelabel.TabIndex = 106;
             this.PrintMachinelabel.Text = "尚未選擇";
             this.PrintMachinelabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3998,17 +4002,17 @@ namespace papacy1
             this.listBoxPrinters.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.listBoxPrinters.FormattingEnabled = true;
             this.listBoxPrinters.ItemHeight = 23;
-            this.listBoxPrinters.Location = new System.Drawing.Point(236, 138);
+            this.listBoxPrinters.Location = new System.Drawing.Point(127, 124);
             this.listBoxPrinters.Name = "listBoxPrinters";
-            this.listBoxPrinters.Size = new System.Drawing.Size(525, 27);
+            this.listBoxPrinters.Size = new System.Drawing.Size(358, 27);
             this.listBoxPrinters.TabIndex = 20;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label6.Location = new System.Drawing.Point(36, 96);
+            this.label6.Location = new System.Drawing.Point(-4, 88);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(194, 33);
+            this.label6.Size = new System.Drawing.Size(125, 33);
             this.label6.TabIndex = 103;
             this.label6.Text = "印表機選擇 :";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -4016,7 +4020,7 @@ namespace papacy1
             // PrintQuantitynumericUpDown
             // 
             this.PrintQuantitynumericUpDown.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintQuantitynumericUpDown.Location = new System.Drawing.Point(236, 35);
+            this.PrintQuantitynumericUpDown.Location = new System.Drawing.Point(174, 38);
             this.PrintQuantitynumericUpDown.Maximum = new decimal(new int[] {
             -1530494976,
             232830,
@@ -4028,7 +4032,7 @@ namespace papacy1
             0,
             0});
             this.PrintQuantitynumericUpDown.Name = "PrintQuantitynumericUpDown";
-            this.PrintQuantitynumericUpDown.Size = new System.Drawing.Size(117, 32);
+            this.PrintQuantitynumericUpDown.Size = new System.Drawing.Size(69, 32);
             this.PrintQuantitynumericUpDown.TabIndex = 10;
             this.PrintQuantitynumericUpDown.Value = new decimal(new int[] {
             1,
@@ -4040,22 +4044,71 @@ namespace papacy1
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(36, 35);
+            this.label5.Location = new System.Drawing.Point(6, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(194, 33);
+            this.label5.Size = new System.Drawing.Size(162, 33);
             this.label5.TabIndex = 101;
             this.label5.Text = "同標籤列印數量 :";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label17
+            // pictureBox15
             // 
-            this.label17.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label17.Location = new System.Drawing.Point(461, 224);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(140, 33);
-            this.label17.TabIndex = 200;
-            this.label17.Text = "紙張尺寸 :";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox15.Location = new System.Drawing.Point(-1, 94);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(493, 569);
+            this.pictureBox15.TabIndex = 383;
+            this.pictureBox15.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.richTextBox);
+            this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox1.Location = new System.Drawing.Point(8, 7);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(489, 663);
+            this.groupBox1.TabIndex = 202;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "更新資訊";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.PrintQuantitynumericUpDown);
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.listBoxPrinters);
+            this.groupBox2.Controls.Add(this.Printerbutton);
+            this.groupBox2.Controls.Add(this.PrintMachinelabel);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox2.Location = new System.Drawing.Point(503, 7);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(491, 199);
+            this.groupBox2.TabIndex = 203;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "列印設定";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.pictureBox8);
+            this.groupBox3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox3.Location = new System.Drawing.Point(503, 212);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(491, 458);
+            this.groupBox3.TabIndex = 203;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "紙張尺寸設定";
+            // 
+            // label16
+            // 
+            this.label16.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label16.Location = new System.Drawing.Point(-4, 121);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(125, 33);
+            this.label16.TabIndex = 103;
+            this.label16.Text = "可用印表機 :";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // papacy
             // 
@@ -4077,49 +4130,44 @@ namespace papacy1
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
             this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
             this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
             this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LinearDensitynumericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown7)).EndInit();
@@ -4129,9 +4177,13 @@ namespace papacy1
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tabPage8.ResumeLayout(false);
-            this.tabPage8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -4293,8 +4345,6 @@ namespace papacy1
         private Label label47;
         private TextBox MaterialtextBox3;
         private Label label48;
-        private TextBox SPECtextBox3;
-        private Label label49;
         private TextBox GWtextBox3;
         private TextBox NWtextBox3;
         private ComboBox GWunitcomboBox3;
@@ -4373,16 +4423,12 @@ namespace papacy1
         private Label PrintMachinelabel;
         private Button button1;
         private Label label8;
-        private Label label12;
         private Label label11;
         private Label label10;
-        private Label label9;
         private Label label15;
         private Label label14;
         private Label label13;
         private RichTextBox richTextBox;
-        private Label label16;
-        private Label label17;
         private PictureBox pictureBox8;
         private Label label7;
         private NumericUpDown PrintQuantitynumericUpDown7;
@@ -4426,5 +4472,17 @@ namespace papacy1
         private Label label96;
         private ComboBox MD7_CBX_CNO;
         private Label label97;
+        internal PictureBox pictureBox9;
+        internal PictureBox pictureBox10;
+        internal PictureBox pictureBox11;
+        internal PictureBox pictureBox12;
+        private Label label12;
+        internal PictureBox pictureBox13;
+        internal PictureBox pictureBox14;
+        internal PictureBox pictureBox15;
+        private GroupBox groupBox3;
+        private GroupBox groupBox2;
+        private GroupBox groupBox1;
+        private Label label16;
     }
 }
