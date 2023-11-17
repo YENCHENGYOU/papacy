@@ -49,6 +49,7 @@ namespace papacy1
             this.LOTtextBox1 = new System.Windows.Forms.TextBox();
             this.label74 = new System.Windows.Forms.Label();
             this.GWunitcomboBox1 = new System.Windows.Forms.ComboBox();
+            this.MD1_CBX_CNO = new System.Windows.Forms.ComboBox();
             this.NWunitcomboBox1 = new System.Windows.Forms.ComboBox();
             this.label70 = new System.Windows.Forms.Label();
             this.label71 = new System.Windows.Forms.Label();
@@ -61,6 +62,7 @@ namespace papacy1
             this.label68 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.LocationtextBox1 = new System.Windows.Forms.TextBox();
+            this.label91 = new System.Windows.Forms.Label();
             this.Locationlabel = new System.Windows.Forms.Label();
             this.GraphictextBox1 = new System.Windows.Forms.TextBox();
             this.label67 = new System.Windows.Forms.Label();
@@ -71,6 +73,8 @@ namespace papacy1
             this.Examplelabel1 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.MD2_CBX_CNO = new System.Windows.Forms.ComboBox();
+            this.label92 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.label89 = new System.Windows.Forms.Label();
             this.AddtextBox2 = new System.Windows.Forms.TextBox();
@@ -107,6 +111,8 @@ namespace papacy1
             this.Examplelabel2 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.MD3_CBX_CNO = new System.Windows.Forms.ComboBox();
+            this.label93 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.label88 = new System.Windows.Forms.Label();
             this.AddtextBox3 = new System.Windows.Forms.TextBox();
@@ -143,6 +149,8 @@ namespace papacy1
             this.Examplelabel3 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.MD4_CBX_CNO = new System.Windows.Forms.ComboBox();
+            this.label94 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.label87 = new System.Windows.Forms.Label();
             this.AddtextBox4 = new System.Windows.Forms.TextBox();
@@ -177,6 +185,8 @@ namespace papacy1
             this.Examplelabel4 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.MD5_CBX_CNO = new System.Windows.Forms.ComboBox();
+            this.label95 = new System.Windows.Forms.Label();
             this.AddtextBox5 = new System.Windows.Forms.TextBox();
             this.label82 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown5 = new System.Windows.Forms.NumericUpDown();
@@ -215,6 +225,8 @@ namespace papacy1
             this.Examplelabel5 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.MD6_CBX_CNO = new System.Windows.Forms.ComboBox();
+            this.label96 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.label80 = new System.Windows.Forms.Label();
             this.AddtextBox6 = new System.Windows.Forms.TextBox();
@@ -261,6 +273,8 @@ namespace papacy1
             this.Examplelabel6 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.MD7_CBX_CNO = new System.Windows.Forms.ComboBox();
+            this.label97 = new System.Windows.Forms.Label();
             this.AddtextBox7 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.PrintQuantitynumericUpDown7 = new System.Windows.Forms.NumericUpDown();
@@ -305,20 +319,6 @@ namespace papacy1
             this.PrintQuantitynumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.MD1_CBX_CNO = new System.Windows.Forms.ComboBox();
-            this.MD2_CBX_CNO = new System.Windows.Forms.ComboBox();
-            this.label92 = new System.Windows.Forms.Label();
-            this.MD3_CBX_CNO = new System.Windows.Forms.ComboBox();
-            this.label93 = new System.Windows.Forms.Label();
-            this.MD4_CBX_CNO = new System.Windows.Forms.ComboBox();
-            this.label94 = new System.Windows.Forms.Label();
-            this.MD5_CBX_CNO = new System.Windows.Forms.ComboBox();
-            this.label95 = new System.Windows.Forms.Label();
-            this.MD6_CBX_CNO = new System.Windows.Forms.ComboBox();
-            this.label96 = new System.Windows.Forms.Label();
-            this.MD7_CBX_CNO = new System.Windows.Forms.ComboBox();
-            this.label97 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown1)).BeginInit();
@@ -631,6 +631,21 @@ namespace papacy1
             this.GWunitcomboBox1.TabIndex = 80;
             this.GWunitcomboBox1.SelectedIndexChanged += new System.EventHandler(this.GWunitcomboBox1_SelectedIndexChanged);
             // 
+            // MD1_CBX_CNO
+            // 
+            this.MD1_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MD1_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MD1_CBX_CNO.FormattingEnabled = true;
+            this.MD1_CBX_CNO.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4"});
+            this.MD1_CBX_CNO.Location = new System.Drawing.Point(176, 514);
+            this.MD1_CBX_CNO.Name = "MD1_CBX_CNO";
+            this.MD1_CBX_CNO.Size = new System.Drawing.Size(70, 31);
+            this.MD1_CBX_CNO.TabIndex = 70;
+            this.MD1_CBX_CNO.SelectedIndexChanged += new System.EventHandler(this.NWunitcomboBox1_SelectedIndexChanged);
+            // 
             // NWunitcomboBox1
             // 
             this.NWunitcomboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -762,6 +777,16 @@ namespace papacy1
             this.LocationtextBox1.Size = new System.Drawing.Size(230, 32);
             this.LocationtextBox1.TabIndex = 20;
             this.LocationtextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label91
+            // 
+            this.label91.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label91.Location = new System.Drawing.Point(24, 514);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(140, 29);
+            this.label91.TabIndex = 128;
+            this.label91.Text = "C/NO位數：";
+            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Locationlabel
             // 
@@ -910,6 +935,30 @@ namespace papacy1
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "模板2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // MD2_CBX_CNO
+            // 
+            this.MD2_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MD2_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MD2_CBX_CNO.FormattingEnabled = true;
+            this.MD2_CBX_CNO.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4"});
+            this.MD2_CBX_CNO.Location = new System.Drawing.Point(164, 501);
+            this.MD2_CBX_CNO.Name = "MD2_CBX_CNO";
+            this.MD2_CBX_CNO.Size = new System.Drawing.Size(70, 31);
+            this.MD2_CBX_CNO.TabIndex = 204;
+            // 
+            // label92
+            // 
+            this.label92.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label92.Location = new System.Drawing.Point(12, 501);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(140, 29);
+            this.label92.TabIndex = 205;
+            this.label92.Text = "C/NO位數：";
+            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PrintQuantitynumericUpDown2
             // 
@@ -1375,6 +1424,30 @@ namespace papacy1
             this.tabPage3.Text = "模板3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // MD3_CBX_CNO
+            // 
+            this.MD3_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MD3_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MD3_CBX_CNO.FormattingEnabled = true;
+            this.MD3_CBX_CNO.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4"});
+            this.MD3_CBX_CNO.Location = new System.Drawing.Point(164, 521);
+            this.MD3_CBX_CNO.Name = "MD3_CBX_CNO";
+            this.MD3_CBX_CNO.Size = new System.Drawing.Size(70, 31);
+            this.MD3_CBX_CNO.TabIndex = 374;
+            // 
+            // label93
+            // 
+            this.label93.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label93.Location = new System.Drawing.Point(12, 521);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(140, 29);
+            this.label93.TabIndex = 375;
+            this.label93.Text = "C/NO位數：";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // PrintQuantitynumericUpDown3
             // 
             this.PrintQuantitynumericUpDown3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -1832,6 +1905,30 @@ namespace papacy1
             this.tabPage4.Text = "模板4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // MD4_CBX_CNO
+            // 
+            this.MD4_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MD4_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MD4_CBX_CNO.FormattingEnabled = true;
+            this.MD4_CBX_CNO.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4"});
+            this.MD4_CBX_CNO.Location = new System.Drawing.Point(164, 535);
+            this.MD4_CBX_CNO.Name = "MD4_CBX_CNO";
+            this.MD4_CBX_CNO.Size = new System.Drawing.Size(70, 31);
+            this.MD4_CBX_CNO.TabIndex = 376;
+            // 
+            // label94
+            // 
+            this.label94.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label94.Location = new System.Drawing.Point(12, 535);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(140, 29);
+            this.label94.TabIndex = 377;
+            this.label94.Text = "C/NO位數：";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // PrintQuantitynumericUpDown4
             // 
             this.PrintQuantitynumericUpDown4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -2272,6 +2369,30 @@ namespace papacy1
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "模板5";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // MD5_CBX_CNO
+            // 
+            this.MD5_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MD5_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MD5_CBX_CNO.FormattingEnabled = true;
+            this.MD5_CBX_CNO.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4"});
+            this.MD5_CBX_CNO.Location = new System.Drawing.Point(163, 535);
+            this.MD5_CBX_CNO.Name = "MD5_CBX_CNO";
+            this.MD5_CBX_CNO.Size = new System.Drawing.Size(70, 31);
+            this.MD5_CBX_CNO.TabIndex = 378;
+            // 
+            // label95
+            // 
+            this.label95.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label95.Location = new System.Drawing.Point(11, 535);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(140, 29);
+            this.label95.TabIndex = 379;
+            this.label95.Text = "C/NO位數：";
+            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // AddtextBox5
             // 
@@ -2759,6 +2880,30 @@ namespace papacy1
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "模板6";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // MD6_CBX_CNO
+            // 
+            this.MD6_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MD6_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MD6_CBX_CNO.FormattingEnabled = true;
+            this.MD6_CBX_CNO.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4"});
+            this.MD6_CBX_CNO.Location = new System.Drawing.Point(164, 520);
+            this.MD6_CBX_CNO.Name = "MD6_CBX_CNO";
+            this.MD6_CBX_CNO.Size = new System.Drawing.Size(70, 31);
+            this.MD6_CBX_CNO.TabIndex = 380;
+            // 
+            // label96
+            // 
+            this.label96.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label96.Location = new System.Drawing.Point(12, 520);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(140, 29);
+            this.label96.TabIndex = 381;
+            this.label96.Text = "C/NO位數：";
+            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PrintQuantitynumericUpDown6
             // 
@@ -3329,6 +3474,30 @@ namespace papacy1
             this.tabPage7.Text = "模板7";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
+            // MD7_CBX_CNO
+            // 
+            this.MD7_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MD7_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MD7_CBX_CNO.FormattingEnabled = true;
+            this.MD7_CBX_CNO.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4"});
+            this.MD7_CBX_CNO.Location = new System.Drawing.Point(167, 517);
+            this.MD7_CBX_CNO.Name = "MD7_CBX_CNO";
+            this.MD7_CBX_CNO.Size = new System.Drawing.Size(70, 31);
+            this.MD7_CBX_CNO.TabIndex = 380;
+            // 
+            // label97
+            // 
+            this.label97.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label97.Location = new System.Drawing.Point(15, 517);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(140, 29);
+            this.label97.TabIndex = 381;
+            this.label97.Text = "C/NO位數：";
+            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // AddtextBox7
             // 
             this.AddtextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -3765,7 +3934,8 @@ namespace papacy1
             this.richTextBox.Size = new System.Drawing.Size(418, 381);
             this.richTextBox.TabIndex = 197;
             this.richTextBox.TabStop = false;
-            this.richTextBox.Text = "V1.0 [2023.08.25]\n　　-依照邏輯產生標籤。\n　　-判斷標籤必填項目與防呆處理。\n　　-列印項目預覽。\n　　-選擇印表機與列印";
+            this.richTextBox.Text = "V1.0 [2023.08.25]\n　　-依照邏輯產生標籤。\n　　-判斷標籤必填項目與防呆處理。\n　　-列印項目預覽。\n　　-選擇印表機與列印\nV1.1 [202" +
+    "3.11.17]\n　　-加入流水號碼數設定。";
             this.richTextBox.Enter += new System.EventHandler(this.richTextBox_Enter);
             // 
             // label9
@@ -3887,175 +4057,6 @@ namespace papacy1
             this.label17.Text = "紙張尺寸 :";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label91
-            // 
-            this.label91.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label91.Location = new System.Drawing.Point(24, 514);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(140, 29);
-            this.label91.TabIndex = 128;
-            this.label91.Text = "C/NO位數：";
-            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MD1_CBX_CNO
-            // 
-            this.MD1_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MD1_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MD1_CBX_CNO.FormattingEnabled = true;
-            this.MD1_CBX_CNO.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4"});
-            this.MD1_CBX_CNO.Location = new System.Drawing.Point(176, 514);
-            this.MD1_CBX_CNO.Name = "MD1_CBX_CNO";
-            this.MD1_CBX_CNO.Size = new System.Drawing.Size(70, 31);
-            this.MD1_CBX_CNO.TabIndex = 70;
-            this.MD1_CBX_CNO.SelectedIndexChanged += new System.EventHandler(this.NWunitcomboBox1_SelectedIndexChanged);
-            // 
-            // MD2_CBX_CNO
-            // 
-            this.MD2_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MD2_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MD2_CBX_CNO.FormattingEnabled = true;
-            this.MD2_CBX_CNO.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4"});
-            this.MD2_CBX_CNO.Location = new System.Drawing.Point(164, 501);
-            this.MD2_CBX_CNO.Name = "MD2_CBX_CNO";
-            this.MD2_CBX_CNO.Size = new System.Drawing.Size(70, 31);
-            this.MD2_CBX_CNO.TabIndex = 204;
-            // 
-            // label92
-            // 
-            this.label92.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label92.Location = new System.Drawing.Point(12, 501);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(140, 29);
-            this.label92.TabIndex = 205;
-            this.label92.Text = "C/NO位數：";
-            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MD3_CBX_CNO
-            // 
-            this.MD3_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MD3_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MD3_CBX_CNO.FormattingEnabled = true;
-            this.MD3_CBX_CNO.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4"});
-            this.MD3_CBX_CNO.Location = new System.Drawing.Point(164, 521);
-            this.MD3_CBX_CNO.Name = "MD3_CBX_CNO";
-            this.MD3_CBX_CNO.Size = new System.Drawing.Size(70, 31);
-            this.MD3_CBX_CNO.TabIndex = 374;
-            // 
-            // label93
-            // 
-            this.label93.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label93.Location = new System.Drawing.Point(12, 521);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(140, 29);
-            this.label93.TabIndex = 375;
-            this.label93.Text = "C/NO位數：";
-            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MD4_CBX_CNO
-            // 
-            this.MD4_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MD4_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MD4_CBX_CNO.FormattingEnabled = true;
-            this.MD4_CBX_CNO.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4"});
-            this.MD4_CBX_CNO.Location = new System.Drawing.Point(164, 535);
-            this.MD4_CBX_CNO.Name = "MD4_CBX_CNO";
-            this.MD4_CBX_CNO.Size = new System.Drawing.Size(70, 31);
-            this.MD4_CBX_CNO.TabIndex = 376;
-            // 
-            // label94
-            // 
-            this.label94.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label94.Location = new System.Drawing.Point(12, 535);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(140, 29);
-            this.label94.TabIndex = 377;
-            this.label94.Text = "C/NO位數：";
-            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MD5_CBX_CNO
-            // 
-            this.MD5_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MD5_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MD5_CBX_CNO.FormattingEnabled = true;
-            this.MD5_CBX_CNO.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4"});
-            this.MD5_CBX_CNO.Location = new System.Drawing.Point(163, 535);
-            this.MD5_CBX_CNO.Name = "MD5_CBX_CNO";
-            this.MD5_CBX_CNO.Size = new System.Drawing.Size(70, 31);
-            this.MD5_CBX_CNO.TabIndex = 378;
-            // 
-            // label95
-            // 
-            this.label95.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label95.Location = new System.Drawing.Point(11, 535);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(140, 29);
-            this.label95.TabIndex = 379;
-            this.label95.Text = "C/NO位數：";
-            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MD6_CBX_CNO
-            // 
-            this.MD6_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MD6_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MD6_CBX_CNO.FormattingEnabled = true;
-            this.MD6_CBX_CNO.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4"});
-            this.MD6_CBX_CNO.Location = new System.Drawing.Point(164, 520);
-            this.MD6_CBX_CNO.Name = "MD6_CBX_CNO";
-            this.MD6_CBX_CNO.Size = new System.Drawing.Size(70, 31);
-            this.MD6_CBX_CNO.TabIndex = 380;
-            // 
-            // label96
-            // 
-            this.label96.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label96.Location = new System.Drawing.Point(12, 520);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(140, 29);
-            this.label96.TabIndex = 381;
-            this.label96.Text = "C/NO位數：";
-            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MD7_CBX_CNO
-            // 
-            this.MD7_CBX_CNO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MD7_CBX_CNO.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.MD7_CBX_CNO.FormattingEnabled = true;
-            this.MD7_CBX_CNO.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4"});
-            this.MD7_CBX_CNO.Location = new System.Drawing.Point(167, 517);
-            this.MD7_CBX_CNO.Name = "MD7_CBX_CNO";
-            this.MD7_CBX_CNO.Size = new System.Drawing.Size(70, 31);
-            this.MD7_CBX_CNO.TabIndex = 380;
-            // 
-            // label97
-            // 
-            this.label97.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label97.Location = new System.Drawing.Point(15, 517);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(140, 29);
-            this.label97.TabIndex = 381;
-            this.label97.Text = "C/NO位數：";
-            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // papacy
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -4067,7 +4068,7 @@ namespace papacy1
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "papacy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "嘜頭標籤系統V1.0";
+            this.Text = "嘜頭標籤系統V1.1";
             this.Load += new System.EventHandler(this.papacy_Load);
             this.Resize += new System.EventHandler(this.papacy_Resize);
             this.tabControl.ResumeLayout(false);
