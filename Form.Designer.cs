@@ -310,21 +310,21 @@ namespace papacy1
             this.Examplelabel7 = new System.Windows.Forms.Label();
             this.CNOlabel = new System.Windows.Forms.Label();
             this.EndtextBox7 = new System.Windows.Forms.TextBox();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.richTextBox = new System.Windows.Forms.RichTextBox();
-            this.Printerbutton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.PrintMachinelabel = new System.Windows.Forms.Label();
-            this.listBoxPrinters = new System.Windows.Forms.ListBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.PrintQuantitynumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.PrintQuantitynumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label16 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.listBoxPrinters = new System.Windows.Forms.ListBox();
+            this.Printerbutton = new System.Windows.Forms.Button();
+            this.PrintMachinelabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.richTextBox = new System.Windows.Forms.RichTextBox();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown1)).BeginInit();
@@ -368,13 +368,13 @@ namespace papacy1
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel2.SuspendLayout();
-            this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.tabPage8.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -3915,6 +3915,15 @@ namespace papacy1
             this.EndtextBox7.TabStop = false;
             this.EndtextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox15.Location = new System.Drawing.Point(-1, 94);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(493, 569);
+            this.pictureBox15.TabIndex = 383;
+            this.pictureBox15.TabStop = false;
+            // 
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.groupBox3);
@@ -3929,6 +3938,17 @@ namespace papacy1
             this.tabPage8.Text = "列印設定";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.pictureBox8);
+            this.groupBox3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox3.Location = new System.Drawing.Point(503, 212);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(491, 458);
+            this.groupBox3.TabIndex = 203;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "紙張尺寸設定";
+            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
@@ -3940,82 +3960,33 @@ namespace papacy1
             this.pictureBox8.TabIndex = 201;
             this.pictureBox8.TabStop = false;
             // 
-            // richTextBox
+            // groupBox2
             // 
-            this.richTextBox.BackColor = System.Drawing.Color.White;
-            this.richTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox.Location = new System.Drawing.Point(10, 32);
-            this.richTextBox.Name = "richTextBox";
-            this.richTextBox.ReadOnly = true;
-            this.richTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.richTextBox.Size = new System.Drawing.Size(469, 625);
-            this.richTextBox.TabIndex = 197;
-            this.richTextBox.TabStop = false;
-            this.richTextBox.Text = "V1.0 [2023.08.25]\n　　-依照邏輯產生標籤。\n　　-判斷標籤必填項目與防呆處理。\n　　-列印項目預覽。\n　　-選擇印表機與列印\nV1.1 [202" +
-    "3.11.17]\n　　-加入流水號碼數設定。";
-            this.richTextBox.Enter += new System.EventHandler(this.richTextBox_Enter);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.PrintQuantitynumericUpDown);
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.listBoxPrinters);
+            this.groupBox2.Controls.Add(this.Printerbutton);
+            this.groupBox2.Controls.Add(this.PrintMachinelabel);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox2.Location = new System.Drawing.Point(503, 7);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(491, 199);
+            this.groupBox2.TabIndex = 203;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "列印設定";
             // 
-            // Printerbutton
+            // label5
             // 
-            this.Printerbutton.AutoSize = true;
-            this.Printerbutton.BackColor = System.Drawing.Color.Orange;
-            this.Printerbutton.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Printerbutton.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Printerbutton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Printerbutton.Location = new System.Drawing.Point(279, 32);
-            this.Printerbutton.Name = "Printerbutton";
-            this.Printerbutton.Padding = new System.Windows.Forms.Padding(2);
-            this.Printerbutton.Size = new System.Drawing.Size(100, 40);
-            this.Printerbutton.TabIndex = 30;
-            this.Printerbutton.Text = "儲存";
-            this.Printerbutton.UseVisualStyleBackColor = false;
-            this.Printerbutton.Click += new System.EventHandler(this.Printerbutton_Click);
-            // 
-            // button1
-            // 
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.YellowGreen;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(385, 32);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(2);
-            this.button1.Size = new System.Drawing.Size(100, 40);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "重新整理";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.ResearchButton_Click);
-            // 
-            // PrintMachinelabel
-            // 
-            this.PrintMachinelabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PrintMachinelabel.Location = new System.Drawing.Point(130, 88);
-            this.PrintMachinelabel.Name = "PrintMachinelabel";
-            this.PrintMachinelabel.Size = new System.Drawing.Size(355, 33);
-            this.PrintMachinelabel.TabIndex = 106;
-            this.PrintMachinelabel.Text = "尚未選擇";
-            this.PrintMachinelabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // listBoxPrinters
-            // 
-            this.listBoxPrinters.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.listBoxPrinters.FormattingEnabled = true;
-            this.listBoxPrinters.ItemHeight = 23;
-            this.listBoxPrinters.Location = new System.Drawing.Point(127, 124);
-            this.listBoxPrinters.Name = "listBoxPrinters";
-            this.listBoxPrinters.Size = new System.Drawing.Size(358, 27);
-            this.listBoxPrinters.TabIndex = 20;
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label6.Location = new System.Drawing.Point(-4, 88);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(125, 33);
-            this.label6.TabIndex = 103;
-            this.label6.Text = "印表機選擇 :";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label5.Location = new System.Drawing.Point(6, 38);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(162, 33);
+            this.label5.TabIndex = 101;
+            this.label5.Text = "同標籤列印數量 :";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PrintQuantitynumericUpDown
             // 
@@ -4041,24 +4012,77 @@ namespace papacy1
             0});
             this.PrintQuantitynumericUpDown.ValueChanged += new System.EventHandler(this.PrintQuantitynumericUpDown_ValueChanged);
             // 
-            // label5
+            // label16
             // 
-            this.label5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(6, 38);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(162, 33);
-            this.label5.TabIndex = 101;
-            this.label5.Text = "同標籤列印數量 :";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label16.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label16.Location = new System.Drawing.Point(-4, 121);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(125, 33);
+            this.label16.TabIndex = 103;
+            this.label16.Text = "可用印表機 :";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // pictureBox15
+            // label6
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox15.Location = new System.Drawing.Point(-1, 94);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(493, 569);
-            this.pictureBox15.TabIndex = 383;
-            this.pictureBox15.TabStop = false;
+            this.label6.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label6.Location = new System.Drawing.Point(-4, 88);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(125, 33);
+            this.label6.TabIndex = 103;
+            this.label6.Text = "印表機選擇 :";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // listBoxPrinters
+            // 
+            this.listBoxPrinters.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.listBoxPrinters.FormattingEnabled = true;
+            this.listBoxPrinters.ItemHeight = 23;
+            this.listBoxPrinters.Location = new System.Drawing.Point(127, 124);
+            this.listBoxPrinters.Name = "listBoxPrinters";
+            this.listBoxPrinters.Size = new System.Drawing.Size(358, 27);
+            this.listBoxPrinters.TabIndex = 20;
+            // 
+            // Printerbutton
+            // 
+            this.Printerbutton.AutoSize = true;
+            this.Printerbutton.BackColor = System.Drawing.Color.Orange;
+            this.Printerbutton.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Printerbutton.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Printerbutton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Printerbutton.Location = new System.Drawing.Point(279, 32);
+            this.Printerbutton.Name = "Printerbutton";
+            this.Printerbutton.Padding = new System.Windows.Forms.Padding(2);
+            this.Printerbutton.Size = new System.Drawing.Size(100, 40);
+            this.Printerbutton.TabIndex = 30;
+            this.Printerbutton.Text = "儲存";
+            this.Printerbutton.UseVisualStyleBackColor = false;
+            this.Printerbutton.Click += new System.EventHandler(this.Printerbutton_Click);
+            // 
+            // PrintMachinelabel
+            // 
+            this.PrintMachinelabel.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.PrintMachinelabel.Location = new System.Drawing.Point(130, 88);
+            this.PrintMachinelabel.Name = "PrintMachinelabel";
+            this.PrintMachinelabel.Size = new System.Drawing.Size(355, 33);
+            this.PrintMachinelabel.TabIndex = 106;
+            this.PrintMachinelabel.Text = "尚未選擇";
+            this.PrintMachinelabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // button1
+            // 
+            this.button1.AutoSize = true;
+            this.button1.BackColor = System.Drawing.Color.YellowGreen;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button1.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(385, 32);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(2);
+            this.button1.Size = new System.Drawing.Size(100, 40);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "重新整理";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.ResearchButton_Click);
             // 
             // groupBox1
             // 
@@ -4071,44 +4095,20 @@ namespace papacy1
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "更新資訊";
             // 
-            // groupBox2
+            // richTextBox
             // 
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.PrintQuantitynumericUpDown);
-            this.groupBox2.Controls.Add(this.label16);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.listBoxPrinters);
-            this.groupBox2.Controls.Add(this.Printerbutton);
-            this.groupBox2.Controls.Add(this.PrintMachinelabel);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox2.Location = new System.Drawing.Point(503, 7);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(491, 199);
-            this.groupBox2.TabIndex = 203;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "列印設定";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.pictureBox8);
-            this.groupBox3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox3.Location = new System.Drawing.Point(503, 212);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(491, 458);
-            this.groupBox3.TabIndex = 203;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "紙張尺寸設定";
-            // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label16.Location = new System.Drawing.Point(-4, 121);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(125, 33);
-            this.label16.TabIndex = 103;
-            this.label16.Text = "可用印表機 :";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.richTextBox.BackColor = System.Drawing.Color.White;
+            this.richTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBox.Location = new System.Drawing.Point(10, 32);
+            this.richTextBox.Name = "richTextBox";
+            this.richTextBox.ReadOnly = true;
+            this.richTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.richTextBox.Size = new System.Drawing.Size(469, 625);
+            this.richTextBox.TabIndex = 197;
+            this.richTextBox.TabStop = false;
+            this.richTextBox.Text = "V1.0 [2023.08.25]\n　　-依照邏輯產生標籤。\n　　-判斷標籤必填項目與防呆處理。\n　　-列印項目預覽。\n　　-選擇印表機與列印\nV1.1 [202" +
+    "3.11.17]\n　　-加入流水號碼數設定。\nV1.2 [2023.11.24]\n　　-移除模板1~6的重量與單位必填限制。";
+            this.richTextBox.Enter += new System.EventHandler(this.richTextBox_Enter);
             // 
             // papacy
             // 
@@ -4121,7 +4121,7 @@ namespace papacy1
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "papacy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "嘜頭標籤系統V1.1";
+            this.Text = "嘜頭標籤系統V1.2";
             this.Load += new System.EventHandler(this.papacy_Load);
             this.Resize += new System.EventHandler(this.papacy_Resize);
             this.tabControl.ResumeLayout(false);
@@ -4176,14 +4176,14 @@ namespace papacy1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.tabPage8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.groupBox1.ResumeLayout(false);
+            this.tabPage8.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PrintQuantitynumericUpDown)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

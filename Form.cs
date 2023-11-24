@@ -866,25 +866,25 @@ namespace papacy1
                 errorMessage += "SPEC、 ";
             }
 
-            if (string.IsNullOrEmpty(NWtextBox1.Text))
-            {
-                errorMessage += "NW、 ";
-            }
+            //if (string.IsNullOrEmpty(NWtextBox1.Text))
+            //{
+            //    errorMessage += "NW、 ";
+            //}
 
-            if (string.IsNullOrEmpty(GWtextBox1.Text))
-            {
-                errorMessage += "GW、 ";
-            }
+            //if (string.IsNullOrEmpty(GWtextBox1.Text))
+            //{
+            //    errorMessage += "GW、 ";
+            //}
 
-            if (NWunitcomboBox1.SelectedItem == null)
-            {
-                errorMessage += "NWunit、 ";
-            }
+            //if (NWunitcomboBox1.SelectedItem == null)
+            //{
+            //    errorMessage += "NWunit、 ";
+            //}
 
-            if (GWunitcomboBox1.SelectedItem == null)
-            {
-                errorMessage += "GWunit、 ";
-            }
+            //if (GWunitcomboBox1.SelectedItem == null)
+            //{
+            //    errorMessage += "GWunit、 ";
+            //}
 
             if (string.IsNullOrEmpty(LOTtextBox1.Text))
             {
@@ -921,9 +921,9 @@ namespace papacy1
             // 設定標籤中的欄位值
             btFormat.SubStrings["Textbox"].Value = GraphictextBox1.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox1.Text;
-            btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox1.SelectedItem.ToString();
+            btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox1.Text;
             btFormat.SubStrings["GW"].Value = GWtextBox1.Text;
-            btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox1.SelectedItem.ToString();
+            btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox1.Text;
             btFormat.SubStrings["SPEC"].Value = SPECtextBox1.Text;
             btFormat.SubStrings["Origin"].Value = OrigintextBox1.Text;
             btFormat.SubStrings["CNO"].Value = CNOtextBox1.Text;
@@ -1046,25 +1046,25 @@ namespace papacy1
                 errorMessage += "Quantity、 ";
             }
 
-            if (string.IsNullOrEmpty(NWtextBox2.Text))
-            {
-                errorMessage += "NW、 ";
-            }
+            //if (string.IsNullOrEmpty(NWtextBox2.Text))
+            //{
+            //    errorMessage += "NW、 ";
+            //}
 
-            if (string.IsNullOrEmpty(GWtextBox2.Text))
-            {
-                errorMessage += "GW、 ";
-            }
+            //if (string.IsNullOrEmpty(GWtextBox2.Text))
+            //{
+            //    errorMessage += "GW、 ";
+            //}
 
-            if (NWunitcomboBox2.SelectedItem == null)
-            {
-                errorMessage += "NWunit、 ";
-            }
+            //if (NWunitcomboBox2.SelectedItem == null)
+            //{
+            //    errorMessage += "NWunit、 ";
+            //}
 
-            if (GWunitcomboBox2.SelectedItem == null)
-            {
-                errorMessage += "GWunit、 ";
-            }
+            //if (GWunitcomboBox2.SelectedItem == null)
+            //{
+            //    errorMessage += "GWunit、 ";
+            //}
 
             if (string.IsNullOrEmpty(CNOtextBox2.Text))
             {
@@ -1104,9 +1104,9 @@ namespace papacy1
             btFormat.SubStrings["SPEC"].Value = SPECtextBox2.Text;
             btFormat.SubStrings["Quantity"].Value = QuantitytextBox2.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox2.Text;
-            btFormat.SubStrings["NWunit"].Value = NWunitcomboBox2.SelectedItem.ToString();
+            btFormat.SubStrings["NWunit"].Value = NWunitcomboBox2.Text;
             btFormat.SubStrings["GW"].Value = GWtextBox2.Text;
-            btFormat.SubStrings["GWunit"].Value = GWunitcomboBox2.SelectedItem.ToString();
+            btFormat.SubStrings["GWunit"].Value = GWunitcomboBox2.Text;
             btFormat.SubStrings["CNO"].Value = CNOtextBox2.Text;
             int padLeft = Convert.ToInt16(MD2_CBX_CNO.Text);
             PrintStart(2, padLeft);
@@ -1210,25 +1210,25 @@ namespace papacy1
             {
                 errorMessage += "累加值、 ";
             }
-            if (string.IsNullOrEmpty(NWtextBox3.Text))
-            {
-                errorMessage += "NW、 ";
-            }
+            //if (string.IsNullOrEmpty(NWtextBox3.Text))
+            //{
+            //    errorMessage += "NW、 ";
+            //}
 
-            if (string.IsNullOrEmpty(GWtextBox3.Text))
-            {
-                errorMessage += "GW、 ";
-            }
+            //if (string.IsNullOrEmpty(GWtextBox3.Text))
+            //{
+            //    errorMessage += "GW、 ";
+            //}
 
-            if (NWunitcomboBox3.SelectedItem == null)
-            {
-                errorMessage += "NWunit、 ";
-            }
+            //if (NWunitcomboBox3.SelectedItem == null)
+            //{
+            //    errorMessage += "NWunit、 ";
+            //}
 
-            if (GWunitcomboBox3.SelectedItem == null)
-            {
-                errorMessage += "GWunit、 ";
-            }
+            //if (GWunitcomboBox3.SelectedItem == null)
+            //{
+            //    errorMessage += "GWunit、 ";
+            //}
             if (string.IsNullOrEmpty(OrigintextBox3.Text))
             {
                 errorMessage += "Origin、 ";
@@ -1257,9 +1257,9 @@ namespace papacy1
             btFormat.SubStrings["CNO"].Value = CNOtextBox3.Text;
             //btFormat.SubStrings["SPEC"].Value = SPECtextBox3.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox3.Text;
-            btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox3.SelectedItem.ToString();
+            btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox3.Text;
             btFormat.SubStrings["GW"].Value = GWtextBox3.Text;
-            btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox3.SelectedItem.ToString();
+            btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox3.Text;
             btFormat.SubStrings["Origin"].Value = OrigintextBox3.Text;
             int padLeft = Convert.ToInt16(MD3_CBX_CNO.Text);
             PrintStart(3, padLeft);
@@ -1373,25 +1373,25 @@ namespace papacy1
             {
                 errorMessage += "累加值、 ";
             }
-            if (string.IsNullOrEmpty(NWtextBox4.Text))
-            {
-                errorMessage += "NW、 ";
-            }
+            //if (string.IsNullOrEmpty(NWtextBox4.Text))
+            //{
+            //    errorMessage += "NW、 ";
+            //}
 
-            if (string.IsNullOrEmpty(GWtextBox4.Text))
-            {
-                errorMessage += "GW、 ";
-            }
+            //if (string.IsNullOrEmpty(GWtextBox4.Text))
+            //{
+            //    errorMessage += "GW、 ";
+            //}
 
-            if (NWunitcomboBox4.SelectedItem == null)
-            {
-                errorMessage += "NWunit、 ";
-            }
+            //if (NWunitcomboBox4.SelectedItem == null)
+            //{
+            //    errorMessage += "NWunit、 ";
+            //}
 
-            if (GWunitcomboBox4.SelectedItem == null)
-            {
-                errorMessage += "GWunit、 ";
-            }
+            //if (GWunitcomboBox4.SelectedItem == null)
+            //{
+            //    errorMessage += "GWunit、 ";
+            //}
             if (string.IsNullOrEmpty(LOTtextBox4.Text))
             {
                 errorMessage += "LOTNumber、 ";
@@ -1419,9 +1419,9 @@ namespace papacy1
             btFormat.SubStrings["CNO"].Value = CNOtextBox4.Text;
             btFormat.SubStrings["ORIGIN"].Value = OrigintextBox4.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox4.Text;
-            btFormat.SubStrings["NWunit"].Value = "  " + NWunitcomboBox4.SelectedItem.ToString();
+            btFormat.SubStrings["NWunit"].Value = "  " + NWunitcomboBox4.Text;
             btFormat.SubStrings["GW"].Value = GWtextBox4.Text;
-            btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox4.SelectedItem.ToString();
+            btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox4.Text;
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox4.Text;
             int padLeft = Convert.ToInt16(MD4_CBX_CNO.Text);
             PrintStart(4, padLeft);
@@ -1545,25 +1545,25 @@ namespace papacy1
                 errorMessage += "SPEC、 ";
             }
 
-            if (string.IsNullOrEmpty(NWtextBox5.Text))
-            {
-                errorMessage += "NW、 ";
-            }
+            //if (string.IsNullOrEmpty(NWtextBox5.Text))
+            //{
+            //    errorMessage += "NW、 ";
+            //}
 
-            if (string.IsNullOrEmpty(GWtextBox5.Text))
-            {
-                errorMessage += "GW、 ";
-            }
+            //if (string.IsNullOrEmpty(GWtextBox5.Text))
+            //{
+            //    errorMessage += "GW、 ";
+            //}
 
-            if (NWunitcomboBox5.SelectedItem == null)
-            {
-                errorMessage += "NWunit、 ";
-            }
+            //if (NWunitcomboBox5.SelectedItem == null)
+            //{
+            //    errorMessage += "NWunit、 ";
+            //}
 
-            if (GWunitcomboBox5.SelectedItem == null)
-            {
-                errorMessage += "GWunit、 ";
-            }
+            //if (GWunitcomboBox5.SelectedItem == null)
+            //{
+            //    errorMessage += "GWunit、 ";
+            //}
             if (string.IsNullOrEmpty(LOTtextBox5.Text))
             {
                 errorMessage += "LOTNumber、 ";
@@ -1594,9 +1594,9 @@ namespace papacy1
             btFormat.SubStrings["ORIGIN"].Value = OrigintextBox5.Text;
             btFormat.SubStrings["SPEC"].Value = SPECtextBox5.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox5.Text;
-            btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox5.SelectedItem.ToString();
+            btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox5.Text;
             btFormat.SubStrings["GW"].Value = GWtextBox5.Text;
-            btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox5.SelectedItem.ToString();
+            btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox5.Text;
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox5.Text;
             int padLeft = Convert.ToInt16(MD5_CBX_CNO.Text);
             PrintStart(5, padLeft);
@@ -1750,25 +1750,25 @@ namespace papacy1
             {
                 errorMessage += "累加值、 ";
             }
-            if (string.IsNullOrEmpty(NWtextBox6.Text))
-            {
-                errorMessage += "NW、 ";
-            }
+            //if (string.IsNullOrEmpty(NWtextBox6.Text))
+            //{
+            //    errorMessage += "NW、 ";
+            //}
 
-            if (string.IsNullOrEmpty(GWtextBox6.Text))
-            {
-                errorMessage += "GW、 ";
-            }
+            //if (string.IsNullOrEmpty(GWtextBox6.Text))
+            //{
+            //    errorMessage += "GW、 ";
+            //}
 
-            if (NWunitcomboBox6.SelectedItem == null)
-            {
-                errorMessage += "NWunit、 ";
-            }
+            //if (NWunitcomboBox6.SelectedItem == null)
+            //{
+            //    errorMessage += "NWunit、 ";
+            //}
 
-            if (GWunitcomboBox6.SelectedItem == null)
-            {
-                errorMessage += "GWunit、 ";
-            }
+            //if (GWunitcomboBox6.SelectedItem == null)
+            //{
+            //    errorMessage += "GWunit、 ";
+            //}
             if (!string.IsNullOrEmpty(errorMessage))
             {
                 if (errorMessage.EndsWith("、 "))
@@ -1799,9 +1799,9 @@ namespace papacy1
             btFormat.SubStrings["MATERIAL"].Value = MaterialtextBox6.Text;
             btFormat.SubStrings["CNO"].Value = CNOtextBox6.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox6.Text;
-            btFormat.SubStrings["NWunit"].Value = "  " + NWunitcomboBox6.SelectedItem.ToString();
+            btFormat.SubStrings["NWunit"].Value = "  " + NWunitcomboBox6.Text;
             btFormat.SubStrings["GW"].Value = GWtextBox6.Text;
-            btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox6.SelectedItem.ToString();
+            btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox6.Text;
             int padLeft = Convert.ToInt16(MD6_CBX_CNO.Text);
             PrintStart(6, padLeft);
 
