@@ -654,7 +654,9 @@ namespace papacy1
             this.MD1_CBX_CNO.Items.AddRange(new object[] {
             "2",
             "3",
-            "4"});
+            "4",
+            "5",
+            "6"});
             this.MD1_CBX_CNO.Location = new System.Drawing.Point(176, 545);
             this.MD1_CBX_CNO.Name = "MD1_CBX_CNO";
             this.MD1_CBX_CNO.Size = new System.Drawing.Size(70, 31);
@@ -968,7 +970,9 @@ namespace papacy1
             this.MD2_CBX_CNO.Items.AddRange(new object[] {
             "2",
             "3",
-            "4"});
+            "4",
+            "5",
+            "6"});
             this.MD2_CBX_CNO.Location = new System.Drawing.Point(162, 511);
             this.MD2_CBX_CNO.Name = "MD2_CBX_CNO";
             this.MD2_CBX_CNO.Size = new System.Drawing.Size(70, 31);
@@ -1461,7 +1465,9 @@ namespace papacy1
             this.MD3_CBX_CNO.Items.AddRange(new object[] {
             "2",
             "3",
-            "4"});
+            "4",
+            "5",
+            "6"});
             this.MD3_CBX_CNO.Location = new System.Drawing.Point(185, 549);
             this.MD3_CBX_CNO.Name = "MD3_CBX_CNO";
             this.MD3_CBX_CNO.Size = new System.Drawing.Size(70, 31);
@@ -1941,7 +1947,9 @@ namespace papacy1
             this.MD4_CBX_CNO.Items.AddRange(new object[] {
             "2",
             "3",
-            "4"});
+            "4",
+            "5",
+            "6"});
             this.MD4_CBX_CNO.Location = new System.Drawing.Point(161, 537);
             this.MD4_CBX_CNO.Name = "MD4_CBX_CNO";
             this.MD4_CBX_CNO.Size = new System.Drawing.Size(70, 31);
@@ -2402,7 +2410,9 @@ namespace papacy1
             this.MD5_CBX_CNO.Items.AddRange(new object[] {
             "2",
             "3",
-            "4"});
+            "4",
+            "5",
+            "6"});
             this.MD5_CBX_CNO.Location = new System.Drawing.Point(174, 542);
             this.MD5_CBX_CNO.Name = "MD5_CBX_CNO";
             this.MD5_CBX_CNO.Size = new System.Drawing.Size(70, 31);
@@ -2919,7 +2929,9 @@ namespace papacy1
             this.MD6_CBX_CNO.Items.AddRange(new object[] {
             "2",
             "3",
-            "4"});
+            "4",
+            "5",
+            "6"});
             this.MD6_CBX_CNO.Location = new System.Drawing.Point(160, 465);
             this.MD6_CBX_CNO.Name = "MD6_CBX_CNO";
             this.MD6_CBX_CNO.Size = new System.Drawing.Size(70, 31);
@@ -3519,7 +3531,9 @@ namespace papacy1
             this.MD7_CBX_CNO.Items.AddRange(new object[] {
             "2",
             "3",
-            "4"});
+            "4",
+            "5",
+            "6"});
             this.MD7_CBX_CNO.Location = new System.Drawing.Point(167, 517);
             this.MD7_CBX_CNO.Name = "MD7_CBX_CNO";
             this.MD7_CBX_CNO.Size = new System.Drawing.Size(70, 31);
