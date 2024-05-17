@@ -693,7 +693,7 @@ namespace papacy1
             return true;
         }
 
-        private void PriviewPrintStart(int page)
+        private void PriviewPrintStart(int page, int padLeft)
         {
             currentPrintCount = 0; // 初始化當前列印計數為0
             double startQuantity = 0; // 初始化起始數量為0
@@ -713,7 +713,7 @@ namespace papacy1
             // 進行一次預覽列印
             for (double i = 1; i <= 1; i++)
             {
-                currentValue = (startQuantity + currentPrintCount).ToString(); // 計算當前的列印數值
+                currentValue = (startQuantity + currentPrintCount).ToString().PadLeft(padLeft, '0'); // 計算當前列印數值;
                 btFormat.SubStrings["Current"].Value = currentValue; // 設置當前的列印數值
 
                 // 顯示列印預覽對話框
@@ -823,8 +823,8 @@ namespace papacy1
             btFormat.SubStrings["CNO"].Value = CNOtextBox1.Text;
             btFormat.SubStrings["Location"].Value = LocationtextBox1.Text;
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox1.Text;
-
-            PriviewPrintStart(1);
+            int padLeft = Convert.ToInt16(MD1_CBX_CNO.Text);
+            PriviewPrintStart(1, padLeft);
         }
 
         private void Submitbutton1_Click(object sender, EventArgs e)
@@ -1007,8 +1007,9 @@ namespace papacy1
                 btFormat.SubStrings["GWunit"].Value = GWunitcomboBox2.SelectedItem.ToString();
             }
             btFormat.SubStrings["CNO"].Value = CNOtextBox2.Text;
+            int padLeft = Convert.ToInt16(MD2_CBX_CNO.Text);
 
-            PriviewPrintStart(2);
+            PriviewPrintStart(2, padLeft);
         }
 
         private void Submitbutton2_Click(object sender, EventArgs e)
@@ -1176,8 +1177,8 @@ namespace papacy1
                 btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox3.SelectedItem.ToString();
             }
             btFormat.SubStrings["Origin"].Value = OrigintextBox3.Text;
-
-            PriviewPrintStart(3);
+            int padLeft = Convert.ToInt16(MD3_CBX_CNO.Text);
+            PriviewPrintStart(3, padLeft);
         }
 
         private void Submitbutton3_Click(object sender, EventArgs e)
@@ -1333,8 +1334,8 @@ namespace papacy1
                 btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox4.SelectedItem.ToString();
             }
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox4.Text;
-
-            PriviewPrintStart(4);
+            int padLeft = Convert.ToInt16(MD4_CBX_CNO.Text);
+            PriviewPrintStart(4, padLeft);
         }
 
         private void Submitbutton4_Click(object sender, EventArgs e)
@@ -1498,8 +1499,8 @@ namespace papacy1
                 btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox5.SelectedItem.ToString();
             }
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox5.Text;
-
-            PriviewPrintStart(5);
+            int padLeft = Convert.ToInt16(MD5_CBX_CNO.Text);
+            PriviewPrintStart(5, padLeft);
         }
 
         private void Submitbutton5_Click(object sender, EventArgs e)
@@ -1680,8 +1681,8 @@ namespace papacy1
                 btFormat.SubStrings["GWunit"].Value = "  " + GWunitcomboBox6.SelectedItem.ToString();
             }
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox6.Text;
-
-            PriviewPrintStart(6);
+            int padLeft = Convert.ToInt16(MD6_CBX_CNO.Text);
+            PriviewPrintStart(6, padLeft);
         }
 
         private void Submitbutton6_Click(object sender, EventArgs e)
@@ -1867,8 +1868,8 @@ namespace papacy1
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox7.Text;
             btFormat.SubStrings["CNO"].Value = CartontextBox7.Text;
             btFormat.SubStrings["ORIGIN"].Value = OrigintextBox7.Text;
-
-            PriviewPrintStart(7);
+            int padLeft = Convert.ToInt16(MD7_CBX_CNO.Text);
+            PriviewPrintStart(7, padLeft);
         }
 
         private void Submitbutton7_Click(object sender, EventArgs e)
