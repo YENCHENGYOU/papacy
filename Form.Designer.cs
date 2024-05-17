@@ -4121,7 +4121,8 @@ namespace papacy1
             this.richTextBox.TabIndex = 197;
             this.richTextBox.TabStop = false;
             this.richTextBox.Text = "V1.0 [2023.08.25]\n　　-依照邏輯產生標籤。\n　　-判斷標籤必填項目與防呆處理。\n　　-列印項目預覽。\n　　-選擇印表機與列印\nV1.1 [202" +
-    "3.11.17]\n　　-加入流水號碼數設定。\nV1.2 [2023.11.24]\n　　-移除模板1~6的重量與單位必填限制。";
+    "3.11.17]\n　　-加入流水號碼數設定。\nV1.2 [2023.11.24]\n　　-移除模板1~6的重量與單位必填限制。\nV1.3 [2024.05.17]" +
+    "\n　　-調整預覽以及擴充流水號為6碼。";
             this.richTextBox.Enter += new System.EventHandler(this.richTextBox_Enter);
             // 
             // papacy
@@ -4135,7 +4136,7 @@ namespace papacy1
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "papacy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "嘜頭標籤系統V1.2";
+            this.Text = "嘜頭標籤系統V1.3";
             this.Load += new System.EventHandler(this.papacy_Load);
             this.Resize += new System.EventHandler(this.papacy_Resize);
             this.tabControl.ResumeLayout(false);
