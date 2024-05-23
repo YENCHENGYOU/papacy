@@ -841,30 +841,30 @@ namespace papacy1
             {
                 errorMessage += "列印數量尚未選擇\n";
             }
-            if (string.IsNullOrEmpty(GraphictextBox1.Text))
-            {
-                errorMessage += "圖案內文字、 ";
-            }
+            //if (string.IsNullOrEmpty(GraphictextBox1.Text))
+            //{
+            //    errorMessage += "圖案內文字、 ";
+            //}
 
-            if (string.IsNullOrEmpty(LocationtextBox1.Text))
-            {
-                errorMessage += "Location、 ";
-            }
+            //if (string.IsNullOrEmpty(LocationtextBox1.Text))
+            //{
+            //    errorMessage += "Location、 ";
+            //}
 
-            if (string.IsNullOrEmpty(CNOtextBox1.Text))
-            {
-                errorMessage += "CNO、 ";
-            }
+            //if (string.IsNullOrEmpty(CNOtextBox1.Text))
+            //{
+            //    errorMessage += "CNO、 ";
+            //}
 
-            if (string.IsNullOrEmpty(OrigintextBox1.Text))
-            {
-                errorMessage += "Origin、 ";
-            }
+            //if (string.IsNullOrEmpty(OrigintextBox1.Text))
+            //{
+            //    errorMessage += "Origin、 ";
+            //}
 
-            if (string.IsNullOrEmpty(SPECtextBox1.Text))
-            {
-                errorMessage += "SPEC、 ";
-            }
+            //if (string.IsNullOrEmpty(SPECtextBox1.Text))
+            //{
+            //    errorMessage += "SPEC、 ";
+            //}
 
             //if (string.IsNullOrEmpty(NWtextBox1.Text))
             //{
@@ -1027,25 +1027,25 @@ namespace papacy1
                 errorMessage += "列印數量尚未選擇\n";
             }
             //確保輸入不為空值
-            if (string.IsNullOrEmpty(LOTtextBox2.Text))
-            {
-                errorMessage += "LOTNumber、 ";
-            }
+            //if (string.IsNullOrEmpty(LOTtextBox2.Text))
+            //{
+            //    errorMessage += "LOTNumber、 ";
+            //}
 
-            if (string.IsNullOrEmpty(GradetextBox2.Text))
-            {
-                errorMessage += "Grade、 ";
-            }
+            //if (string.IsNullOrEmpty(GradetextBox2.Text))
+            //{
+            //    errorMessage += "Grade、 ";
+            //}
 
-            if (string.IsNullOrEmpty(SPECtextBox2.Text))
-            {
-                errorMessage += "SPEC、 ";
-            }
+            //if (string.IsNullOrEmpty(SPECtextBox2.Text))
+            //{
+            //    errorMessage += "SPEC、 ";
+            //}
 
-            if (string.IsNullOrEmpty(QuantitytextBox2.Text))
-            {
-                errorMessage += "Quantity、 ";
-            }
+            //if (string.IsNullOrEmpty(QuantitytextBox2.Text))
+            //{
+            //    errorMessage += "Quantity、 ";
+            //}
 
             //if (string.IsNullOrEmpty(NWtextBox2.Text))
             //{
@@ -1195,14 +1195,14 @@ namespace papacy1
                 errorMessage += "列印數量尚未選擇\n";
             }
             //確保輸入不為空值
-            if (string.IsNullOrEmpty(GraphictextBox3.Text))
-            {
-                errorMessage += "圖案內文字、 ";
-            }
-            if (string.IsNullOrEmpty(MaterialtextBox3.Text))
-            {
-                errorMessage += "Material、 ";
-            }
+            //if (string.IsNullOrEmpty(GraphictextBox3.Text))
+            //{
+            //    errorMessage += "圖案內文字、 ";
+            //}
+            //if (string.IsNullOrEmpty(MaterialtextBox3.Text))
+            //{
+            //    errorMessage += "Material、 ";
+            //}
             if (string.IsNullOrEmpty(StarttextBox3.Text))
             {
                 errorMessage += "起始值、 ";
@@ -1230,10 +1230,10 @@ namespace papacy1
             //{
             //    errorMessage += "GWunit、 ";
             //}
-            if (string.IsNullOrEmpty(OrigintextBox3.Text))
-            {
-                errorMessage += "Origin、 ";
-            }
+            //if (string.IsNullOrEmpty(OrigintextBox3.Text))
+            //{
+            //    errorMessage += "Origin、 ";
+            //}
             if (!string.IsNullOrEmpty(errorMessage))
             {
                 if (errorMessage.EndsWith("、 "))
@@ -1353,19 +1353,19 @@ namespace papacy1
                 errorMessage += "列印數量尚未選擇\n";
             }
             //確保輸入不為空值
-            if (string.IsNullOrEmpty(SPECtextBox4.Text))
-            {
-                errorMessage += "SPEC、 ";
-            }
-            if (string.IsNullOrEmpty(CNOtextBox4.Text))
-            {
-                errorMessage += "CNO、 ";
-            }
+            //if (string.IsNullOrEmpty(SPECtextBox4.Text))
+            //{
+            //    errorMessage += "SPEC、 ";
+            //}
+            //if (string.IsNullOrEmpty(CNOtextBox4.Text))
+            //{
+            //    errorMessage += "CNO、 ";
+            //}
 
-            if (string.IsNullOrEmpty(OrigintextBox4.Text))
-            {
-                errorMessage += "Origin、 ";
-            }
+            //if (string.IsNullOrEmpty(OrigintextBox4.Text))
+            //{
+            //    errorMessage += "Origin、 ";
+            //}
             if (string.IsNullOrEmpty(StarttextBox4.Text))
             {
                 errorMessage += "起始值、 ";
@@ -1393,10 +1393,10 @@ namespace papacy1
             //{
             //    errorMessage += "GWunit、 ";
             //}
-            if (string.IsNullOrEmpty(LOTtextBox4.Text))
-            {
-                errorMessage += "LOTNumber、 ";
-            }
+            //if (string.IsNullOrEmpty(LOTtextBox4.Text))
+            //{
+            //    errorMessage += "LOTNumber、 ";
+            //}
             if (!string.IsNullOrEmpty(errorMessage))
             {
                 if (errorMessage.EndsWith("、 "))
@@ -1516,23 +1516,23 @@ namespace papacy1
             {
                 errorMessage += "列印數量尚未選擇\n";
             }
-            if (string.IsNullOrEmpty(LocationtextBox15.Text))
-            {
-                errorMessage += "Location1、 ";
-            }
-            if (string.IsNullOrEmpty(LocationtextBox25.Text))
-            {
-                errorMessage += "Location2、 ";
-            }
-            if (string.IsNullOrEmpty(CNOtextBox5.Text))
-            {
-                errorMessage += "CNO、 ";
-            }
+            //if (string.IsNullOrEmpty(LocationtextBox15.Text))
+            //{
+            //    errorMessage += "Location1、 ";
+            //}
+            //if (string.IsNullOrEmpty(LocationtextBox25.Text))
+            //{
+            //    errorMessage += "Location2、 ";
+            //}
+            //if (string.IsNullOrEmpty(CNOtextBox5.Text))
+            //{
+            //    errorMessage += "CNO、 ";
+            //}
 
-            if (string.IsNullOrEmpty(OrigintextBox5.Text))
-            {
-                errorMessage += "Origin、 ";
-            }
+            //if (string.IsNullOrEmpty(OrigintextBox5.Text))
+            //{
+            //    errorMessage += "Origin、 ";
+            //}
             if (string.IsNullOrEmpty(StarttextBox5.Text))
             {
                 errorMessage += "起始值、 ";
@@ -1541,10 +1541,10 @@ namespace papacy1
             {
                 errorMessage += "累加值、 ";
             }
-            if (string.IsNullOrEmpty(SPECtextBox5.Text))
-            {
-                errorMessage += "SPEC、 ";
-            }
+            //if (string.IsNullOrEmpty(SPECtextBox5.Text))
+            //{
+            //    errorMessage += "SPEC、 ";
+            //}
 
             //if (string.IsNullOrEmpty(NWtextBox5.Text))
             //{
@@ -1565,10 +1565,10 @@ namespace papacy1
             //{
             //    errorMessage += "GWunit、 ";
             //}
-            if (string.IsNullOrEmpty(LOTtextBox5.Text))
-            {
-                errorMessage += "LOTNumber、 ";
-            }
+            //if (string.IsNullOrEmpty(LOTtextBox5.Text))
+            //{
+            //    errorMessage += "LOTNumber、 ";
+            //}
             if (!string.IsNullOrEmpty(errorMessage))
             {
                 if (errorMessage.EndsWith("、 "))
@@ -1699,14 +1699,14 @@ namespace papacy1
                 errorMessage += "列印數量尚未選擇\n";
             }
             //確保輸入不為空值
-            if (string.IsNullOrEmpty(LOTtextBox6.Text))
-            {
-                errorMessage += "LOTNumber、 ";
-            }
-            if (string.IsNullOrEmpty(YarnCounttextBox6.Text))
-            {
-                errorMessage += "YarnCount、 ";
-            }
+            //if (string.IsNullOrEmpty(LOTtextBox6.Text))
+            //{
+            //    errorMessage += "LOTNumber、 ";
+            //}
+            //if (string.IsNullOrEmpty(YarnCounttextBox6.Text))
+            //{
+            //    errorMessage += "YarnCount、 ";
+            //}
             if (LinearDensitynumericUpDown6.Value == 0)
             {
                 errorMessage += "LinearDensity、 ";
@@ -1715,34 +1715,34 @@ namespace papacy1
             {
                 errorMessage += "LinearDensityUnit、 ";
             }
-            if (string.IsNullOrEmpty(ImportertextBox6.Text))
-            {
-                errorMessage += "Importer、 ";
-            }
-            if (string.IsNullOrEmpty(CNPJtextBox6.Text))
-            {
-                errorMessage += "CNPJ、 ";
-            }
-            if (string.IsNullOrEmpty(ManufacturertextBox6.Text))
-            {
-                errorMessage += "Manufacturer、 ";
-            }
-            if (string.IsNullOrEmpty(OrigintextBox6.Text))
-            {
-                errorMessage += "Origin、 ";
-            }
-            if (string.IsNullOrEmpty(MaterialtextBox6.Text))
-            {
-                errorMessage += "Material、 ";
-            }
-            if (string.IsNullOrEmpty(LOTtextBox6.Text))
-            {
-                errorMessage += "LOTNumber、 ";
-            }
-            if (string.IsNullOrEmpty(CNOtextBox6.Text))
-            {
-                errorMessage += "CNO、 ";
-            }
+            //if (string.IsNullOrEmpty(ImportertextBox6.Text))
+            //{
+            //    errorMessage += "Importer、 ";
+            //}
+            //if (string.IsNullOrEmpty(CNPJtextBox6.Text))
+            //{
+            //    errorMessage += "CNPJ、 ";
+            //}
+            //if (string.IsNullOrEmpty(ManufacturertextBox6.Text))
+            //{
+            //    errorMessage += "Manufacturer、 ";
+            //}
+            //if (string.IsNullOrEmpty(OrigintextBox6.Text))
+            //{
+            //    errorMessage += "Origin、 ";
+            //}
+            //if (string.IsNullOrEmpty(MaterialtextBox6.Text))
+            //{
+            //    errorMessage += "Material、 ";
+            //}
+            //if (string.IsNullOrEmpty(LOTtextBox6.Text))
+            //{
+            //    errorMessage += "LOTNumber、 ";
+            //}
+            //if (string.IsNullOrEmpty(CNOtextBox6.Text))
+            //{
+            //    errorMessage += "CNO、 ";
+            //}
             if (string.IsNullOrEmpty(StarttextBox6.Text))
             {
                 errorMessage += "起始值、 ";
@@ -1885,30 +1885,30 @@ namespace papacy1
             {
                 errorMessage += "列印數量尚未選擇\n";
             }
-            if (string.IsNullOrEmpty(ImportertextBox7.Text))
-            {
-                errorMessage += "Importer、 ";
-            }
-            if (string.IsNullOrEmpty(SNtextBox7.Text))
-            {
-                errorMessage += "SerialNumber、 ";
-            }
-            if (string.IsNullOrEmpty(POtextBox7.Text))
-            {
-                errorMessage += "PurchaseOrder、 ";
-            }
-            if (string.IsNullOrEmpty(MaterialtextBox7.Text))
-            {
-                errorMessage += "Material、 ";
-            }
-            if (string.IsNullOrEmpty(LOTtextBox7.Text))
-            {
-                errorMessage += "LOTNumber、 ";
-            }
-            if (string.IsNullOrEmpty(CartontextBox7.Text))
-            {
-                errorMessage += "Carton、 ";
-            }
+            //if (string.IsNullOrEmpty(ImportertextBox7.Text))
+            //{
+            //    errorMessage += "Importer、 ";
+            //}
+            //if (string.IsNullOrEmpty(SNtextBox7.Text))
+            //{
+            //    errorMessage += "SerialNumber、 ";
+            //}
+            //if (string.IsNullOrEmpty(POtextBox7.Text))
+            //{
+            //    errorMessage += "PurchaseOrder、 ";
+            //}
+            //if (string.IsNullOrEmpty(MaterialtextBox7.Text))
+            //{
+            //    errorMessage += "Material、 ";
+            //}
+            //if (string.IsNullOrEmpty(LOTtextBox7.Text))
+            //{
+            //    errorMessage += "LOTNumber、 ";
+            //}
+            //if (string.IsNullOrEmpty(CartontextBox7.Text))
+            //{
+            //    errorMessage += "Carton、 ";
+            //}
             if (string.IsNullOrEmpty(StarttextBox7.Text))
             {
                 errorMessage += "起始值、 ";
@@ -1917,10 +1917,10 @@ namespace papacy1
             {
                 errorMessage += "累加值、 ";
             }
-            if (string.IsNullOrEmpty(OrigintextBox7.Text))
-            {
-                errorMessage += "Origin、 ";
-            }
+            //if (string.IsNullOrEmpty(OrigintextBox7.Text))
+            //{
+            //    errorMessage += "Origin、 ";
+            //}
             if (!string.IsNullOrEmpty(errorMessage))
             {
                 if (errorMessage.EndsWith("、 "))

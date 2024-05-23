@@ -9270,6 +9270,21 @@
         fuEXBv0/QAAAAADHIrlU8ulP/uRPdv8/wwR2EGzWDO0AAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="richTextBox.Text" xml:space="preserve">
+    <value>V1.0 [2023.08.25]
+　　-依照邏輯產生標籤。
+　　-判斷標籤必填項目與防呆處理。
+　　-列印項目預覽。
+　　-選擇印表機與列印
+V1.1 [2023.11.17]
+　　-加入流水號碼數設定。
+V1.2 [2023.11.24]
+　　-移除模板1~6的重量與單位必填限制。
+V1.3 [2024.05.17]
+　　-調整預覽以及擴充流水號為6碼。
+V1.4 [2024.05.23]
+　　-解除所有模板Qty必填限制。</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAgIAAAAEAIAAoCAEAFgAAACgAAACAAAAAAAEAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
