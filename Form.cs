@@ -1067,10 +1067,10 @@ namespace papacy1
             //    errorMessage += "GWunit、 ";
             //}
 
-            if (string.IsNullOrEmpty(CNOtextBox2.Text))
-            {
-                errorMessage += "CNO、 ";
-            }
+            //if (string.IsNullOrEmpty(CNOtextBox2.Text))
+            //{
+            //    errorMessage += "CNO、 ";
+            //}
 
             if (string.IsNullOrEmpty(StarttextBox2.Text))
             {
