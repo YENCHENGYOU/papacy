@@ -7,6 +7,17 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Printing;
 using System.Management;
+using System.Collections.Generic;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Reflection;
+using System.Text.RegularExpressions;
+using Newtonsoft.Json;
+using papacy1.Models;
+using System.Text;
+using System.Xml.Linq;
+using System.Threading;
+using Seagull.BarTender.Print.Database;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace papacy1
 {
@@ -20,6 +31,36 @@ namespace papacy1
         private int copies;
         private int SameCNOcopies;
         private bool isUpdating = false;
+
+        // 原始尺寸(1028x768)的比例
+        private const int defaultWidth = 1028;
+        private const int defaultHeight = 768;
+
+        private string importCSVFilePath = string.Empty;
+        private string importType = string.Empty;
+        private List<TemplateC2B> templateC2BImportData = new List<TemplateC2B>();
+
+        internal class TemplateMapModel
+        {
+            public TemplateMapModel(string PropertyName, TabPage TabPage, ToolStripMenuItem ToolStripMenuItem)
+            {
+                this.PropertyName = PropertyName;
+                this.TabPage = TabPage;
+                this.ToolStripMenuItem = ToolStripMenuItem;
+            }
+
+            public string PropertyName { get; set; }
+
+
+
+            public TabPage TabPage { get; set; }
+
+            public ToolStripMenuItem ToolStripMenuItem { get; set; }
+        }
+
+        // 模板 settings 名稱、TabPage、ToolStripMenuItem 對應表
+        private Dictionary<string, TemplateMapModel> templateNameMap;
+
         //出bug解決方法 https://www.796t.com/content/1547133874.html
         public papacy()
         {
@@ -70,8 +111,6 @@ namespace papacy1
                 MessageBox.Show("請安裝正確的BarTender");
             }
 
-            // 將tabControl的當前選定標籤頁設定為tabPage8
-            tabControl.SelectedTab = tabPage8;
             MD1_CBX_CNO.Text = "3";
             MD2_CBX_CNO.Text = "4";
             MD3_CBX_CNO.Text = "3";
@@ -79,6 +118,36 @@ namespace papacy1
             MD5_CBX_CNO.Text = "3";
             MD6_CBX_CNO.Text = "3";
             MD7_CBX_CNO.Text = "3";
+
+            // 將 tabControl 的當前選定標籤頁設定為tabPage8
+            tabControl.SelectedTab = tabPage8;
+
+            // 每一次預設值會一直跑掉
+            this.Width = defaultWidth;
+            this.Height = defaultHeight;
+
+            // 設定列印設定內下拉選單、Menu 選單、TabPage、Settings 各項關聯
+            this.templateNameMap = new Dictionary<string, TemplateMapModel>()
+            {
+                {"模板1", new TemplateMapModel("TemplateName1", tabPage1, TemplateName1ToolStripMenuItem) },
+                {"模板2", new TemplateMapModel("TemplateName2", tabPage2, TemplateName2ToolStripMenuItem) },
+                {"模板3", new TemplateMapModel("TemplateName3", tabPage3, TemplateName3ToolStripMenuItem) },
+                {"模板4", new TemplateMapModel("TemplateName4", tabPage4, TemplateName4ToolStripMenuItem) },
+                {"模板5", new TemplateMapModel("TemplateName5", tabPage5, TemplateName5ToolStripMenuItem) },
+                {"模板6", new TemplateMapModel("TemplateName6", tabPage6, TemplateName6ToolStripMenuItem) },
+                {"模板7", new TemplateMapModel("TemplateName7", tabPage7, TemplateName7ToolStripMenuItem) },
+                {"列印設定", new TemplateMapModel("", tabPage8, 列印設定ToolStripMenuItem) },
+                {"大小裝箱明細",new TemplateMapModel("", tabPage9, 大小裝箱明細ToolStripMenuItem) }
+            };
+
+            this.templateName_comboBox.Items.AddRange(
+                templateNameMap
+                    .Where(x => !string.IsNullOrEmpty(x.Value.PropertyName))
+                    .Select(x => x.Key)
+                    .ToArray()
+            );
+            // 選擇模板設定的下拉跳預設值
+            templateName_comboBox.SelectedIndex = 0;
         }
         private void LoadPrinters()
         {
@@ -167,15 +236,11 @@ namespace papacy1
             RegularFont.Dispose();
         }
 
-
         private void papacy_Resize(object sender, EventArgs e)
         {
             // 計算新的寬度和高度相對於原始尺寸(1028x768)的比例
-            float newx = (this.Width) / 1028f;
-            float newy = (this.Height) / 768f;
-
-            // 根據新的尺寸比例調整TabControl的項目大小
-            tabControl.ItemSize = new Size((int)(100 * newx), (int)(40 * newy));
+            float newx = (this.Width) / Convert.ToSingle(defaultWidth);
+            float newy = (this.Height) / Convert.ToSingle(defaultHeight);
 
             // 調用setControls方法來重新設置其他控件的尺寸和位置
             setControls(newx, newy, this);
@@ -213,30 +278,13 @@ namespace papacy1
 
         private void papacy_Load(object sender, EventArgs e)
         {
-            // 設定 LOTtextBoxes 的初始值
-            for (int i = 1; i <= 7; i++)
-            {
-                if (i != 3) // 跳過3
-                {
-                    string settingName = $"LOTNum{i}";
-                    string propertyName = $"LOTtextBox{i}";
-                    var settingValue = Properties.Settings.Default[settingName];
-                    if (settingValue != null && !string.IsNullOrEmpty(settingValue.ToString()))
-                    {
-                        var textBox = this.Controls.Find(propertyName, true).FirstOrDefault() as TextBox;
-                        if (textBox != null)
-                        {
-                            textBox.Text = settingValue.ToString();
-                        }
-                    }
-                }
-            }
-
             // 設定 OrigintextBox 和 EndtextBox
-            for (int i = 0; i < tabControl.TabPages.Count; i++)
+            foreach (TabPage tabPage in tabControl.TabPages)
             {
-                System.Windows.Forms.TextBox originTextBox = (System.Windows.Forms.TextBox)tabControl.TabPages[i].Controls["OrigintextBox" + (i + 1)];
-                System.Windows.Forms.TextBox endTextBox = (System.Windows.Forms.TextBox)tabControl.TabPages[i].Controls["EndtextBox" + (i + 1)];
+                // 使用 LINQ 查詢特定類型的 TextBox
+                var originTextBox = tabPage.Controls.OfType<System.Windows.Forms.TextBox>().FirstOrDefault(tb => tb.Name.StartsWith("OrigintextBox"));
+                var endTextBox = tabPage.Controls.OfType<System.Windows.Forms.TextBox>().FirstOrDefault(tb => tb.Name.StartsWith("EndtextBox"));
+                var LOTtextBox = tabPage.Controls.OfType<System.Windows.Forms.TextBox>().FirstOrDefault(tb => tb.Name.StartsWith("LOTtextBox"));
 
                 if (originTextBox != null)
                 {
@@ -249,11 +297,41 @@ namespace papacy1
                 {
                     endTextBox.ForeColor = SystemColors.WindowText;
                 }
+
+                // 設定 LOTtextBoxes 的初始值
+                if (LOTtextBox != null)
+                {
+                    // 使用正則表達式匹配字符串末尾的一個或多個數字
+                    Regex regex = new Regex(@"\d+$");
+                    Match match = regex.Match(LOTtextBox.Name);
+
+                    string settingName = $"LOTNum{match.Value}";
+                    var settingValue = Properties.Settings.Default[settingName];
+                    LOTtextBox.Text = settingValue.ToString();
+                }
             }
 
-            // 設置每個控件的Tag屬性，用於後續的尺寸和位置調整
             SetTags(this);
 
+            // 設定選單、TabPage 名稱
+            foreach (var item in templateNameMap)
+            {
+                // 找出對應的 settings
+                string propertyName = item.Value.PropertyName;
+
+                // 為空代表 settings 沒有此設定, 不需要變更
+                if (!string.IsNullOrEmpty(propertyName))
+                {
+                    // 使用反射來找到對應的設定屬性並更新其值
+                    PropertyInfo propertyInfo = typeof(Properties.Settings).GetProperty(propertyName, BindingFlags.Public | BindingFlags.Instance);
+
+                    // 因為這些屬性屬於Properties.Settings.Default，所以需要傳入這個實例來獲取值
+                    string userSettingsValue = (string)propertyInfo.GetValue(Properties.Settings.Default, null);
+
+                    item.Value.ToolStripMenuItem.Text = userSettingsValue;
+                    item.Value.TabPage.Text = userSettingsValue;
+                }
+            }
         }
 
         private void SetTags(Control cons)
@@ -262,6 +340,7 @@ namespace papacy1
             {
                 // 設置控件的Tag屬性，其中包括控件的寬度、高度、左邊距、上邊距和字體大小
                 con.Tag = $"{con.Width};{con.Height};{con.Left};{con.Top};{con.Font.Size}";
+
                 // 如果該控件還有子控件，遞歸地設置它們的Tag
                 if (con.Controls.Count > 0)
                 {
@@ -584,14 +663,22 @@ namespace papacy1
                 NWunitcomboBox.SelectedItem = GWunitcomboBox.SelectedItem;
             }
         }
+
+        // 封裝尋找ComboBox的邏輯
+        private System.Windows.Forms.ComboBox FindComboBox(string name, int page)
+        {
+            return tabControl.TabPages[page - 1].Controls[name + page] as System.Windows.Forms.ComboBox;
+        }
+
         private void NWComboBoxUnits(int page)
         {
             // 找到指定頁面中的GWunitcomboBox和NWunitcomboBox
-            System.Windows.Forms.ComboBox GWunitcomboBox = (System.Windows.Forms.ComboBox)tabControl.TabPages[page - 1].Controls["GWunitcomboBox" + page];
-            System.Windows.Forms.ComboBox NWunitcomboBox = (System.Windows.Forms.ComboBox)tabControl.TabPages[page - 1].Controls["NWunitcomboBox" + page];
+            System.Windows.Forms.ComboBox GWunitcomboBox = FindComboBox("GWunitcomboBox", page);// (System.Windows.Forms.ComboBox)tabControl.TabPages[page - 1].Controls["GWunitcomboBox" + page];
+            System.Windows.Forms.ComboBox NWunitcomboBox = FindComboBox("NWunitcomboBox", page);// (System.Windows.Forms.ComboBox)tabControl.TabPages[page - 1].Controls["NWunitcomboBox" + page];
 
-            // 若NWunitcomboBox有選中項且GWunitcomboBox沒有選中項，則將NWunitcomboBox的選中項設為GWunitcomboBox的選中項
-            if (NWunitcomboBox.SelectedIndex != -1 && GWunitcomboBox.SelectedIndex == -1)
+            // 有可能初始化不存在, 需要判斷是否為 null
+            // 使用?.操作符來簡化null檢查和條件判斷
+            if (NWunitcomboBox?.SelectedIndex != -1 && GWunitcomboBox?.SelectedIndex == -1)
             {
                 GWunitcomboBox.SelectedItem = NWunitcomboBox.SelectedItem;
             }
@@ -759,7 +846,7 @@ namespace papacy1
             {
                 for (double j = 0; j < SameCNOcopies; j++) // 同一CNO的副本數
                 {
-                    currentValue = (startQuantity + currentPrintCount).ToString().PadLeft(padLeft,'0'); // 計算當前列印數值
+                    currentValue = (startQuantity + currentPrintCount).ToString().PadLeft(padLeft, '0'); // 計算當前列印數值
                     btFormat.SubStrings["Current"].Value = currentValue; // 設置列印數值
 
                     // 執行列印操作
@@ -779,25 +866,25 @@ namespace papacy1
             selectedPrinter = Properties.Settings.Default.SelectedPrinter;
             SameCNOcopies = Properties.Settings.Default.Copies;
             tempPath = Path.Combine(Directory.GetCurrentDirectory(), "template", $"template{templateNumber}.btw");
-
         }
 
-        private void Priviewbutton1_Click(object sender, EventArgs e)
+        private void DefaultSetting(string templateName)
         {
-            DefaultSetting(1);
+            selectedPrinter = Properties.Settings.Default.SelectedPrinter;
+            tempPath = Path.Combine(Directory.GetCurrentDirectory(), "template", $"template{templateName}.btw");
+        }
 
-            if (!ValidatePrintingOptions(selectedPrinter, copies))
-            {
-                return;
-            }
-
+        private void InitializeBarTenderAndOpenFormatLabel()
+        {
             // 初始化 Seagull BarTender 引擎
             engine.Start();
 
             // 開啟標籤文件
             btFormat = engine.Documents.Open(tempPath, selectedPrinter);
-            // 參數說明：標籤路徑，印表機名稱
+        }
 
+        private void SetTemplate1()
+        {
             // 設定標籤中的欄位值
             btFormat.SubStrings["Textbox"].Value = GraphictextBox1.Text;
             btFormat.SubStrings["NW"].Value = NWtextBox1.Text;
@@ -823,6 +910,20 @@ namespace papacy1
             btFormat.SubStrings["CNO"].Value = CNOtextBox1.Text;
             btFormat.SubStrings["Location"].Value = LocationtextBox1.Text;
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox1.Text;
+        }
+
+        private void Priviewbutton1_Click(object sender, EventArgs e)
+        {
+            DefaultSetting(1);
+
+            if (!ValidatePrintingOptions(selectedPrinter, copies))
+            {
+                return;
+            }
+
+            InitializeBarTenderAndOpenFormatLabel();
+            SetTemplate1();
+
             int padLeft = Convert.ToInt16(MD1_CBX_CNO.Text);
             PriviewPrintStart(1, padLeft);
         }
@@ -911,26 +1012,11 @@ namespace papacy1
                 return;
             }
 
-            // 初始化 Seagull BarTender 引擎
-            engine.Start();
+            InitializeBarTenderAndOpenFormatLabel();
+            SetTemplate1();
 
-            // 開啟標籤文件
-            btFormat = engine.Documents.Open(tempPath, selectedPrinter);
-            // 參數說明：標籤路徑，印表機名稱
-
-            // 設定標籤中的欄位值
-            btFormat.SubStrings["Textbox"].Value = GraphictextBox1.Text;
-            btFormat.SubStrings["NW"].Value = NWtextBox1.Text;
-            btFormat.SubStrings["NWunit"].Value = " " + NWunitcomboBox1.Text;
-            btFormat.SubStrings["GW"].Value = GWtextBox1.Text;
-            btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox1.Text;
-            btFormat.SubStrings["SPEC"].Value = SPECtextBox1.Text;
-            btFormat.SubStrings["Origin"].Value = OrigintextBox1.Text;
-            btFormat.SubStrings["CNO"].Value = CNOtextBox1.Text;
-            btFormat.SubStrings["Location"].Value = LocationtextBox1.Text;
-            btFormat.SubStrings["LOTNumber"].Value = LOTtextBox1.Text;
             int padLeft = Convert.ToInt16(MD1_CBX_CNO.Text);
-            
+
             PrintStart(1, padLeft);
 
             engine.Stop();
@@ -1499,6 +1585,7 @@ namespace papacy1
                 btFormat.SubStrings["GWunit"].Value = " " + GWunitcomboBox5.SelectedItem.ToString();
             }
             btFormat.SubStrings["LOTNumber"].Value = LOTtextBox5.Text;
+
             int padLeft = Convert.ToInt16(MD5_CBX_CNO.Text);
             PriviewPrintStart(5, padLeft);
         }
@@ -2079,6 +2166,395 @@ namespace papacy1
         private void PrintQuantitynumericUpDown7_ValueChanged(object sender, EventArgs e)
         {
             copies = (int)PrintQuantitynumericUpDown7.Value;
+        }
+
+        private void 大小裝箱明細numericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            copies = (int)大小裝箱明細numericUpDown.Value;
+        }
+
+        /// <summary>
+        /// 設定 Tab 顯示
+        /// </summary>
+        /// <param name="menuItem"></param>
+        private void setTabVisible(ToolStripMenuItem menuItem)
+        {
+            string currentMenuItemName = menuItem.Text;
+            TabPage selectTab = null;
+
+            foreach (var item in templateNameMap)
+            {
+                if (item.Value.ToolStripMenuItem.Name == menuItem.Name)
+                {
+                    selectTab = item.Value.TabPage;
+                    break;
+                }
+            }
+
+            if (selectTab != null)
+            {
+                tabControl.SelectedTab = selectTab;
+            }
+        }
+
+        private void TemplateName1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // 确保 sender 是一个 ToolStripMenuItem
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void TemplateName2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void TemplateName3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void TemplateName4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void TemplateName5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void TemplateName6ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void TemplateName7ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void 列印設定ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void 大小裝箱明細ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                setTabVisible(menuItem);
+            }
+        }
+
+        private void UpdateSettings(string templateName, string newValue)
+        {
+            if (templateNameMap.TryGetValue(templateName, out var mapObject))
+            {
+                // 使用反射來找到對應的設定屬性並更新其值
+                PropertyInfo propertyInfo = typeof(Properties.Settings).GetProperty(mapObject.PropertyName, BindingFlags.Public | BindingFlags.Instance);
+                if (propertyInfo != null)
+                {
+                    propertyInfo.SetValue(Properties.Settings.Default, newValue, null);
+                    Properties.Settings.Default.Save(); // 儲存更新後的設定
+                }
+                else
+                {
+                    // 處理屬性不存在的情況
+                    Console.WriteLine($"Property {mapObject.PropertyName} not found.");
+                }
+            }
+            else
+            {
+                // 處理模板名稱不在字典中的情況
+                Console.WriteLine($"Template name {templateName} not found in the map.");
+            }
+        }
+
+        private void templateName_SaveBtn_Click(object sender, EventArgs e)
+        {
+            string selected = templateName_comboBox.SelectedItem.ToString();
+
+            UpdateSettings(selected, templateName_textBox.Text);
+
+            templateNameMap.TryGetValue(selected, out var mapObject);
+
+            mapObject.ToolStripMenuItem.Text = templateName_textBox.Text;
+            mapObject.TabPage.Text = templateName_textBox.Text;
+
+            // 提示儲存成功
+            MessageBox.Show("設定已儲存。");
+        }
+
+        private void templateName_comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selected = templateName_comboBox.SelectedItem.ToString();
+
+            // 從字典中查找對應的設定值並更新textBox
+            if (templateNameMap.ContainsKey(selected))
+            {
+                string propertyName = templateNameMap[selected].PropertyName;
+                // 使用反射來找到對應的設定屬性並更新其值
+                PropertyInfo propertyInfo = typeof(Properties.Settings).GetProperty(propertyName, BindingFlags.Public | BindingFlags.Instance);
+
+                // 因為這些屬性屬於Properties.Settings.Default，所以需要傳入這個實例來獲取值
+                string value = (string)propertyInfo.GetValue(Properties.Settings.Default, null);
+                templateName_textBox.Text = value;
+            }
+        }
+
+        private void 大小裝箱textBox_DoubleClick(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                大小裝箱textBox.Text = dialog.FileName;
+
+                if (string.IsNullOrEmpty(大小裝箱textBox.Text))
+                {
+                    MessageBox.Show("檔案位置不可為空值");
+                    return;
+                }
+
+                // 讀取 JSON 檔案
+                string jsonContent;
+
+                using (StreamReader reader = new StreamReader(大小裝箱textBox.Text, Encoding.GetEncoding("Big5")))
+                {
+                    jsonContent = reader.ReadToEnd();
+                }
+
+                string importFileName = dialog.SafeFileName.ToLower();
+                string csvData = string.Empty;
+
+                if (importFileName.Contains("c1a"))
+                {
+                    importType = "C1A";
+                    // 解析 JSON 字串
+                    csvData = ConvertToCSV(JsonConvert.DeserializeObject<List<TemplateC1A>>(jsonContent));
+                }
+                else if (importFileName.Contains("c1b"))
+                {
+                    importType = "C1B";
+
+                    // 解析 JSON 字串
+                    csvData = ConvertToCSV(JsonConvert.DeserializeObject<List<TemplateC1B>>(jsonContent));
+                }
+                else if (importFileName.Contains("c2b"))
+                {
+                    importType = "C2B";
+
+                    // 解析 JSON 字串
+                    csvData = ConvertToCSV(JsonConvert.DeserializeObject<List<TemplateC2B>>(jsonContent));
+                }
+
+                try
+                {
+                    importCSVFilePath = Path.Combine(Directory.GetCurrentDirectory(), "template", $"{importType}.csv");
+
+                    // 存成 csv utf8 給 bartender 讀取
+                    File.WriteAllText(importCSVFilePath, csvData, Encoding.UTF8);
+                }
+                catch (IOException ex)
+                {
+                    throw;
+                }
+            }
+        }
+
+        static string ConvertToCSV<T>(List<T> data)
+        {
+            StringBuilder csvBuilder = new StringBuilder();
+
+            var properties = typeof(T).GetProperties();
+            foreach (var property in properties)
+            {
+                csvBuilder.Append(property.Name);
+                csvBuilder.Append(",");
+            }
+            csvBuilder.Remove(csvBuilder.Length - 1, 1);
+            csvBuilder.AppendLine();
+
+            foreach (var item in data)
+            {
+                foreach (var property in properties)
+                {
+                    csvBuilder.Append(property.GetValue(item, null));
+                    csvBuilder.Append(",");
+                }
+                csvBuilder.Remove(csvBuilder.Length - 1, 1);
+                csvBuilder.AppendLine();
+            }
+
+            return csvBuilder.ToString();
+        }
+
+        static string ConvertToCSV(List<TemplateC2B> data)
+        {
+            StringBuilder csvBuilder = new StringBuilder();
+            var mainProperties = typeof(TemplateC2B).GetProperties()
+                                  .Where(x => x.PropertyType != typeof(List<TemplateC2B.Detail>)).ToList();
+
+            // 生成 CSV 表頭
+            var headers = mainProperties.Select(p => p.Name).ToList();
+            for (int i = 0; i < 24; i++)
+            {
+                headers.AddRange(new string[] { $"No{i}", $"Num{i}", $"GW{i}", $"NW{i}" });
+            }
+            csvBuilder.AppendLine(String.Join(",", headers));
+
+            // 生成每一行的數據
+            foreach (var item in data)
+            {
+                var row = new List<string>();
+
+                // 添加主屬性數據
+                row.AddRange(mainProperties.Select(p => p.GetValue(item, null)?.ToString() ?? ""));
+
+                // 添加明細數據，最多24組
+                for (int i = 0; i < 24; i++)
+                {
+                    if (i < item.明細.Count)
+                    {
+                        var detail = item.明細[i];
+                        row.Add(detail.No ?? "");
+                        row.Add(detail.Num ?? "");
+                        row.Add(detail.GW ?? "");
+                        row.Add(detail.NW ?? "");
+                    }
+                    else
+                    {
+                        row.AddRange(new string[] { "", "", "", "" });
+                    }
+                }
+
+                csvBuilder.AppendLine(String.Join(",", row));
+            }
+
+            return csvBuilder.ToString();
+        }
+
+        private void 大小裝箱_PrintBtn_Click(object sender, EventArgs e)
+        {
+            DefaultSetting(importType);
+
+            if (!ValidatePrintingOptions(selectedPrinter, copies))
+            {
+                return;
+            }
+
+            if (string.IsNullOrEmpty(大小裝箱textBox.Text))
+            {
+                MessageBox.Show("請確認已選擇檔案");
+                return;
+            }
+
+            engine.Start();
+
+            btFormat = engine.Documents.Open(tempPath, selectedPrinter);
+
+            btFormat.PrintSetup.IdenticalCopiesOfLabel = copies;
+
+            SetDatabaseConnection(btFormat, importCSVFilePath);
+
+            btFormat.Print();
+
+            btFormat.Close(Seagull.BarTender.Print.SaveOptions.DoNotSaveChanges);
+            engine.Stop();
+        }
+
+        private Dictionary<string, string> GetSubStringValues<T>(T item, int index = -1)
+        {
+            var values = new Dictionary<string, string>();
+
+            Type itemType = typeof(T);
+            PropertyInfo[] properties = itemType.GetProperties();
+
+            foreach (var property in properties)
+            {
+                string propertyName = property.Name;
+                object propertyValue = property.GetValue(item);
+
+                if (propertyValue != null)
+                {
+                    string key = index >= 0 ? $"{propertyName}{index}" : propertyName;
+                    values[key] = propertyValue.ToString();
+                }
+            }
+
+            return values;
+        }
+
+        private void SetValuesToBtFormat(LabelFormatDocument btFormat, Dictionary<string, string> values)
+        {
+            foreach (var kvp in values)
+            {
+                btFormat.SubStrings[kvp.Key].Value = kvp.Value;
+            }
+        }
+
+        private void SetDatabaseConnection(LabelFormatDocument btFormat, string csvFilePath)
+        {
+            TextFile tf = new TextFile(btFormat.DatabaseConnections[0].Name);
+            tf.FileName = csvFilePath;
+            btFormat.DatabaseConnections.SetDatabaseConnection(tf);
+        }
+
+        private void ShowPrintPreview(LabelFormatDocument btFormat)
+        {
+            engine.Window.VisibleWindows = VisibleWindows.InteractiveDialogs;
+            btFormat.PrintPreview.ShowDialog();
+            btFormat.Close(Seagull.BarTender.Print.SaveOptions.DoNotSaveChanges);
+        }
+
+        private void 大小裝箱_PreviewBtn_Click(object sender, EventArgs e)
+        {
+            DefaultSetting(importType);
+
+            if (!ValidatePrintingOptions(selectedPrinter, copies))
+            {
+                return;
+            }
+
+            if (string.IsNullOrEmpty(大小裝箱textBox.Text))
+            {
+                MessageBox.Show("請確認已選擇檔案");
+                return;
+            }
+
+            engine.Start();
+
+            btFormat = engine.Documents.Open(tempPath, selectedPrinter);
+
+            btFormat.PrintSetup.IdenticalCopiesOfLabel = 1;
+
+            SetDatabaseConnection(btFormat, importCSVFilePath);
+
+            ShowPrintPreview(btFormat);
         }
     }
 }
