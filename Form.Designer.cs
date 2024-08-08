@@ -4463,7 +4463,7 @@ namespace papacy1
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "papacy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "嘜頭標籤系統V1.4";
+            this.Text = "嘜頭標籤系統V1.5";
             this.Load += new System.EventHandler(this.papacy_Load);
             this.Resize += new System.EventHandler(this.papacy_Resize);
             this.tabControl.ResumeLayout(false);

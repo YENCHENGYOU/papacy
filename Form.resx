@@ -9283,7 +9283,9 @@ V1.2 [2023.11.24]
 V1.3 [2024.05.17]
 　　-調整預覽以及擴充流水號為6碼。
 V1.4 [2024.05.23]
-　　-解除所有模板Qty必填限制。</value>
+　　-解除所有模板Qty必填限制。
+V1.5 [2024.08.08]
+　　-新增標籤列印功能。</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
